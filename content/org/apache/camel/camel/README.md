@@ -639,9 +639,13 @@ rebuilding **10 releases** of org.apache.camel:camel:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
+| [4.15.0](https://central.sonatype.com/artifact/org.apache.camel/camel/4.15.0/pom) | | | |
+| [4.14.1](https://central.sonatype.com/artifact/org.apache.camel/camel/4.14.1/pom) | | | |
+| [4.14.0](https://central.sonatype.com/artifact/org.apache.camel/camel/4.14.0/pom) | | | |
 | [4.13.0](https://central.sonatype.com/artifact/org.apache.camel/camel/4.13.0/pom) | | | |
 | [4.12.0](https://central.sonatype.com/artifact/org.apache.camel/camel/4.12.0/pom) | | | |
 | [4.11.0](https://central.sonatype.com/artifact/org.apache.camel/camel/4.11.0/pom) | | | |
+| [4.10.7](https://central.sonatype.com/artifact/org.apache.camel/camel/4.10.7/pom) | | | |
 | [4.10.6](https://central.sonatype.com/artifact/org.apache.camel/camel/4.10.6/pom) | | | |
 | [4.10.5](https://central.sonatype.com/artifact/org.apache.camel/camel/4.10.5/pom) | | | |
 | [4.10.4](https://central.sonatype.com/artifact/org.apache.camel/camel/4.10.4/pom) | | | |
@@ -650,6 +654,7 @@ rebuilding **10 releases** of org.apache.camel:camel:
 | [4.10.1](https://central.sonatype.com/artifact/org.apache.camel/camel/4.10.1/pom) | | | |
 | [4.10.0](https://central.sonatype.com/artifact/org.apache.camel/camel/4.10.0/pom) | [mvn jdk21](camel-4.10.0.buildspec) | :x: | |
 | [4.9.0](https://central.sonatype.com/artifact/org.apache.camel/camel/4.9.0/pom) | [mvn jdk21](camel-4.9.0.buildspec) | [result](camel-4.9.0.buildinfo): [1 :white_check_mark:  2 :warning:](camel-4.9.0.buildcompare) [:mag:](camel-4.9.0.diffoscope) | - | 13M |
+| [4.8.9](https://central.sonatype.com/artifact/org.apache.camel/camel/4.8.9/pom) | | | |
 | [4.8.8](https://central.sonatype.com/artifact/org.apache.camel/camel/4.8.8/pom) | | | |
 | [4.8.7](https://central.sonatype.com/artifact/org.apache.camel/camel/4.8.7/pom) | | | |
 | [4.8.6](https://central.sonatype.com/artifact/org.apache.camel/camel/4.8.6/pom) | | | |

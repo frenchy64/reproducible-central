@@ -66,13 +66,22 @@ mvnBuildDocker() {
 
   [ "${workdir}" = "" ] && workdir="/var/maven/app"
 
+  local VOLUME_FLAGS=""
+  if [ -z "${RB_OCI_VOLUME_FLAGS}" ] && command -v getenforce >/dev/null 2>&1 && [ "$(getenforce 2>/dev/null)" = "Enforcing" ]
+  then
+    # Only try to auto-detect selinux flags if there are no RB_OCI_VOLUME_FLAGS set by the user
+    VOLUME_FLAGS=":Z"
+  else
+    VOLUME_FLAGS="${RB_OCI_VOLUME_FLAGS}"
+  fi
+
   local engine_command="$RB_OCI_ENGINE run --name rebuild-central $([ "$CI" != true ] && echo "-it ")--rm\
     ${RB_OCI_ENGINE_RUN_OPTS}\
-    -v $PWD:${workdir}${RB_OCI_VOLUME_FLAGS}\
-    -v $base/m2:/var/maven/.m2${RB_OCI_VOLUME_FLAGS}\
-    -v $base/.sbt:/var/maven/.sbt${RB_OCI_VOLUME_FLAGS}\
-    -v $base/.npm:/.npm${RB_OCI_VOLUME_FLAGS}\
-    -v $base/.bnd:/.bnd${RB_OCI_VOLUME_FLAGS}\
+    -v $PWD:${workdir}${VOLUME_FLAGS}\
+    -v $base/m2:/var/maven/.m2${VOLUME_FLAGS}\
+    -v $base/.sbt:/var/maven/.sbt${VOLUME_FLAGS}\
+    -v $base/.npm:/.npm${VOLUME_FLAGS}\
+    -v $base/.bnd:/.bnd${VOLUME_FLAGS}\
     -u $USER_ID:$GROUP_ID\
     -e MAVEN_CONFIG=/var/maven/.m2\
     -e MVN_UMASK=${MVN_UMASK}\
@@ -118,7 +127,7 @@ mvnBuildDockerBuildBaseToolchainsImage() {
           JDKPACKAGES="${JDKPACKAGES} ${packagePrefix}${toolchainsjdk}-jdk "
           JDKTAG="${JDKTAG}-${toolchainsjdk}"
           ;;
-        6 | 7 | 12 | 13 | 14 | 15 | 16 | 20 | 22 | 23 | 24 )
+        6 | 7 | 12 | 13 | 14 | 15 | 16 | 20 | 22 | 23 | 24 | 25 )
           # For these non-LTS versions, we use Azul JDK https://docs.azul.com/core/tpl
           JDKPACKAGES="${JDKPACKAGES} zulu${toolchainsjdk}-jdk"
           JDKTAG="${JDKTAG}-${toolchainsjdk}"

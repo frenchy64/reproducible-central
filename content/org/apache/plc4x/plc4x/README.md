@@ -7,11 +7,12 @@
 
 Source code: [https://github.com/apache/plc4x.git](https://github.com/apache/plc4x.git)
 
-<details><summary>This project defines 102 modules:</summary>
+<details><summary>This project defines 111 modules:</summary>
 
 * [org.apache.plc4x.sandbox:plc4j-driver-discovery](https://central.sonatype.com/artifact/org.apache.plc4x.sandbox/plc4j-driver-discovery/overview)
 * [org.apache.plc4x.sandbox:plc4x-sandbox](https://central.sonatype.com/artifact/org.apache.plc4x.sandbox/plc4x-sandbox/overview)
 * [org.apache.plc4x.sandbox:test-java-df1-driver](https://central.sonatype.com/artifact/org.apache.plc4x.sandbox/test-java-df1-driver/overview)
+* [org.apache.plc4x:plc4c](https://central.sonatype.com/artifact/org.apache.plc4x/plc4c/overview)
 * [org.apache.plc4x:plc4j](https://central.sonatype.com/artifact/org.apache.plc4x/plc4j/overview)
 * [org.apache.plc4x:plc4j-apache-calcite](https://central.sonatype.com/artifact/org.apache.plc4x/plc4j-apache-calcite/overview)
 * [org.apache.plc4x:plc4j-apache-camel](https://central.sonatype.com/artifact/org.apache.plc4x/plc4j-apache-camel/overview)
@@ -24,10 +25,12 @@ Source code: [https://github.com/apache/plc4x.git](https://github.com/apache/plc
 * [org.apache.plc4x:plc4j-connection-pool](https://central.sonatype.com/artifact/org.apache.plc4x/plc4j-connection-pool/overview)
 * [org.apache.plc4x:plc4j-driver-ab-eth](https://central.sonatype.com/artifact/org.apache.plc4x/plc4j-driver-ab-eth/overview)
 * [org.apache.plc4x:plc4j-driver-ads](https://central.sonatype.com/artifact/org.apache.plc4x/plc4j-driver-ads/overview)
+* [org.apache.plc4x:plc4j-driver-all](https://central.sonatype.com/artifact/org.apache.plc4x/plc4j-driver-all/overview)
 * [org.apache.plc4x:plc4j-driver-bacnet](https://central.sonatype.com/artifact/org.apache.plc4x/plc4j-driver-bacnet/overview)
 * [org.apache.plc4x:plc4j-driver-c-bus](https://central.sonatype.com/artifact/org.apache.plc4x/plc4j-driver-c-bus/overview)
 * [org.apache.plc4x:plc4j-driver-can](https://central.sonatype.com/artifact/org.apache.plc4x/plc4j-driver-can/overview)
 * [org.apache.plc4x:plc4j-driver-canopen](https://central.sonatype.com/artifact/org.apache.plc4x/plc4j-driver-canopen/overview)
+* [org.apache.plc4x:plc4j-driver-ctrlx](https://central.sonatype.com/artifact/org.apache.plc4x/plc4j-driver-ctrlx/overview)
 * [org.apache.plc4x:plc4j-driver-eip](https://central.sonatype.com/artifact/org.apache.plc4x/plc4j-driver-eip/overview)
 * [org.apache.plc4x:plc4j-driver-firmata](https://central.sonatype.com/artifact/org.apache.plc4x/plc4j-driver-firmata/overview)
 * [org.apache.plc4x:plc4j-driver-iec-60870](https://central.sonatype.com/artifact/org.apache.plc4x/plc4j-driver-iec-60870/overview)
@@ -72,6 +75,7 @@ Source code: [https://github.com/apache/plc4x.git](https://github.com/apache/plc
 * [org.apache.plc4x:plc4j-utils-test-generator](https://central.sonatype.com/artifact/org.apache.plc4x/plc4j-utils-test-generator/overview)
 * [org.apache.plc4x:plc4j-utils-test-utils](https://central.sonatype.com/artifact/org.apache.plc4x/plc4j-utils-test-utils/overview)
 * [org.apache.plc4x:plc4net](https://central.sonatype.com/artifact/org.apache.plc4x/plc4net/overview)
+* [org.apache.plc4x:plc4py](https://central.sonatype.com/artifact/org.apache.plc4x/plc4py/overview)
 * [org.apache.plc4x:plc4x-build-utils](https://central.sonatype.com/artifact/org.apache.plc4x/plc4x-build-utils/overview)
 * [org.apache.plc4x:plc4x-build-utils-language-base-freemarker](https://central.sonatype.com/artifact/org.apache.plc4x/plc4x-build-utils-language-base-freemarker/overview)
 * [org.apache.plc4x:plc4x-build-utils-language-c](https://central.sonatype.com/artifact/org.apache.plc4x/plc4x-build-utils-language-c/overview)
@@ -79,10 +83,13 @@ Source code: [https://github.com/apache/plc4x.git](https://github.com/apache/plc
 * [org.apache.plc4x:plc4x-build-utils-protocol-base-mspec](https://central.sonatype.com/artifact/org.apache.plc4x/plc4x-build-utils-protocol-base-mspec/overview)
 * [org.apache.plc4x:plc4x-build-utils-protocol-test](https://central.sonatype.com/artifact/org.apache.plc4x/plc4x-build-utils-protocol-test/overview)
 * [org.apache.plc4x:plc4x-code-generation](https://central.sonatype.com/artifact/org.apache.plc4x/plc4x-code-generation/overview)
+* [org.apache.plc4x:plc4x-code-generation-language](https://central.sonatype.com/artifact/org.apache.plc4x/plc4x-code-generation-language/overview)
 * [org.apache.plc4x:plc4x-code-generation-language-base-freemarker](https://central.sonatype.com/artifact/org.apache.plc4x/plc4x-code-generation-language-base-freemarker/overview)
 * [org.apache.plc4x:plc4x-code-generation-language-c](https://central.sonatype.com/artifact/org.apache.plc4x/plc4x-code-generation-language-c/overview)
 * [org.apache.plc4x:plc4x-code-generation-language-cs](https://central.sonatype.com/artifact/org.apache.plc4x/plc4x-code-generation-language-cs/overview)
+* [org.apache.plc4x:plc4x-code-generation-language-go](https://central.sonatype.com/artifact/org.apache.plc4x/plc4x-code-generation-language-go/overview)
 * [org.apache.plc4x:plc4x-code-generation-language-java](https://central.sonatype.com/artifact/org.apache.plc4x/plc4x-code-generation-language-java/overview)
+* [org.apache.plc4x:plc4x-code-generation-language-python](https://central.sonatype.com/artifact/org.apache.plc4x/plc4x-code-generation-language-python/overview)
 * [org.apache.plc4x:plc4x-code-generation-protocol-base-mspec](https://central.sonatype.com/artifact/org.apache.plc4x/plc4x-code-generation-protocol-base-mspec/overview)
 * [org.apache.plc4x:plc4x-code-generation-protocol-test](https://central.sonatype.com/artifact/org.apache.plc4x/plc4x-code-generation-protocol-test/overview)
 * [org.apache.plc4x:plc4x-opcua-server](https://central.sonatype.com/artifact/org.apache.plc4x/plc4x-opcua-server/overview)
@@ -110,15 +117,20 @@ Source code: [https://github.com/apache/plc4x.git](https://github.com/apache/plc
 * [org.apache.plc4x:plc4x-protocols-s7](https://central.sonatype.com/artifact/org.apache.plc4x/plc4x-protocols-s7/overview)
 * [org.apache.plc4x:plc4x-protocols-simulated](https://central.sonatype.com/artifact/org.apache.plc4x/plc4x-protocols-simulated/overview)
 * [org.apache.plc4x:plc4x-protocols-socketcan](https://central.sonatype.com/artifact/org.apache.plc4x/plc4x-protocols-socketcan/overview)
+* [org.apache.plc4x:plc4x-protocols-umas](https://central.sonatype.com/artifact/org.apache.plc4x/plc4x-protocols-umas/overview)
 * [org.apache.plc4x:plc4x-tools](https://central.sonatype.com/artifact/org.apache.plc4x/plc4x-tools/overview)
+* [org.apache.plc4x:plc4x-website](https://central.sonatype.com/artifact/org.apache.plc4x/plc4x-website/overview)
 </details>
 
-rebuilding **4 releases** of org.apache.plc4x:plc4x-parent:
+rebuilding **6 releases** of org.apache.plc4x:plc4x-parent:
 - **0** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
-- 4 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
+- 6 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
+  - running [stabilize](doc/stabilize.md) on 2, 0 had all their differences removed :recycle:, 2 still had differences :rotating_light: or files not supported by stabilize :no_entry_sign:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
+| [0.13.1](https://central.sonatype.com/artifact/org.apache.plc4x/plc4x-parent/0.13.1/pom) | [mvn jdk21](plc4x-0.13.1.buildspec) | [result](plc4x-parent-0.13.1.buildinfo): [296 :white_check_mark:  9 :warning:](plc4x-parent-0.13.1.buildcompare) | 5 :rotating_light: 4 :no_entry_sign: | 249M |
+| [0.13.0](https://central.sonatype.com/artifact/org.apache.plc4x/plc4x-parent/0.13.0/pom) | [mvn jdk21](plc4x-0.13.0.buildspec) | [result](plc4x-parent-0.13.0.buildinfo): [291 :white_check_mark:  14 :warning:](plc4x-parent-0.13.0.buildcompare) | 9 :rotating_light: 5 :no_entry_sign: | 291M |
 | [0.12.0](https://central.sonatype.com/artifact/org.apache.plc4x/plc4x-parent/0.12.0/pom) | [mvn jdk11](plc4x-0.12.0.buildspec) | :x: | |
 | [0.11.0](https://central.sonatype.com/artifact/org.apache.plc4x/plc4x-parent/0.11.0/pom) | [mvn jdk20](plc4x-0.11.0.buildspec) | [result](plc4x-parent-0.11.0.buildinfo): [231 :white_check_mark:  79 :warning:](plc4x-parent-0.11.0.buildcompare) [:mag:](plc4x-parent-0.11.0.diffoscope) [:memo:](https://github.com/apache/plc4x/pull/1202) | - | 301M |
 | [0.10.0](https://central.sonatype.com/artifact/org.apache.plc4x/plc4x-parent/0.10.0/pom) | [mvn jdk19](plc4x-0.10.0.buildspec) | [result](plc4x-parent-0.10.0.buildinfo): [138 :white_check_mark:  66 :warning:](plc4x-parent-0.10.0.buildcompare) [:mag:](plc4x-parent-0.10.0.diffoscope) [:memo:](https://github.com/apache/plc4x/pull/1202) | - | 212M |

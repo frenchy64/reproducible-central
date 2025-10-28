@@ -1,5 +1,5 @@
 <settings>
-  <localRepository>${user.home}/.m2/repository-${MVN_UMASK}</localRepository>
+  <localRepository>${user.home}/.m2/repository</localRepository>
   <profiles>
     <profile>
       <id>staged-releases</id>
@@ -205,6 +205,16 @@
       <id>shibboleth</id>
       <mirrorOf>shibboleth</mirrorOf>
       <url>https://build.shibboleth.net/nexus/content/repositories/releases/</url>
+    </mirror>
+    <mirror>
+      <id>opensaml</id>
+      <mirrorOf>opensaml</mirrorOf>
+      <url>https://build.shibboleth.net/maven/releases/</url>
+    </mirror>
+    <mirror>
+      <id>shib-release</id>
+      <mirrorOf>shib-release</mirrorOf>
+      <url>https://build.shibboleth.net/maven/releases/</url>
     </mirror>
     <mirror>
       <id>sigar</id>

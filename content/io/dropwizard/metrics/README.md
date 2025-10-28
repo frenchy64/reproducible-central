@@ -7,7 +7,7 @@
 
 Source code: [https://github.com/dropwizard/metrics.git](https://github.com/dropwizard/metrics.git)
 
-<details><summary>This project defines 37 modules:</summary>
+<details><summary>This project defines 38 modules:</summary>
 
 * [io.dropwizard.metrics:metrics-annotation](https://central.sonatype.com/artifact/io.dropwizard.metrics/metrics-annotation/overview)
 * [io.dropwizard.metrics:metrics-bom](https://central.sonatype.com/artifact/io.dropwizard.metrics/metrics-bom/overview)
@@ -34,6 +34,7 @@ Source code: [https://github.com/dropwizard/metrics.git](https://github.com/drop
 * [io.dropwizard.metrics:metrics-jetty11](https://central.sonatype.com/artifact/io.dropwizard.metrics/metrics-jetty11/overview)
 * [io.dropwizard.metrics:metrics-jetty12](https://central.sonatype.com/artifact/io.dropwizard.metrics/metrics-jetty12/overview)
 * [io.dropwizard.metrics:metrics-jetty12-ee10](https://central.sonatype.com/artifact/io.dropwizard.metrics/metrics-jetty12-ee10/overview)
+* [io.dropwizard.metrics:metrics-jetty12-ee11](https://central.sonatype.com/artifact/io.dropwizard.metrics/metrics-jetty12-ee11/overview)
 * [io.dropwizard.metrics:metrics-jetty9](https://central.sonatype.com/artifact/io.dropwizard.metrics/metrics-jetty9/overview)
 * [io.dropwizard.metrics:metrics-jmx](https://central.sonatype.com/artifact/io.dropwizard.metrics/metrics-jmx/overview)
 * [io.dropwizard.metrics:metrics-json](https://central.sonatype.com/artifact/io.dropwizard.metrics/metrics-json/overview)
@@ -48,12 +49,16 @@ Source code: [https://github.com/dropwizard/metrics.git](https://github.com/drop
 * [io.dropwizard.metrics:metrics-servlets](https://central.sonatype.com/artifact/io.dropwizard.metrics/metrics-servlets/overview)
 </details>
 
-rebuilding **67 releases** of io.dropwizard.metrics:metrics-parent:
-- **29** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
+rebuilding **71 releases** of io.dropwizard.metrics:metrics-parent:
+- **33** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
 - 38 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
+| [4.2.37](https://central.sonatype.com/artifact/io.dropwizard.metrics/metrics-parent/4.2.37/pom) | [mvn jdk17](dropwizard-metrics-4.2.37.buildspec) | [result](metrics-parent-4.2.37.buildinfo): [110 :white_check_mark: ](metrics-parent-4.2.37.buildcompare) | | 1.2M |
+| [4.2.36](https://central.sonatype.com/artifact/io.dropwizard.metrics/metrics-parent/4.2.36/pom) | [mvn jdk17](dropwizard-metrics-4.2.36.buildspec) | [result](metrics-parent-4.2.36.buildinfo): [110 :white_check_mark: ](metrics-parent-4.2.36.buildcompare) | | 1.2M |
+| [4.2.35](https://central.sonatype.com/artifact/io.dropwizard.metrics/metrics-parent/4.2.35/pom) | [mvn jdk17](dropwizard-metrics-4.2.35.buildspec) | [result](metrics-parent-4.2.35.buildinfo): [110 :white_check_mark: ](metrics-parent-4.2.35.buildcompare) | | 1.2M |
+| [4.2.34](https://central.sonatype.com/artifact/io.dropwizard.metrics/metrics-parent/4.2.34/pom) | [mvn jdk17](dropwizard-metrics-4.2.34.buildspec) | [result](metrics-parent-4.2.34.buildinfo): [110 :white_check_mark: ](metrics-parent-4.2.34.buildcompare) | | 1.2M |
 | [4.2.33](https://central.sonatype.com/artifact/io.dropwizard.metrics/metrics-parent/4.2.33/pom) | [mvn jdk17](dropwizard-metrics-4.2.33.buildspec) | [result](metrics-parent-4.2.33.buildinfo): [107 :white_check_mark: ](metrics-parent-4.2.33.buildcompare) | | 1.1M |
 | [4.2.32](https://central.sonatype.com/artifact/io.dropwizard.metrics/metrics-parent/4.2.32/pom) | [mvn jdk17](dropwizard-metrics-4.2.32.buildspec) | [result](metrics-parent-4.2.32.buildinfo): [107 :white_check_mark: ](metrics-parent-4.2.32.buildcompare) | | 1.1M |
 | [4.2.30](https://central.sonatype.com/artifact/io.dropwizard.metrics/metrics-parent/4.2.30/pom) | [mvn jdk17](dropwizard-metrics-4.2.30.buildspec) | [result](metrics-parent-4.2.30.buildinfo): [107 :white_check_mark: ](metrics-parent-4.2.30.buildcompare) | | 1.1M |
@@ -118,8 +123,8 @@ rebuilding **67 releases** of io.dropwizard.metrics:metrics-parent:
 | [4.1.15](https://central.sonatype.com/artifact/io.dropwizard.metrics/metrics-parent/4.1.15/pom) | [mvn jdk11](dropwizard-metrics-4.1.15.buildspec) | [result](metrics-servlets-4.1.15.buildinfo): [68 :white_check_mark: ](metrics-servlets-4.1.15.buildcompare) | | 679K |
 | [4.1.14](https://central.sonatype.com/artifact/io.dropwizard.metrics/metrics-parent/4.1.14/pom) | [mvn jdk11](dropwizard-metrics-4.1.14.buildspec) | [result](metrics-servlets-4.1.14.buildinfo): [68 :white_check_mark: ](metrics-servlets-4.1.14.buildcompare) | | 679K |
 | [4.1.13](https://central.sonatype.com/artifact/io.dropwizard.metrics/metrics-parent/4.1.13/pom) | [mvn jdk11](dropwizard-metrics-4.1.13.buildspec) | [result](metrics-servlets-4.1.13.buildinfo): [68 :white_check_mark: ](metrics-servlets-4.1.13.buildcompare) | | 675K |
-| [4.1.12.1](https://central.sonatype.com/artifact/io.dropwizard.metrics/metrics-parent/4.1.12.1/pom) | [mvn jdk11](dropwizard-metrics-4.1.12.1.buildspec) | [result](metrics-servlets-4.1.12.1.buildinfo): [68 :white_check_mark: ](metrics-servlets-4.1.12.1.buildcompare) | | 675K |
 | [4.1.12](https://central.sonatype.com/artifact/io.dropwizard.metrics/metrics-parent/4.1.12/pom) | [mvn jdk11](dropwizard-metrics-4.1.12.buildspec) | [result](metrics-servlets-4.1.12.buildinfo): [68 :white_check_mark: ](metrics-servlets-4.1.12.buildcompare) | | 675K |
+| [4.1.12.1](https://central.sonatype.com/artifact/io.dropwizard.metrics/metrics-parent/4.1.12.1/pom) | [mvn jdk11](dropwizard-metrics-4.1.12.1.buildspec) | [result](metrics-servlets-4.1.12.1.buildinfo): [68 :white_check_mark: ](metrics-servlets-4.1.12.1.buildcompare) | | 675K |
 | [4.1.11](https://central.sonatype.com/artifact/io.dropwizard.metrics/metrics-parent/4.1.11/pom) | [mvn jdk8](dropwizard-metrics-4.1.11.buildspec) | [result](metrics-servlets-4.1.11.buildinfo): [68 :white_check_mark: ](metrics-servlets-4.1.11.buildcompare) | | 675K |
 
 <i>(size is calculated without javadoc, that has been excluded from reproducibility checks)</i>

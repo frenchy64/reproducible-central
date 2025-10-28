@@ -7,7 +7,7 @@
 
 Source code: [https://github.com/infinispan/protostream.git](https://github.com/infinispan/protostream.git)
 
-<details><summary>This project defines 7 modules:</summary>
+<details><summary>This project defines 8 modules:</summary>
 
 * [org.infinispan.protostream:parent](https://central.sonatype.com/artifact/org.infinispan.protostream/parent/overview)
 * [org.infinispan.protostream:proto-schema-compatibility-maven-plugin](https://central.sonatype.com/artifact/org.infinispan.protostream/proto-schema-compatibility-maven-plugin/overview)
@@ -15,15 +15,22 @@ Source code: [https://github.com/infinispan/protostream.git](https://github.com/
 * [org.infinispan.protostream:protostream-aggregator](https://central.sonatype.com/artifact/org.infinispan.protostream/protostream-aggregator/overview)
 * [org.infinispan.protostream:protostream-integrationtests](https://central.sonatype.com/artifact/org.infinispan.protostream/protostream-integrationtests/overview)
 * [org.infinispan.protostream:protostream-processor](https://central.sonatype.com/artifact/org.infinispan.protostream/protostream-processor/overview)
+* [org.infinispan.protostream:protostream-processor-tests](https://central.sonatype.com/artifact/org.infinispan.protostream/protostream-processor-tests/overview)
 * [org.infinispan.protostream:protostream-types](https://central.sonatype.com/artifact/org.infinispan.protostream/protostream-types/overview)
 </details>
 
-rebuilding **16 releases** of org.infinispan.protostream:protostream-aggregator:
-- **9** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
+rebuilding **23 releases** of org.infinispan.protostream:protostream-aggregator:
+- **16** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
 - 7 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
+| [6.0.0.Dev14](https://central.sonatype.com/artifact/org.infinispan.protostream/protostream-aggregator/6.0.0.Dev14/pom) | [mvn jdk17](protostream-6.0.0.Dev14.buildspec) | [result](protostream-aggregator-6.0.0.Dev14.buildinfo): [26 :white_check_mark: ](protostream-aggregator-6.0.0.Dev14.buildcompare) | | 2.0M |
+| [6.0.0.Dev13](https://central.sonatype.com/artifact/org.infinispan.protostream/protostream-aggregator/6.0.0.Dev13/pom) | [mvn jdk17](protostream-6.0.0.Dev13.buildspec) | [result](protostream-aggregator-6.0.0.Dev13.buildinfo): [26 :white_check_mark: ](protostream-aggregator-6.0.0.Dev13.buildcompare) | | 2.0M |
+| [6.0.0.Dev12](https://central.sonatype.com/artifact/org.infinispan.protostream/protostream-aggregator/6.0.0.Dev12/pom) | [mvn jdk17](protostream-6.0.0.Dev12.buildspec) | [result](protostream-aggregator-6.0.0.Dev12.buildinfo): [26 :white_check_mark: ](protostream-aggregator-6.0.0.Dev12.buildcompare) | | 2.0M |
+| [6.0.0.Dev11](https://central.sonatype.com/artifact/org.infinispan.protostream/protostream-aggregator/6.0.0.Dev11/pom) | [mvn jdk17](protostream-6.0.0.Dev11.buildspec) | [result](protostream-aggregator-6.0.0.Dev11.buildinfo): [26 :white_check_mark: ](protostream-aggregator-6.0.0.Dev11.buildcompare) | | 2.0M |
+| [6.0.0.Dev10](https://central.sonatype.com/artifact/org.infinispan.protostream/protostream-aggregator/6.0.0.Dev10/pom) | [mvn jdk17](protostream-6.0.0.Dev10.buildspec) | [result](protostream-aggregator-6.0.0.Dev10.buildinfo): [26 :white_check_mark: ](protostream-aggregator-6.0.0.Dev10.buildcompare) | | 2.0M |
+| [6.0.0.Dev09](https://central.sonatype.com/artifact/org.infinispan.protostream/protostream-aggregator/6.0.0.Dev09/pom) | [mvn jdk17](protostream-6.0.0.Dev09.buildspec) | [result](protostream-aggregator-6.0.0.Dev09.buildinfo): [26 :white_check_mark: ](protostream-aggregator-6.0.0.Dev09.buildcompare) | | 2.0M |
 | [6.0.0.Dev08](https://central.sonatype.com/artifact/org.infinispan.protostream/protostream-aggregator/6.0.0.Dev08/pom) | [mvn jdk17](protostream-6.0.0.Dev08.buildspec) | [result](protostream-aggregator-6.0.0.Dev08.buildinfo): [23 :white_check_mark: ](protostream-aggregator-6.0.0.Dev08.buildcompare) | | 2.0M |
 | [6.0.0.Dev07](https://central.sonatype.com/artifact/org.infinispan.protostream/protostream-aggregator/6.0.0.Dev07/pom) | [mvn jdk17](protostream-6.0.0.Dev07.buildspec) | [result](protostream-aggregator-6.0.0.Dev07.buildinfo): [23 :white_check_mark: ](protostream-aggregator-6.0.0.Dev07.buildcompare) | | 1.9M |
 | [6.0.0.Dev06](https://central.sonatype.com/artifact/org.infinispan.protostream/protostream-aggregator/6.0.0.Dev06/pom) | [mvn jdk17](protostream-6.0.0.Dev06.buildspec) | [result](protostream-aggregator-6.0.0.Dev06.buildinfo): [23 :white_check_mark: ](protostream-aggregator-6.0.0.Dev06.buildcompare) | | 1.9M |
@@ -32,6 +39,8 @@ rebuilding **16 releases** of org.infinispan.protostream:protostream-aggregator:
 | [6.0.0.Dev03](https://central.sonatype.com/artifact/org.infinispan.protostream/protostream-aggregator/6.0.0.Dev03/pom) | [mvn jdk17](protostream-6.0.0.Dev03.buildspec) | [result](protostream-aggregator-6.0.0.Dev03.buildinfo): [19 :white_check_mark: ](protostream-aggregator-6.0.0.Dev03.buildcompare) | | 1.6M |
 | [6.0.0.Dev02](https://central.sonatype.com/artifact/org.infinispan.protostream/protostream-aggregator/6.0.0.Dev02/pom) | [mvn jdk17](protostream-6.0.0.Dev02.buildspec) | [result](protostream-aggregator-6.0.0.Dev02.buildinfo): [19 :white_check_mark: ](protostream-aggregator-6.0.0.Dev02.buildcompare) | | 1.6M |
 | [6.0.0.Dev01](https://central.sonatype.com/artifact/org.infinispan.protostream/protostream-aggregator/6.0.0.Dev01/pom) | [mvn jdk17](protostream-6.0.0.Dev01.buildspec) | [result](protostream-aggregator-6.0.0.Dev01.buildinfo): [19 :white_check_mark: ](protostream-aggregator-6.0.0.Dev01.buildcompare) | | 1.5M |
+| [6.0.0](https://central.sonatype.com/artifact/org.infinispan.protostream/protostream-aggregator/6.0.0/pom) | | | |
+| [5.0.15.Final](https://central.sonatype.com/artifact/org.infinispan.protostream/protostream-aggregator/5.0.15.Final/pom) | [mvn jdk17](protostream-5.0.15.Final.buildspec) | [result](protostream-aggregator-5.0.15.Final.buildinfo): [19 :white_check_mark: ](protostream-aggregator-5.0.15.Final.buildcompare) | | 1.5M |
 | [5.0.14.Final](https://central.sonatype.com/artifact/org.infinispan.protostream/protostream-aggregator/5.0.14.Final/pom) | [mvn jdk17](protostream-5.0.14.Final.buildspec) | [result](protostream-aggregator-5.0.14.Final.buildinfo): [19 :white_check_mark: ](protostream-aggregator-5.0.14.Final.buildcompare) | | 1.5M |
 | [5.0.13.Final](https://central.sonatype.com/artifact/org.infinispan.protostream/protostream-aggregator/5.0.13.Final/pom) | [mvn jdk17](protostream-5.0.13.Final.buildspec) | [result](protostream-aggregator-5.0.13.Final.buildinfo): [19 :white_check_mark: ](protostream-aggregator-5.0.13.Final.buildcompare) | | 1.5M |
 | [5.0.12.Final](https://central.sonatype.com/artifact/org.infinispan.protostream/protostream-aggregator/5.0.12.Final/pom) | [mvn jdk17](protostream-5.0.12.Final.buildspec) | [result](protostream-aggregator-5.0.12.Final.buildinfo): [7 :white_check_mark:  16 :warning:](protostream-aggregator-5.0.12.Final.buildcompare) [:memo:](https://github.com/infinispan/protostream/pull/358) | - | 1.8M |

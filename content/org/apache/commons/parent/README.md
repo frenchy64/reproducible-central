@@ -7,12 +7,17 @@
 
 Source code: [https://github.com/apache/commons-parent.git](https://github.com/apache/commons-parent.git)
 
-rebuilding **33 releases** of org.apache.commons:commons-parent:
-- **32** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
+rebuilding **38 releases** of org.apache.commons:commons-parent:
+- **37** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
 - 1 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
+| [90](https://central.sonatype.com/artifact/org.apache.commons/commons-parent/90/pom) | [mvn jdk21](commons-parent-90.buildspec) | [result](commons-parent-90.buildinfo): [4 :white_check_mark: ](commons-parent-90.buildcompare) | | 92K |
+| [89](https://central.sonatype.com/artifact/org.apache.commons/commons-parent/89/pom) | [mvn jdk21](commons-parent-89.buildspec) | [result](commons-parent-89.buildinfo): [4 :white_check_mark: ](commons-parent-89.buildcompare) | | 92K |
+| [88](https://central.sonatype.com/artifact/org.apache.commons/commons-parent/88/pom) | [mvn jdk21](commons-parent-88.buildspec) | [result](commons-parent-88.buildinfo): [4 :white_check_mark: ](commons-parent-88.buildcompare) | | 92K |
+| [87](https://central.sonatype.com/artifact/org.apache.commons/commons-parent/87/pom) | [mvn jdk21](commons-parent-87.buildspec) | [result](commons-parent-87.buildinfo): [4 :white_check_mark: ](commons-parent-87.buildcompare) | | 92K |
+| [86](https://central.sonatype.com/artifact/org.apache.commons/commons-parent/86/pom) | [mvn jdk21](commons-parent-86.buildspec) | [result](commons-parent-86.buildinfo): [4 :white_check_mark: ](commons-parent-86.buildcompare) | | 92K |
 | [85](https://central.sonatype.com/artifact/org.apache.commons/commons-parent/85/pom) | [mvn jdk21](commons-parent-85.buildspec) | [result](commons-parent-85.buildinfo): [4 :white_check_mark: ](commons-parent-85.buildcompare) | | 91K |
 | [84](https://central.sonatype.com/artifact/org.apache.commons/commons-parent/84/pom) | [mvn jdk21](commons-parent-84.buildspec) | [result](commons-parent-84.buildinfo): [4 :white_check_mark: ](commons-parent-84.buildcompare) | | 91K |
 | [83](https://central.sonatype.com/artifact/org.apache.commons/commons-parent/83/pom) | [mvn jdk21](commons-parent-83.buildspec) | [result](commons-parent-83.buildinfo): [4 :white_check_mark: ](commons-parent-83.buildcompare) | | 91K |

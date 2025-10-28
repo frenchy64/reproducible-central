@@ -7,12 +7,18 @@
 
 Source code: [https://github.com/FasterXML/jackson-core.git](https://github.com/FasterXML/jackson-core.git)
 
-rebuilding **6 releases** of tools.jackson.core:jackson-core:
-- **6** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
+rebuilding **12 releases** of tools.jackson.core:jackson-core:
+- **12** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
 - 0 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
+| [3.0.1](https://central.sonatype.com/artifact/tools.jackson.core/jackson-core/3.0.1/pom) | [mvn jdk17](jackson-core-3.0.1.buildspec) | [result](jackson-core-3.0.1.buildinfo): [4 :white_check_mark: ](jackson-core-3.0.1.buildcompare) | | 1.1M |
+| [3.0.0](https://central.sonatype.com/artifact/tools.jackson.core/jackson-core/3.0.0/pom) | [mvn jdk17](jackson-core-3.0.0.buildspec) | [result](jackson-core-3.0.0.buildinfo): [4 :white_check_mark: ](jackson-core-3.0.0.buildcompare) | | 1.1M |
+| [3.0.0-rc10](https://central.sonatype.com/artifact/tools.jackson.core/jackson-core/3.0.0-rc10/pom) | [mvn jdk17](jackson-core-3.0.0-rc10.buildspec) | [result](jackson-core-3.0.0-rc10.buildinfo): [4 :white_check_mark: ](jackson-core-3.0.0-rc10.buildcompare) | | 1.1M |
+| [3.0.0-rc9](https://central.sonatype.com/artifact/tools.jackson.core/jackson-core/3.0.0-rc9/pom) | [mvn jdk17](jackson-core-3.0.0-rc9.buildspec) | [result](jackson-core-3.0.0-rc9.buildinfo): [4 :white_check_mark: ](jackson-core-3.0.0-rc9.buildcompare) | | 1.1M |
+| [3.0.0-rc8](https://central.sonatype.com/artifact/tools.jackson.core/jackson-core/3.0.0-rc8/pom) | [mvn jdk17](jackson-core-3.0.0-rc8.buildspec) | [result](jackson-core-3.0.0-rc8.buildinfo): [4 :white_check_mark: ](jackson-core-3.0.0-rc8.buildcompare) | | 1.1M |
+| [3.0.0-rc7](https://central.sonatype.com/artifact/tools.jackson.core/jackson-core/3.0.0-rc7/pom) | [mvn jdk17](jackson-core-3.0.0-rc7.buildspec) | [result](jackson-core-3.0.0-rc7.buildinfo): [4 :white_check_mark: ](jackson-core-3.0.0-rc7.buildcompare) | | 1.1M |
 | [3.0.0-rc6](https://central.sonatype.com/artifact/tools.jackson.core/jackson-core/3.0.0-rc6/pom) | [mvn jdk17](jackson-core-3.0.0-rc6.buildspec) | [result](jackson-core-3.0.0-rc6.buildinfo): [4 :white_check_mark: ](jackson-core-3.0.0-rc6.buildcompare) | | 1.1M |
 | [3.0.0-rc5](https://central.sonatype.com/artifact/tools.jackson.core/jackson-core/3.0.0-rc5/pom) | [mvn jdk17](jackson-core-3.0.0-rc5.buildspec) | [result](jackson-core-3.0.0-rc5.buildinfo): [4 :white_check_mark: ](jackson-core-3.0.0-rc5.buildcompare) | | 1.1M |
 | [3.0.0-rc4](https://central.sonatype.com/artifact/tools.jackson.core/jackson-core/3.0.0-rc4/pom) | [mvn jdk17](jackson-core-3.0.0-rc4.buildspec) | [result](jackson-core-3.0.0-rc4.buildinfo): [6 :white_check_mark: ](jackson-core-3.0.0-rc4.buildcompare) | | 1.1M |
