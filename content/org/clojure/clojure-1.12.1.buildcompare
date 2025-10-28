@@ -1,0 +1,18 @@
+version=1.12.1
+ok=1
+ko=3
+ignored=0
+okFiles="clojure-1.12.1.pom"
+koFiles="clojure-1.12.1.jar clojure-1.12.1-slim.jar clojure-1.12.1-sources.jar"
+ignoredFiles=""
+reference_java_version="1.8 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Unix (from pom.properties newline)"
+# diffoscope target/reference/org.clojure/clojure-1.12.1.jar target/clojure-1.12.1.jar
+# diffoscope target/reference/org.clojure/clojure-1.12.1-slim.jar target/clojure-1.12.1-slim.jar
+# diffoscope target/reference/org.clojure/clojure-1.12.1-sources.jar target/clojure-1.12.1-sources.jar
+stabilize_ok=0
+stabilize_ko=0
+stabilize_ignored=3
+stabilize_okFiles=""
+stabilize_koFiles=""
+stabilize_ignoredFiles="clojure-1.12.1.jar.stabilized clojure-1.12.1-slim.jar.stabilized clojure-1.12.1-sources.jar.stabilized"

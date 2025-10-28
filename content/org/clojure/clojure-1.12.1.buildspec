@@ -12,7 +12,7 @@ newline=lf
 umask=022
 
 command="mvn clean package -DskipTests -Dmaven.javadoc.skip -Dgpg.skip"
-buildinfo=target/${artifactId}-parent-${version}.buildinfo
+buildinfo=target/${artifactId}-${version}.buildinfo
 
-#diffoscope=${artifactId}-parent-${version}.diffoscope
+diffoscope=${artifactId}-${version}.diffoscope
 issue=
