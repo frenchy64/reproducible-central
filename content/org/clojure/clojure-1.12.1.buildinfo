@@ -14,9 +14,12 @@ source.scm.tag=clojure-1.12.1
 build-tool=mvn
 
 # effective build environment information
-java.version=1.8.0_462
+java.version=1.8.0_492
 java.vendor=Private Build
 os.name=Linux
+os.version=7.0.0-22-generic
+os.arch=amd64
+line.separator=\n
 
 # Maven rebuild instructions and effective environment
 mvn.version=3.9.11
@@ -30,15 +33,15 @@ outputs.0.checksums.sha512=aef5a3cbc8db10dabc9829d2f78ceda6286358ca7046b76c45f16
 
 outputs.1.groupId=org.clojure
 outputs.1.filename=clojure-1.12.1.jar
-outputs.1.length=4229862
-outputs.1.checksums.sha512=488ec630386d3e22748877ec093a7516d2083933c8c2ba2dd9c0e4200599110bd95c0e5a539de6b413e45c3d30b1a1fe759e84c65a9ac0fad0121e06d088a67f
+outputs.1.length=4229889
+outputs.1.checksums.sha512=a0c49fe4c43918580a9f3e12af42cb9573bca510197cb5ba292eddb26e6c22645568f6390dc3ad2755365ec7bbdca29ba3c21d95758f84c8ccc33f4dd318606a
 
 outputs.2.groupId=org.clojure
 outputs.2.filename=clojure-1.12.1-slim.jar
 outputs.2.length=1138585
-outputs.2.checksums.sha512=17e8887b156a59be258618715799291307ef2362fc092fd69fdefcde9c8822d20786ef43dcdf22d52d04b86916f160602aabf5305641bd37db9bd4c262d8ed20
+outputs.2.checksums.sha512=178fe0fe64fd6eb0689ba43542c518f785d04888966853f81e3a73e64581ed80aaa312862cff40f3bff9e588e28d89571bf1a7ccd38507f6d4bb81c7d8531770
 
 outputs.3.groupId=org.clojure
 outputs.3.filename=clojure-1.12.1-sources.jar
 outputs.3.length=672287
-outputs.3.checksums.sha512=5683e80362217b8cbce8b9552620f4c247627d6471ce91771262d64692a525dcd9d98127b942fabd32e9f5864f2bedc37f469e44133d79cd8121c4b519c40cd4
+outputs.3.checksums.sha512=6a841d79abde843255ca7a79f8633050a4307fb8f83188247b756c8dd9ac177cc5fac84d691326867959367d90c26a7a133796dfbbedec6846efea31ac8c7dc4
