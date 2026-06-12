@@ -7,10 +7,13 @@
 
 Source code: [https://github.com/hibernate/hibernate-search.git](https://github.com/hibernate/hibernate-search.git)
 
-<details><summary>This project defines 21 modules:</summary>
+<details><summary>This project defines 24 modules:</summary>
 
 * [org.hibernate.search:hibernate-search-backend-elasticsearch](https://central.sonatype.com/artifact/org.hibernate.search/hibernate-search-backend-elasticsearch/overview)
 * [org.hibernate.search:hibernate-search-backend-elasticsearch-aws](https://central.sonatype.com/artifact/org.hibernate.search/hibernate-search-backend-elasticsearch-aws/overview)
+* [org.hibernate.search:hibernate-search-backend-elasticsearch-client-opensearch-rest](https://central.sonatype.com/artifact/org.hibernate.search/hibernate-search-backend-elasticsearch-client-opensearch-rest/overview)
+* [org.hibernate.search:hibernate-search-backend-elasticsearch-client-rest4](https://central.sonatype.com/artifact/org.hibernate.search/hibernate-search-backend-elasticsearch-client-rest4/overview)
+* [org.hibernate.search:hibernate-search-backend-elasticsearch-client-rest5](https://central.sonatype.com/artifact/org.hibernate.search/hibernate-search-backend-elasticsearch-client-rest5/overview)
 * [org.hibernate.search:hibernate-search-backend-lucene](https://central.sonatype.com/artifact/org.hibernate.search/hibernate-search-backend-lucene/overview)
 * [org.hibernate.search:hibernate-search-backend-lucene-next](https://central.sonatype.com/artifact/org.hibernate.search/hibernate-search-backend-lucene-next/overview)
 * [org.hibernate.search:hibernate-search-bom](https://central.sonatype.com/artifact/org.hibernate.search/hibernate-search-bom/overview)
@@ -32,12 +35,23 @@ Source code: [https://github.com/hibernate/hibernate-search.git](https://github.
 * [org.hibernate.search:hibernate-search-v5migrationhelper-orm](https://central.sonatype.com/artifact/org.hibernate.search/hibernate-search-v5migrationhelper-orm/overview)
 </details>
 
-rebuilding **20 releases** of org.hibernate.search:hibernate-search-bom:
-- **18** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
+rebuilding **33 releases** of org.hibernate.search:hibernate-search-bom:
+- **31** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
 - 2 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
+| [8.4.0.Final](https://central.sonatype.com/artifact/org.hibernate.search/hibernate-search-bom/8.4.0.Final/pom) | [mvn jdk25](hibernate-search-parent-8.4.0.Final.buildspec) | [result](hibernate-search-parent-8.4.0.Final.buildinfo): [42 :white_check_mark: ](hibernate-search-parent-8.4.0.Final.buildcompare) | | 7.7M |
+| [8.4.0.CR1](https://central.sonatype.com/artifact/org.hibernate.search/hibernate-search-bom/8.4.0.CR1/pom) | [mvn jdk25](hibernate-search-parent-8.4.0.CR1.buildspec) | [result](hibernate-search-parent-8.4.0.CR1.buildinfo): [42 :white_check_mark: ](hibernate-search-parent-8.4.0.CR1.buildcompare) | | 7.7M |
+| [8.3.2.Final](https://central.sonatype.com/artifact/org.hibernate.search/hibernate-search-bom/8.3.2.Final/pom) | [mvn jdk25](hibernate-search-parent-8.3.2.Final.buildspec) | [result](hibernate-search-parent-8.3.2.Final.buildinfo): [42 :white_check_mark: ](hibernate-search-parent-8.3.2.Final.buildcompare) | | 7.7M |
+| [8.3.1.Final](https://central.sonatype.com/artifact/org.hibernate.search/hibernate-search-bom/8.3.1.Final/pom) | [mvn jdk25](hibernate-search-parent-8.3.1.Final.buildspec) | [result](hibernate-search-parent-8.3.1.Final.buildinfo): [42 :white_check_mark: ](hibernate-search-parent-8.3.1.Final.buildcompare) | | 7.7M |
+| [8.3.0.Final](https://central.sonatype.com/artifact/org.hibernate.search/hibernate-search-bom/8.3.0.Final/pom) | [mvn jdk25](hibernate-search-parent-8.3.0.Final.buildspec) | [result](hibernate-search-parent-8.3.0.Final.buildinfo): [42 :white_check_mark: ](hibernate-search-parent-8.3.0.Final.buildcompare) | | 7.7M |
+| [8.3.0.CR1](https://central.sonatype.com/artifact/org.hibernate.search/hibernate-search-bom/8.3.0.CR1/pom) | [mvn jdk25](hibernate-search-parent-8.3.0.CR1.buildspec) | [result](hibernate-search-parent-8.3.0.CR1.buildinfo): [42 :white_check_mark: ](hibernate-search-parent-8.3.0.CR1.buildcompare) | | 7.7M |
+| [8.2.2.Final](https://central.sonatype.com/artifact/org.hibernate.search/hibernate-search-bom/8.2.2.Final/pom) | [mvn jdk25](hibernate-search-parent-8.2.2.Final.buildspec) | [result](hibernate-search-parent-8.2.2.Final.buildinfo): [42 :white_check_mark: ](hibernate-search-parent-8.2.2.Final.buildcompare) | | 7.7M |
+| [8.2.1.Final](https://central.sonatype.com/artifact/org.hibernate.search/hibernate-search-bom/8.2.1.Final/pom) | [mvn jdk25](hibernate-search-parent-8.2.1.Final.buildspec) | [result](hibernate-search-parent-8.2.1.Final.buildinfo): [42 :white_check_mark: ](hibernate-search-parent-8.2.1.Final.buildcompare) | | 7.7M |
+| [8.2.0.Final](https://central.sonatype.com/artifact/org.hibernate.search/hibernate-search-bom/8.2.0.Final/pom) | [mvn jdk25](hibernate-search-parent-8.2.0.Final.buildspec) | [result](hibernate-search-parent-8.2.0.Final.buildinfo): [42 :white_check_mark: ](hibernate-search-parent-8.2.0.Final.buildcompare) | | 7.7M |
+| [8.2.0.CR1](https://central.sonatype.com/artifact/org.hibernate.search/hibernate-search-bom/8.2.0.CR1/pom) | [mvn jdk25](hibernate-search-parent-8.2.0.CR1.buildspec) | [result](hibernate-search-parent-8.2.0.CR1.buildinfo): [42 :white_check_mark: ](hibernate-search-parent-8.2.0.CR1.buildcompare) | | 7.7M |
+| [8.1.3.Final](https://central.sonatype.com/artifact/org.hibernate.search/hibernate-search-bom/8.1.3.Final/pom) | [mvn jdk21](hibernate-search-parent-8.1.3.Final.buildspec) | [result](hibernate-search-parent-8.1.3.Final.buildinfo): [36 :white_check_mark: ](hibernate-search-parent-8.1.3.Final.buildcompare) | | 7.5M |
 | [8.1.2.Final](https://central.sonatype.com/artifact/org.hibernate.search/hibernate-search-bom/8.1.2.Final/pom) | [mvn jdk21](hibernate-search-parent-8.1.2.Final.buildspec) | [result](hibernate-search-parent-8.1.2.Final.buildinfo): [36 :white_check_mark: ](hibernate-search-parent-8.1.2.Final.buildcompare) | | 7.4M |
 | [8.1.1.Final](https://central.sonatype.com/artifact/org.hibernate.search/hibernate-search-bom/8.1.1.Final/pom) | [mvn jdk21](hibernate-search-parent-8.1.1.Final.buildspec) | [result](hibernate-search-parent-8.1.1.Final.buildinfo): [36 :white_check_mark: ](hibernate-search-parent-8.1.1.Final.buildcompare) | | 7.4M |
 | [8.1.0.Final](https://central.sonatype.com/artifact/org.hibernate.search/hibernate-search-bom/8.1.0.Final/pom) | [mvn jdk21](hibernate-search-parent-8.1.0.Final.buildspec) | [result](hibernate-search-parent-8.1.0.Final.buildinfo): [36 :white_check_mark: ](hibernate-search-parent-8.1.0.Final.buildcompare) | | 7.4M |
@@ -50,6 +64,8 @@ rebuilding **20 releases** of org.hibernate.search:hibernate-search-bom:
 | [8.0.0.Alpha3](https://central.sonatype.com/artifact/org.hibernate.search/hibernate-search-bom/8.0.0.Alpha3/pom) | [mvn jdk21](hibernate-search-parent-8.0.0.Alpha3.buildspec) | [result](hibernate-search-parent-8.0.0.Alpha3.buildinfo): [32 :white_check_mark: ](hibernate-search-parent-8.0.0.Alpha3.buildcompare) | | 6.9M |
 | [8.0.0.Alpha2](https://central.sonatype.com/artifact/org.hibernate.search/hibernate-search-bom/8.0.0.Alpha2/pom) | [mvn jdk21](hibernate-search-parent-8.0.0.Alpha2.buildspec) | [result](hibernate-search-parent-8.0.0.Alpha2.buildinfo): [32 :white_check_mark: ](hibernate-search-parent-8.0.0.Alpha2.buildcompare) | | 6.9M |
 | [8.0.0.Alpha1](https://central.sonatype.com/artifact/org.hibernate.search/hibernate-search-bom/8.0.0.Alpha1/pom) | [mvn jdk21](hibernate-search-parent-8.0.0.Alpha1.buildspec) | [result](hibernate-search-parent-8.0.0.Alpha1.buildinfo): [32 :white_check_mark: ](hibernate-search-parent-8.0.0.Alpha1.buildcompare) | | 6.9M |
+| [7.2.6.Final](https://central.sonatype.com/artifact/org.hibernate.search/hibernate-search-bom/7.2.6.Final/pom) | [mvn jdk21](hibernate-search-parent-7.2.6.Final.buildspec) | [result](hibernate-search-parent-7.2.6.Final.buildinfo): [30 :white_check_mark: ](hibernate-search-parent-7.2.6.Final.buildcompare) | | 5.4M |
+| [7.2.5.Final](https://central.sonatype.com/artifact/org.hibernate.search/hibernate-search-bom/7.2.5.Final/pom) | [mvn jdk21](hibernate-search-parent-7.2.5.Final.buildspec) | [result](hibernate-search-parent-7.2.5.Final.buildinfo): [30 :white_check_mark: ](hibernate-search-parent-7.2.5.Final.buildcompare) | | 5.4M |
 | [7.2.4.Final](https://central.sonatype.com/artifact/org.hibernate.search/hibernate-search-bom/7.2.4.Final/pom) | [mvn jdk21](hibernate-search-parent-7.2.4.Final.buildspec) | [result](hibernate-search-parent-7.2.4.Final.buildinfo): [30 :white_check_mark: ](hibernate-search-parent-7.2.4.Final.buildcompare) | | 5.3M |
 | [7.2.3.Final](https://central.sonatype.com/artifact/org.hibernate.search/hibernate-search-bom/7.2.3.Final/pom) | [mvn jdk21](hibernate-search-parent-7.2.3.Final.buildspec) | [result](hibernate-search-parent-7.2.3.Final.buildinfo): [30 :white_check_mark: ](hibernate-search-parent-7.2.3.Final.buildcompare) | | 5.3M |
 | [7.2.2.Final](https://central.sonatype.com/artifact/org.hibernate.search/hibernate-search-bom/7.2.2.Final/pom) | [mvn jdk21](hibernate-search-parent-7.2.2.Final.buildspec) | [result](hibernate-search-parent-7.2.2.Final.buildinfo): [30 :white_check_mark: ](hibernate-search-parent-7.2.2.Final.buildcompare) | | 5.3M |

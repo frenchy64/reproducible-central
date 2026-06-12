@@ -7,21 +7,45 @@
 
 Source code: [https://github.com/maveniverse/toolbox.git](https://github.com/maveniverse/toolbox.git)
 
-<details><summary>This project defines 4 modules:</summary>
+<details><summary>This project defines 5 modules:</summary>
 
 * [eu.maveniverse.maven.plugins:toolbox](https://central.sonatype.com/artifact/eu.maveniverse.maven.plugins/toolbox/overview)
+* [eu.maveniverse.maven.toolbox:mcp](https://central.sonatype.com/artifact/eu.maveniverse.maven.toolbox/mcp/overview)
 * [eu.maveniverse.maven.toolbox:mvnsh](https://central.sonatype.com/artifact/eu.maveniverse.maven.toolbox/mvnsh/overview)
 * [eu.maveniverse.maven.toolbox:shared](https://central.sonatype.com/artifact/eu.maveniverse.maven.toolbox/shared/overview)
 * [eu.maveniverse.maven.toolbox:toolbox](https://central.sonatype.com/artifact/eu.maveniverse.maven.toolbox/toolbox/overview)
 </details>
 
-rebuilding **88 releases** of eu.maveniverse.maven.toolbox:toolbox:
-- **87** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
-- 1 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
+rebuilding **111 releases** of eu.maveniverse.maven.toolbox:toolbox:
+- **93** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
+- 18 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
+  - running [stabilize](doc/stabilize.md) on 17, 6 had all their differences removed :recycle:, 11 still had differences :rotating_light: or files not supported by stabilize :no_entry_sign:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
-| [0.14.2](https://central.sonatype.com/artifact/eu.maveniverse.maven.toolbox/toolbox/0.14.2/pom) | | | |
+| [0.15.14](https://central.sonatype.com/artifact/eu.maveniverse.maven.toolbox/toolbox/0.15.14/pom) | [mvn jdk21](toolbox-0.15.14.buildspec) | [result](toolbox-0.15.14.buildinfo): [14 :white_check_mark:  1 :warning:](toolbox-0.15.14.buildcompare) | 1 :recycle: | 36M |
+| [0.15.13](https://central.sonatype.com/artifact/eu.maveniverse.maven.toolbox/toolbox/0.15.13/pom) | [mvn jdk21](toolbox-0.15.13.buildspec) | [result](toolbox-0.15.13.buildinfo): [14 :white_check_mark:  1 :warning:](toolbox-0.15.13.buildcompare) | 1 :recycle: | 37M |
+| [0.15.12](https://central.sonatype.com/artifact/eu.maveniverse.maven.toolbox/toolbox/0.15.12/pom) | [mvn jdk21](toolbox-0.15.12.buildspec) | [result](toolbox-0.15.12.buildinfo): [14 :white_check_mark:  1 :warning:](toolbox-0.15.12.buildcompare) | 1 :recycle: | 37M |
+| [0.15.11](https://central.sonatype.com/artifact/eu.maveniverse.maven.toolbox/toolbox/0.15.11/pom) | [mvn jdk21](toolbox-0.15.11.buildspec) | [result](toolbox-0.15.11.buildinfo): [14 :white_check_mark:  1 :warning:](toolbox-0.15.11.buildcompare) | 1 :recycle: | 37M |
+| [0.15.10](https://central.sonatype.com/artifact/eu.maveniverse.maven.toolbox/toolbox/0.15.10/pom) | [mvn jdk21](toolbox-0.15.10.buildspec) | [result](toolbox-0.15.10.buildinfo): [14 :white_check_mark:  1 :warning:](toolbox-0.15.10.buildcompare) | 1 :recycle: | 37M |
+| [0.15.9](https://central.sonatype.com/artifact/eu.maveniverse.maven.toolbox/toolbox/0.15.9/pom) | [mvn jdk21](toolbox-0.15.9.buildspec) | [result](toolbox-0.15.9.buildinfo): [14 :white_check_mark:  1 :warning:](toolbox-0.15.9.buildcompare) | 1 :recycle: | 37M |
+| [0.15.8](https://central.sonatype.com/artifact/eu.maveniverse.maven.toolbox/toolbox/0.15.8/pom) | [mvn jdk21](toolbox-0.15.8.buildspec) | [result](toolbox-0.15.8.buildinfo): [14 :white_check_mark:  1 :warning:](toolbox-0.15.8.buildcompare) | 1 :rotating_light: | 36M |
+| [0.15.7](https://central.sonatype.com/artifact/eu.maveniverse.maven.toolbox/toolbox/0.15.7/pom) | [mvn jdk21](toolbox-0.15.7.buildspec) | [result](toolbox-0.15.7.buildinfo): [14 :white_check_mark:  1 :warning:](toolbox-0.15.7.buildcompare) | 1 :rotating_light: | 36M |
+| [0.15.6](https://central.sonatype.com/artifact/eu.maveniverse.maven.toolbox/toolbox/0.15.6/pom) | [mvn jdk21](toolbox-0.15.6.buildspec) | [result](toolbox-0.15.6.buildinfo): [14 :white_check_mark:  1 :warning:](toolbox-0.15.6.buildcompare) | 1 :rotating_light: | 52M |
+| [0.15.5](https://central.sonatype.com/artifact/eu.maveniverse.maven.toolbox/toolbox/0.15.5/pom) | [mvn jdk21](toolbox-0.15.5.buildspec) | [result](toolbox-0.15.5.buildinfo): [14 :white_check_mark:  1 :warning:](toolbox-0.15.5.buildcompare) | 1 :rotating_light: | 52M |
+| [0.15.4](https://central.sonatype.com/artifact/eu.maveniverse.maven.toolbox/toolbox/0.15.4/pom) | [mvn jdk21](toolbox-0.15.4.buildspec) | [result](toolbox-0.15.4.buildinfo): [14 :white_check_mark:  1 :warning:](toolbox-0.15.4.buildcompare) | 1 :rotating_light: | 52M |
+| [0.15.3](https://central.sonatype.com/artifact/eu.maveniverse.maven.toolbox/toolbox/0.15.3/pom) | [mvn jdk21](toolbox-0.15.3.buildspec) | [result](toolbox-0.15.3.buildinfo): [14 :white_check_mark:  1 :warning:](toolbox-0.15.3.buildcompare) | 1 :rotating_light: | 52M |
+| [0.15.2](https://central.sonatype.com/artifact/eu.maveniverse.maven.toolbox/toolbox/0.15.2/pom) | [mvn jdk21](toolbox-0.15.2.buildspec) | [result](toolbox-0.15.2.buildinfo): [14 :white_check_mark:  1 :warning:](toolbox-0.15.2.buildcompare) | 1 :rotating_light: | 52M |
+| [0.15.1](https://central.sonatype.com/artifact/eu.maveniverse.maven.toolbox/toolbox/0.15.1/pom) | [mvn jdk21](toolbox-0.15.1.buildspec) | [result](toolbox-0.15.1.buildinfo): [14 :white_check_mark:  1 :warning:](toolbox-0.15.1.buildcompare) | 1 :rotating_light: | 51M |
+| [0.15.0](https://central.sonatype.com/artifact/eu.maveniverse.maven.toolbox/toolbox/0.15.0/pom) | [mvn jdk21](toolbox-0.15.0.buildspec) | [result](toolbox-0.15.0.buildinfo): [14 :white_check_mark:  1 :warning:](toolbox-0.15.0.buildcompare) | 1 :rotating_light: | 51M |
+| [0.14.9](https://central.sonatype.com/artifact/eu.maveniverse.maven.toolbox/toolbox/0.14.9/pom) | [mvn jdk21](toolbox-0.14.9.buildspec) | [result](toolbox-0.14.9.buildinfo): [14 :white_check_mark:  1 :warning:](toolbox-0.14.9.buildcompare) | 1 :rotating_light: | 51M |
+| [0.14.8](https://central.sonatype.com/artifact/eu.maveniverse.maven.toolbox/toolbox/0.14.8/pom) | [mvn jdk21](toolbox-0.14.8.buildspec) | [result](toolbox-0.14.8.buildinfo): [14 :white_check_mark:  1 :warning:](toolbox-0.14.8.buildcompare) [:mag:](toolbox-0.14.8.diffoscope) | 1 :rotating_light: | 51M |
+| [0.14.7](https://central.sonatype.com/artifact/eu.maveniverse.maven.toolbox/toolbox/0.14.7/pom) | [mvn jdk21](toolbox-0.14.7.buildspec) | [result](toolbox-0.14.7.buildinfo): [11 :white_check_mark: ](toolbox-0.14.7.buildcompare) | | 18M |
+| [0.14.6](https://central.sonatype.com/artifact/eu.maveniverse.maven.toolbox/toolbox/0.14.6/pom) | [mvn jdk21](toolbox-0.14.6.buildspec) | [result](toolbox-0.14.6.buildinfo): [11 :white_check_mark: ](toolbox-0.14.6.buildcompare) | | 18M |
+| [0.14.5](https://central.sonatype.com/artifact/eu.maveniverse.maven.toolbox/toolbox/0.14.5/pom) | [mvn jdk21](toolbox-0.14.5.buildspec) | [result](toolbox-0.14.5.buildinfo): [11 :white_check_mark: ](toolbox-0.14.5.buildcompare) | | 18M |
+| [0.14.4](https://central.sonatype.com/artifact/eu.maveniverse.maven.toolbox/toolbox/0.14.4/pom) | [mvn jdk21](toolbox-0.14.4.buildspec) | [result](toolbox-0.14.4.buildinfo): [11 :white_check_mark: ](toolbox-0.14.4.buildcompare) | | 18M |
+| [0.14.3](https://central.sonatype.com/artifact/eu.maveniverse.maven.toolbox/toolbox/0.14.3/pom) | [mvn jdk21](toolbox-0.14.3.buildspec) | [result](toolbox-0.14.3.buildinfo): [11 :white_check_mark: ](toolbox-0.14.3.buildcompare) | | 18M |
+| [0.14.2](https://central.sonatype.com/artifact/eu.maveniverse.maven.toolbox/toolbox/0.14.2/pom) | [mvn jdk21](toolbox-0.14.2.buildspec) | [result](toolbox-0.14.2.buildinfo): [11 :white_check_mark: ](toolbox-0.14.2.buildcompare) | | 18M |
 | [0.14.1](https://central.sonatype.com/artifact/eu.maveniverse.maven.toolbox/toolbox/0.14.1/pom) | [mvn jdk21](toolbox-0.14.1.buildspec) | [result](toolbox-0.14.1.buildinfo): [11 :white_check_mark: ](toolbox-0.14.1.buildcompare) | | 18M |
 | [0.14.0](https://central.sonatype.com/artifact/eu.maveniverse.maven.toolbox/toolbox/0.14.0/pom) | [mvn jdk21](toolbox-0.14.0.buildspec) | [result](toolbox-0.14.0.buildinfo): [11 :white_check_mark: ](toolbox-0.14.0.buildcompare) | | 18M |
 | [0.13.7](https://central.sonatype.com/artifact/eu.maveniverse.maven.toolbox/toolbox/0.13.7/pom) | [mvn jdk21](toolbox-0.13.7.buildspec) | [result](toolbox-0.13.7.buildinfo): [11 :white_check_mark: ](toolbox-0.13.7.buildcompare) | | 18M |

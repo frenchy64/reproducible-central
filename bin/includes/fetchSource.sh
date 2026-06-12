@@ -23,7 +23,7 @@ then
   info "Fetching maven-metadata.xml from Maven Central"
   metaUrl="https://repo.maven.apache.org/maven2/$(echo ${groupId} | tr '.' '/')/${artifactId}/maven-metadata.xml"
   echo -e "downloading \033[1m${metaUrl}\033[0m to $(pwd)"
-  runcommand curl -s $metaUrl --output maven-metadata.xml || fatal "failed to download maven-metadata.xml"
+  runcommand curl -s --fail $metaUrl --output maven-metadata.xml || fatal "failed to download maven-metadata.xml"
   head -15 maven-metadata.xml
 fi
 
@@ -59,7 +59,7 @@ then
 
   runlog "git checkout -q -f ${gitTag}"
   git checkout -q -f ${gitTag} || fatal "failed to git checkout ${gitTag}"
-  if [ "${newline}" == "crlf" ]
+  if [ "${newlineGit}" == "crlf" ]
   then
     echo "converting newlines to crlf"
     xargs="xargs"
@@ -72,6 +72,11 @@ then
     git ls-files --eol | grep w/lf | cut -c 40- | grep -v '"' | ${xargs} -d '\n' unix2dos 2> /dev/null
     # re-run without hiding output to show if there are issues
     git ls-files --eol | grep w/lf | cut -c 40- | grep -v '"' | ${xargs} -d '\n' unix2dos
+  fi
+  if [ "${newline}" == "crlf" ]
+  then
+    echo "no executable flag on Windows"
+    find . -type f -exec chmod a-x {} \;
   fi
 else
   # use provided sourceDistribution

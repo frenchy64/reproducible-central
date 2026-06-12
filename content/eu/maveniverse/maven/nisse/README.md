@@ -7,8 +7,9 @@
 
 Source code: [https://github.com/maveniverse/nisse.git](https://github.com/maveniverse/nisse.git)
 
-<details><summary>This project defines 12 modules:</summary>
+<details><summary>This project defines 13 modules:</summary>
 
+* [eu.maveniverse.gradle.plugins:nisse-gradle-plugin](https://central.sonatype.com/artifact/eu.maveniverse.gradle.plugins/nisse-gradle-plugin/overview)
 * [eu.maveniverse.maven.nisse.sources:file-source](https://central.sonatype.com/artifact/eu.maveniverse.maven.nisse.sources/file-source/overview)
 * [eu.maveniverse.maven.nisse.sources:jgit-source](https://central.sonatype.com/artifact/eu.maveniverse.maven.nisse.sources/jgit-source/overview)
 * [eu.maveniverse.maven.nisse.sources:mvn-source](https://central.sonatype.com/artifact/eu.maveniverse.maven.nisse.sources/mvn-source/overview)
@@ -23,12 +24,23 @@ Source code: [https://github.com/maveniverse/nisse.git](https://github.com/maven
 * [eu.maveniverse.maven.plugins:nisse-plugin3](https://central.sonatype.com/artifact/eu.maveniverse.maven.plugins/nisse-plugin3/overview)
 </details>
 
-rebuilding **20 releases** of eu.maveniverse.maven.nisse:nisse:
-- **20** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
+rebuilding **31 releases** of eu.maveniverse.maven.nisse:nisse:
+- **31** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
 - 0 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
+| [0.9.2](https://central.sonatype.com/artifact/eu.maveniverse.maven.nisse/nisse/0.9.2/pom) | [mvn jdk21](nisse-0.9.2.buildspec) | [result](nisse-0.9.2.buildinfo): [31 :white_check_mark: ](nisse-0.9.2.buildcompare) | | 198K |
+| [0.9.1](https://central.sonatype.com/artifact/eu.maveniverse.maven.nisse/nisse/0.9.1/pom) | [mvn jdk21](nisse-0.9.1.buildspec) | [result](nisse-0.9.1.buildinfo): [31 :white_check_mark: ](nisse-0.9.1.buildcompare) | | 198K |
+| [0.9.0](https://central.sonatype.com/artifact/eu.maveniverse.maven.nisse/nisse/0.9.0/pom) | [mvn jdk21](nisse-0.9.0.buildspec) | [result](nisse-0.9.0.buildinfo): [31 :white_check_mark: ](nisse-0.9.0.buildcompare) | | 197K |
+| [0.8.4](https://central.sonatype.com/artifact/eu.maveniverse.maven.nisse/nisse/0.8.4/pom) | [mvn jdk21](nisse-0.8.4.buildspec) | [result](nisse-0.8.4.buildinfo): [29 :white_check_mark: ](nisse-0.8.4.buildcompare) | | 181K |
+| [0.8.3](https://central.sonatype.com/artifact/eu.maveniverse.maven.nisse/nisse/0.8.3/pom) | [mvn jdk25](nisse-0.8.3.buildspec) | [result](nisse-0.8.3.buildinfo): [29 :white_check_mark: ](nisse-0.8.3.buildcompare) | | 180K |
+| [0.8.2](https://central.sonatype.com/artifact/eu.maveniverse.maven.nisse/nisse/0.8.2/pom) | [mvn jdk21](nisse-0.8.2.buildspec) | [result](nisse-0.8.2.buildinfo): [29 :white_check_mark: ](nisse-0.8.2.buildcompare) | | 178K |
+| [0.8.1](https://central.sonatype.com/artifact/eu.maveniverse.maven.nisse/nisse/0.8.1/pom) | [mvn jdk21](nisse-0.8.1.buildspec) | [result](nisse-0.8.1.buildinfo): [29 :white_check_mark: ](nisse-0.8.1.buildcompare) | | 177K |
+| [0.8.0](https://central.sonatype.com/artifact/eu.maveniverse.maven.nisse/nisse/0.8.0/pom) | [mvn jdk21](nisse-0.8.0.buildspec) | [result](nisse-0.8.0.buildinfo): [29 :white_check_mark: ](nisse-0.8.0.buildcompare) | | 176K |
+| [0.7.0](https://central.sonatype.com/artifact/eu.maveniverse.maven.nisse/nisse/0.7.0/pom) | [mvn jdk21](nisse-0.7.0.buildspec) | [result](nisse-0.7.0.buildinfo): [29 :white_check_mark: ](nisse-0.7.0.buildcompare) | | 175K |
+| [0.6.3](https://central.sonatype.com/artifact/eu.maveniverse.maven.nisse/nisse/0.6.3/pom) | [mvn jdk21](nisse-0.6.3.buildspec) | [result](nisse-0.6.3.buildinfo): [29 :white_check_mark: ](nisse-0.6.3.buildcompare) | | 169K |
+| [0.6.2](https://central.sonatype.com/artifact/eu.maveniverse.maven.nisse/nisse/0.6.2/pom) | [mvn jdk21](nisse-0.6.2.buildspec) | [result](nisse-0.6.2.buildinfo): [29 :white_check_mark: ](nisse-0.6.2.buildcompare) | | 168K |
 | [0.6.1](https://central.sonatype.com/artifact/eu.maveniverse.maven.nisse/nisse/0.6.1/pom) | [mvn jdk21](nisse-0.6.1.buildspec) | [result](nisse-0.6.1.buildinfo): [29 :white_check_mark: ](nisse-0.6.1.buildcompare) | | 168K |
 | [0.6.0](https://central.sonatype.com/artifact/eu.maveniverse.maven.nisse/nisse/0.6.0/pom) | [mvn jdk21](nisse-0.6.0.buildspec) | [result](nisse-0.6.0.buildinfo): [29 :white_check_mark: ](nisse-0.6.0.buildcompare) | | 167K |
 | [0.5.1](https://central.sonatype.com/artifact/eu.maveniverse.maven.nisse/nisse/0.5.1/pom) | [mvn jdk21](nisse-0.5.1.buildspec) | [result](nisse-0.5.1.buildinfo): [29 :white_check_mark: ](nisse-0.5.1.buildcompare) | | 163K |

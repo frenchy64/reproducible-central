@@ -7,14 +7,22 @@
 
 Source code: [https://github.com/avaje/avaje-config.git](https://github.com/avaje/avaje-config.git)
 
-rebuilding **3 releases** of io.avaje:avaje-config:
+rebuilding **10 releases** of io.avaje:avaje-config:
 - **2** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
-- 1 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
-  - running [stabilize](doc/stabilize.md) on 1, 0 had all their differences removed :recycle:, 1 still had differences :rotating_light: or files not supported by stabilize :no_entry_sign:
+- 8 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
+  - running [stabilize](doc/stabilize.md) on 8, 0 had all their differences removed :recycle:, 8 still had differences :rotating_light: or files not supported by stabilize :no_entry_sign:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
-| [4.2](https://central.sonatype.com/artifact/io.avaje/avaje-config/4.2/pom) | | | |
+| [5.2](https://central.sonatype.com/artifact/io.avaje/avaje-config/5.2/pom) | | | |
+| [5.2-RC1](https://central.sonatype.com/artifact/io.avaje/avaje-config/5.2-RC1/pom) | | | |
+| [5.1](https://central.sonatype.com/artifact/io.avaje/avaje-config/5.1/pom) | [mvn jdk25](avaje-config-5.1.buildspec) | [result](avaje-config-5.1.buildinfo): [2 :white_check_mark:  1 :warning:](avaje-config-5.1.buildcompare) [:memo:](https://github.com/avaje/avaje-config/issues/254) | 1 :no_entry_sign: | 129K |
+| [5.0](https://central.sonatype.com/artifact/io.avaje/avaje-config/5.0/pom) | [mvn jdk25](avaje-config-5.0.buildspec) | [result](avaje-config-5.0.buildinfo): [2 :white_check_mark:  1 :warning:](avaje-config-5.0.buildcompare) | 1 :no_entry_sign: | 128K |
+| [5.0-RC2](https://central.sonatype.com/artifact/io.avaje/avaje-config/5.0-RC2/pom) | [mvn jdk21](avaje-config-5.0-RC2.buildspec) | [result](avaje-config-5.0-RC2.buildinfo): [2 :white_check_mark:  1 :warning:](avaje-config-5.0-RC2.buildcompare) | 1 :no_entry_sign: | 128K |
+| [5.0-RC1](https://central.sonatype.com/artifact/io.avaje/avaje-config/5.0-RC1/pom) | [mvn jdk21](avaje-config-5.0-RC1.buildspec) | [result](avaje-config-5.0-RC1.buildinfo): [2 :white_check_mark:  1 :warning:](avaje-config-5.0-RC1.buildcompare) | 1 :no_entry_sign: | 128K |
+| [4.4](https://central.sonatype.com/artifact/io.avaje/avaje-config/4.4/pom) | [mvn jdk25](avaje-config-4.4.buildspec) | [result](avaje-config-4.4.buildinfo): [2 :white_check_mark:  1 :warning:](avaje-config-4.4.buildcompare) | 1 :no_entry_sign: | 126K |
+| [4.3](https://central.sonatype.com/artifact/io.avaje/avaje-config/4.3/pom) | [mvn jdk21](avaje-config-4.3.buildspec) | [result](avaje-config-4.3.buildinfo): [2 :white_check_mark:  1 :warning:](avaje-config-4.3.buildcompare) [:mag:](avaje-config-4.3.diffoscope) | 1 :no_entry_sign: | 126K |
+| [4.2](https://central.sonatype.com/artifact/io.avaje/avaje-config/4.2/pom) | [mvn jdk25 w](avaje-config-4.2.buildspec) | [result](avaje-config-4.2.buildinfo): [1 :white_check_mark:  2 :warning:](avaje-config-4.2.buildcompare) | 2 :no_entry_sign: | 126K |
 | [4.2-RC2](https://central.sonatype.com/artifact/io.avaje/avaje-config/4.2-RC2/pom) | [mvn jdk21](avaje-config-4.2-RC2.buildspec) | [result](avaje-config-4.2-RC2.buildinfo): [2 :white_check_mark:  1 :warning:](avaje-config-4.2-RC2.buildcompare) | 1 :no_entry_sign: | 125K |
 | [4.2-RC1](https://central.sonatype.com/artifact/io.avaje/avaje-config/4.2-RC1/pom) | [mvn jdk24 w](avaje-config-4.2-RC1.buildspec) | [result](avaje-config-4.2-RC1.buildinfo): [3 :white_check_mark: ](avaje-config-4.2-RC1.buildcompare) | | 125K |
 | [4.1](https://central.sonatype.com/artifact/io.avaje/avaje-config/4.1/pom) | [mvn jdk24 w](avaje-config-4.1.buildspec) | [result](avaje-config-4.1.buildinfo): [3 :white_check_mark: ](avaje-config-4.1.buildcompare) | | 124K |

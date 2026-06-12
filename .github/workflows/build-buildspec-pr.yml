@@ -45,6 +45,9 @@ jobs:
               . $file
               [ -n "$display" ] || display="$groupId:$artifactId"
               echo "- \`$file\` [$display](https://github.com/jvm-repo-rebuild/reproducible-central/blob/master/$(dirname $file)/README.md)" >> PRcomment.txt
+              echo '```' >> PRcomment.txt
+              cat $file >> PRcomment.txt
+              echo '```' >> PRcomment.txt
             fi
           done
 
@@ -61,13 +64,15 @@ jobs:
           for file in $(git diff --name-only -r HEAD^1 HEAD); do
             if [[ $file == *.buildspec ]]; then
               display=""
+              PR_merge_max_ko="0"
               . $file
               [ -n "$display" ] || display="$groupId:$artifactId"
-              echo "- [$display](https://github.com/jvm-repo-rebuild/reproducible-central/blob/master/$(dirname $file)/README.md) $version" >> PRcomment.txt
+              badge="![Reproducible Builds](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/jvm-repo-rebuild/reproducible-central/master/$(dirname $file)/badge.json)"
+              echo "- [$display $badge](https://github.com/jvm-repo-rebuild/reproducible-central/blob/master/$(dirname $file)/README.md) $version" >> PRcomment.txt
               echo >> PRcomment.txt
-              echo "\`./rebuild.sh $file\`" >> PRcomment.txt
               if [[ "$command" == SHELL* ]]
               then
+                echo "\`./rebuild.sh $file\`" >> PRcomment.txt
                 # don't even try to automatically build, but prepare message for PR comment
                 echo "command=$command"
                 echo "ko=1
@@ -92,8 +97,22 @@ jobs:
                 continue
               fi # end of SHELL*
 
+              echo "<details><summary>./rebuild.sh $file</summary>" >> PRcomment.txt
+              echo >> PRcomment.txt
+              echo '```' >> PRcomment.txt
+              cat $file >> PRcomment.txt
+              echo '```' >> PRcomment.txt
+              echo >> PRcomment.txt
+              echo "</details>" >> PRcomment.txt
+              echo >> PRcomment.txt
+
               sudo apt-get -qq install -y dos2unix 2>&1 > /dev/null
               ./rebuild.sh $file
+
+              # update metadata if version not there
+              metadata="$(dirname ${file})/maven-metadata.xml"
+              grep "version>${version}</version" ${metadata} || curl -s --fail https://repo.maven.apache.org/maven2/$(echo ${groupId} | tr '.' '/')/${artifactId}/maven-metadata.xml --output ${metadata}
+              git add ${metadata}
 
               bin/update-project-summary.sh "$(dirname $file)"
               git add "$(dirname $file)"
@@ -102,20 +121,31 @@ jobs:
 
               buildcompare="$(dirname $file)/$(basename $buildinfo .buildinfo).buildcompare"
               echo '```' >> PRcomment.txt
-              grep -v okFiles "$buildcompare" >> PRcomment.txt
+              grep -v okFiles $buildcompare >> PRcomment.txt
               echo '```' >> PRcomment.txt
 
-              if [ $(grep "^ko=0" PRcomment.txt | wc -l) -eq 0 ]
+              ko="$(grep "^ko=" PRcomment.txt | cut -d = -f 2)"
+              echo "PR_merge_max_ko=$PR_merge_max_ko: ko=$ko"
+              if [ $ko -ne 0 ]
               then
-                ./build_diffoscope.sh "$buildcompare" buildcache/$artifactId
+                ./build_diffoscope.sh $buildcompare buildcache/$artifactId
                 diffoscope="$(dirname $file)/$(basename $buildinfo .buildinfo).diffoscope"
                 [ -f $diffoscope ] && mv "$diffoscope" . \
                   && echo ":mag: diffoscope analysis uploaded to ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}" >> PRcomment.txt
               fi
 
+              echo >> PRcomment.txt
+              echo '<details><summary>run time</summary>' >> PRcomment.txt
+              echo >> PRcomment.txt
               echo '```' >> PRcomment.txt
               cat time.txt >> PRcomment.txt
               echo '```' >> PRcomment.txt
+              if [ "$ko" -le "$PR_merge_max_ko" ]
+              then
+                echo "=> merge PR" >> PRcomment.txt
+              fi
+              echo >> PRcomment.txt
+              echo "</details>" >> PRcomment.txt
               rm -f time.txt
             fi
           done
@@ -132,7 +162,7 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
-          if [ $(grep "^ko=" PRcomment.txt | grep -v "ko=0" | wc -l) -eq 0 ]
+          if [ $(grep "^=> merge PR" PRcomment.txt | wc -l) -eq 1 ]
           then
             if [ "${{ github.event.pull_request.user.login }}" = "hboutemy" ]
             then

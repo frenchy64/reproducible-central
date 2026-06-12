@@ -68,11 +68,34 @@ between the reference file from Central Repository and the effective rebuild fil
 
 ### 4) Add Reproducible Builds Badge to a Project
 
-Once a project is listed here, a badge endpoint is provided to display proven reproducibility success level: it provides a badge like ![Reproducible Builds](https://img.shields.io/badge/Reproducible_Builds-5/5-success?labelColor=1e5b96) pointing to its `README.md`:
+Once a project is listed in [Reproducible Central projects list](/content/README.md), a badge endpoint is provided to display proven reproducibility success level: it provides a badge like ![Reproducible Builds](https://img.shields.io/badge/Reproducible_Builds-5/5-success?labelColor=1e5b96), which is usually pointing to project's Reproducible Central `README.md`:
 
-Example for Markdown:
-```
-[![Reproducible Builds](https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fjvm-repo-rebuild%2Freproducible-central%2Fmaster%2F...path to project directory...%2Fbadge.json)](https://github.com/jvm-repo-rebuild/reproducible-central/blob/master/content/...path to project directory.../README.md)
+Example in Markdown:
+
+```markdown
+[![Reproducible Builds](
+    https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/jvm-repo-rebuild/reproducible-central/master/content/org/apache/maven/maven/badge.json
+)](
+    https://github.com/jvm-repo-rebuild/reproducible-central/blob/master/content/org/apache/maven/maven/README.md
+)
 ```
 
-This uses the [Endpoint Badge from shields.io](https://shields.io/badges/endpoint-badge) for rendering the image.
+or in HTML:
+
+```html
+<a href="https://github.com/jvm-repo-rebuild/reproducible-central/blob/master/content/org/apache/maven/maven/README.md">
+  <img alt="Reproducible Builds"
+    src="https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/jvm-repo-rebuild/reproducible-central/master/content/org/apache/maven/maven/badge.json"/>
+</a>
+```
+
+The badge uses the [Endpoint Badge from shields.io](https://shields.io/badges/endpoint-badge) for rendering the image based on data stored in project's `badge.json`.
+
+
+### 5) Display Reproducible Builds Badge for a Dependency or an Artifact
+
+[Reproducible Central Artifact](https://shields.io/badges/reproducible-central-artifact) badge can be used directly with classical `groupId/artifactId/version` coordinates from a dependency, without really caring about project that built the artifact (it may be a project doing a multi-module Maven build).
+
+It is for example used by [artifact:reproducible-central](https://maven.apache.org/plugins/maven-artifact-plugin/reproducible-central-mojo.html) Maven report to display the status of each and every dependencies of a project: see this [example](https://cyclonedx.github.io/cyclonedx-maven-plugin/reproducible-central.html).
+
+For people interested in details: artifact-level badge data is available at https://jvm-repo-rebuild.github.io/reproducible-central/

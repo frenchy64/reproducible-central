@@ -14,13 +14,17 @@ Source code: [https://github.com/jpmml/jpmml-h2o.git](https://github.com/jpmml/j
 * [org.jpmml:pmml-h2o-example](https://central.sonatype.com/artifact/org.jpmml/pmml-h2o-example/overview)
 </details>
 
-rebuilding **7 releases** of org.jpmml:jpmml-h2o:
+rebuilding **11 releases** of org.jpmml:jpmml-h2o:
 - **2** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
-- 5 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
-  - running [stabilize](doc/stabilize.md) on 1, 1 had all their differences removed :recycle:
+- 9 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
+  - running [stabilize](doc/stabilize.md) on 5, 1 had all their differences removed :recycle:, 4 still had differences :rotating_light: or files not supported by stabilize :no_entry_sign:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
+| [1.3.6](https://central.sonatype.com/artifact/org.jpmml/jpmml-h2o/1.3.6/pom) | [mvn jdk11](jpmml-h2o-1.3.6.buildspec) | [result](jpmml-h2o-1.3.6.buildinfo): [3 :white_check_mark:  4 :warning:](jpmml-h2o-1.3.6.buildcompare) | 3 :recycle: 1 :rotating_light: | 115K |
+| [1.3.5](https://central.sonatype.com/artifact/org.jpmml/jpmml-h2o/1.3.5/pom) | [mvn jdk11](jpmml-h2o-1.3.5.buildspec) | [result](jpmml-h2o-1.3.5.buildinfo): [3 :white_check_mark:  2 :warning:](jpmml-h2o-1.3.5.buildcompare) | 1 :recycle: 1 :rotating_light: | 72K |
+| [1.3.4](https://central.sonatype.com/artifact/org.jpmml/jpmml-h2o/1.3.4/pom) | [mvn jdk11](jpmml-h2o-1.3.4.buildspec) | [result](jpmml-h2o-1.3.4.buildinfo): [3 :white_check_mark:  2 :warning:](jpmml-h2o-1.3.4.buildcompare) | 1 :recycle: 1 :rotating_light: | 72K |
+| [1.3.3](https://central.sonatype.com/artifact/org.jpmml/jpmml-h2o/1.3.3/pom) | [mvn jdk11](jpmml-h2o-1.3.3.buildspec) | [result](jpmml-h2o-1.3.3.buildinfo): [3 :white_check_mark:  2 :warning:](jpmml-h2o-1.3.3.buildcompare) | 1 :recycle: 1 :rotating_light: | 72K |
 | [1.3.2](https://central.sonatype.com/artifact/org.jpmml/jpmml-h2o/1.3.2/pom) | [mvn jdk11](jpmml-h2o-1.3.2.buildspec) | [result](jpmml-h2o-1.3.2.buildinfo): [3 :white_check_mark:  2 :warning:](jpmml-h2o-1.3.2.buildcompare) | 2 :recycle: | 70K |
 | [1.3.1](https://central.sonatype.com/artifact/org.jpmml/jpmml-h2o/1.3.1/pom) | [mvn jdk11](jpmml-h2o-1.3.1.buildspec) | [result](jpmml-h2o-1.3.1.buildinfo): [2 :white_check_mark:  2 :warning:](jpmml-h2o-1.3.1.buildcompare) | - | 95K |
 | [1.3.0](https://central.sonatype.com/artifact/org.jpmml/jpmml-h2o/1.3.0/pom) | [mvn jdk11](jpmml-h2o-1.3.0.buildspec) | [result](jpmml-h2o-1.3.0.buildinfo): [2 :white_check_mark:  2 :warning:](jpmml-h2o-1.3.0.buildcompare) | - | 99K |

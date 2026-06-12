@@ -59,12 +59,13 @@ Source code: [https://github.com/apache/maven.git](https://github.com/apache/mav
 * [org.apache.maven:plexus-utils](https://central.sonatype.com/artifact/org.apache.maven/plexus-utils/overview)
 </details>
 
-rebuilding **39 releases** of org.apache.maven:maven:
-- **34** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
+rebuilding **45 releases** of org.apache.maven:maven:
+- **40** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
 - 5 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
+| [4.0.0-rc-5](https://central.sonatype.com/artifact/org.apache.maven/maven/4.0.0-rc-5/pom) | [mvn jdk21](maven-4.0.0-rc-5.buildspec) | [result](maven-4.0.0-rc-5.buildinfo): [193 :white_check_mark: ](maven-4.0.0-rc-5.buildcompare) | | 65M |
 | [4.0.0-rc-4](https://central.sonatype.com/artifact/org.apache.maven/maven/4.0.0-rc-4/pom) | [mvn jdk24](maven-4.0.0-rc-4.buildspec) | [result](maven-4.0.0-rc-4.buildinfo): [232 :white_check_mark: ](maven-4.0.0-rc-4.buildcompare) | | 65M |
 | [4.0.0-rc-3](https://central.sonatype.com/artifact/org.apache.maven/maven/4.0.0-rc-3/pom) | [mvn jdk17](maven-4.0.0-rc-3.buildspec) | [result](maven-4.0.0-rc-3.buildinfo): [226 :white_check_mark: ](maven-4.0.0-rc-3.buildcompare) | | 62M |
 | [4.0.0-rc-2](https://central.sonatype.com/artifact/org.apache.maven/maven/4.0.0-rc-2/pom) | [mvn jdk17](maven-4.0.0-rc-2.buildspec) | [result](maven-4.0.0-rc-2.buildinfo): [171 :white_check_mark:  11 :warning:](maven-4.0.0-rc-2.buildcompare) | - | 60M |
@@ -82,6 +83,11 @@ rebuilding **39 releases** of org.apache.maven:maven:
 | [4.0.0-alpha-4](https://central.sonatype.com/artifact/org.apache.maven/maven/4.0.0-alpha-4/pom) | [mvn jdk17](maven-4.0.0-alpha-4.buildspec) | [result](maven-4.0.0-alpha-4.buildinfo): [87 :white_check_mark: ](maven-4.0.0-alpha-4.buildcompare) | | 36M |
 | [4.0.0-alpha-3](https://central.sonatype.com/artifact/org.apache.maven/maven/4.0.0-alpha-3/pom) | [mvn jdk8](maven-4.0.0-alpha-3.buildspec) | [result](maven-4.0.0-alpha-3.buildinfo): [92 :white_check_mark: ](maven-4.0.0-alpha-3.buildcompare) | | 36M |
 | [4.0.0-alpha-2](https://central.sonatype.com/artifact/org.apache.maven/maven/4.0.0-alpha-2/pom) | [mvn jdk8](maven-4.0.0-alpha-2.buildspec) | :x: | |
+| [3.9.16](https://central.sonatype.com/artifact/org.apache.maven/maven/3.9.16/pom) | [mvn jdk25](maven-3.9.16.buildspec) | [result](maven-3.9.16.buildinfo): [75 :white_check_mark: ](maven-3.9.16.buildcompare) | | 30M |
+| [3.9.15](https://central.sonatype.com/artifact/org.apache.maven/maven/3.9.15/pom) | [mvn jdk25](maven-3.9.15.buildspec) | [result](maven-3.9.15.buildinfo): [75 :white_check_mark: ](maven-3.9.15.buildcompare) | | 30M |
+| [3.9.14](https://central.sonatype.com/artifact/org.apache.maven/maven/3.9.14/pom) | [mvn jdk21](maven-3.9.14.buildspec) | [result](maven-3.9.14.buildinfo): [75 :white_check_mark: ](maven-3.9.14.buildcompare) | | 30M |
+| [3.9.13](https://central.sonatype.com/artifact/org.apache.maven/maven/3.9.13/pom) | [mvn jdk21](maven-3.9.13.buildspec) | [result](maven-3.9.13.buildinfo): [75 :white_check_mark: ](maven-3.9.13.buildcompare) | | 31M |
+| [3.9.12](https://central.sonatype.com/artifact/org.apache.maven/maven/3.9.12/pom) | [mvn jdk21](maven-3.9.12.buildspec) | [result](maven-3.9.12.buildinfo): [75 :white_check_mark: ](maven-3.9.12.buildcompare) | | 30M |
 | [3.9.11](https://central.sonatype.com/artifact/org.apache.maven/maven/3.9.11/pom) | [mvn jdk21](maven-3.9.11.buildspec) | [result](maven-3.9.11.buildinfo): [75 :white_check_mark: ](maven-3.9.11.buildcompare) | | 30M |
 | [3.9.10](https://central.sonatype.com/artifact/org.apache.maven/maven/3.9.10/pom) | [mvn jdk21](maven-3.9.10.buildspec) | [result](maven-3.9.10.buildinfo): [75 :white_check_mark: ](maven-3.9.10.buildcompare) | | 29M |
 | [3.9.9](https://central.sonatype.com/artifact/org.apache.maven/maven/3.9.9/pom) | [mvn jdk21](maven-3.9.9.buildspec) | [result](maven-3.9.9.buildinfo): [75 :white_check_mark: ](maven-3.9.9.buildcompare) | | 30M |

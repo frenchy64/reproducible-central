@@ -7,12 +7,20 @@
 
 Source code: [https://github.com/mybatis/mybatis-2.git](https://github.com/mybatis/mybatis-2.git)
 
-rebuilding **3 releases** of org.mybatis:mybatis2:
-- **3** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
+rebuilding **11 releases** of org.mybatis:mybatis2:
+- **11** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
 - 0 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
+| [2.8.0](https://central.sonatype.com/artifact/org.mybatis/mybatis2/2.8.0/pom) | [mvn jdk25 w](mybatis2-2.8.0.buildspec) | [result](mybatis2-2.8.0.buildinfo): [3 :white_check_mark: ](mybatis2-2.8.0.buildcompare) | | 706K |
+| [2.7.6](https://central.sonatype.com/artifact/org.mybatis/mybatis2/2.7.6/pom) | [mvn jdk25 w](mybatis2-2.7.6.buildspec) | [result](mybatis2-2.7.6.buildinfo): [3 :white_check_mark: ](mybatis2-2.7.6.buildcompare) | | 698K |
+| [2.7.5](https://central.sonatype.com/artifact/org.mybatis/mybatis2/2.7.5/pom) | [mvn jdk25 w](mybatis2-2.7.5.buildspec) | [result](mybatis2-2.7.5.buildinfo): [3 :white_check_mark: ](mybatis2-2.7.5.buildcompare) | | 698K |
+| [2.7.4](https://central.sonatype.com/artifact/org.mybatis/mybatis2/2.7.4/pom) | [mvn jdk25 w](mybatis2-2.7.4.buildspec) | [result](mybatis2-2.7.4.buildinfo): [3 :white_check_mark: ](mybatis2-2.7.4.buildcompare) | | 731K |
+| [2.7.3](https://central.sonatype.com/artifact/org.mybatis/mybatis2/2.7.3/pom) | [mvn jdk25 w](mybatis2-2.7.3.buildspec) | [result](mybatis2-2.7.3.buildinfo): [3 :white_check_mark: ](mybatis2-2.7.3.buildcompare) | | 731K |
+| [2.7.2](https://central.sonatype.com/artifact/org.mybatis/mybatis2/2.7.2/pom) | [mvn jdk25 w](mybatis2-2.7.2.buildspec) | [result](mybatis2-2.7.2.buildinfo): [3 :white_check_mark: ](mybatis2-2.7.2.buildcompare) | | 731K |
+| [2.7.1](https://central.sonatype.com/artifact/org.mybatis/mybatis2/2.7.1/pom) | [mvn jdk25 w](mybatis2-2.7.1.buildspec) | [result](mybatis2-2.7.1.buildinfo): [3 :white_check_mark: ](mybatis2-2.7.1.buildcompare) | | 730K |
+| [2.7.0](https://central.sonatype.com/artifact/org.mybatis/mybatis2/2.7.0/pom) | [mvn jdk25 w](mybatis2-2.7.0.buildspec) | [result](mybatis2-2.7.0.buildinfo): [3 :white_check_mark: ](mybatis2-2.7.0.buildcompare) | | 729K |
 | [2.6.1](https://central.sonatype.com/artifact/org.mybatis/mybatis2/2.6.1/pom) | [mvn jdk21 w](mybatis2-2.6.1.buildspec) | [result](mybatis2-2.6.1.buildinfo): [3 :white_check_mark: ](mybatis2-2.6.1.buildcompare) | | 728K |
 | [2.6.0](https://central.sonatype.com/artifact/org.mybatis/mybatis2/2.6.0/pom) | [mvn jdk22 w](mybatis2-2.6.0.buildspec) | [result](mybatis2-2.6.0.buildinfo): [3 :white_check_mark: ](mybatis2-2.6.0.buildcompare) | | 728K |
 | [2.5.0](https://central.sonatype.com/artifact/org.mybatis/mybatis2/2.5.0/pom) | [mvn jdk17 w](mybatis2-2.5.0.buildspec) | [result](mybatis2-2.5.0.buildinfo): [3 :white_check_mark: ](mybatis2-2.5.0.buildcompare) | | 712K |

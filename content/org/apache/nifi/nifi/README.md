@@ -7,7 +7,7 @@
 
 Source code: [https://github.com/apache/nifi.git](https://github.com/apache/nifi.git)
 
-<details><summary>This project defines 927 modules:</summary>
+<details><summary>This project defines 949 modules:</summary>
 
 * [org.apache.nifi.minifi:minifi](https://central.sonatype.com/artifact/org.apache.nifi.minifi/minifi/overview)
 * [org.apache.nifi.minifi:minifi-assembly](https://central.sonatype.com/artifact/org.apache.nifi.minifi/minifi-assembly/overview)
@@ -163,10 +163,13 @@ Source code: [https://github.com/apache/nifi.git](https://github.com/apache/nifi
 * [org.apache.nifi:nifi-avro-record-utils](https://central.sonatype.com/artifact/org.apache.nifi/nifi-avro-record-utils/overview)
 * [org.apache.nifi:nifi-aws-abstract-processors](https://central.sonatype.com/artifact/org.apache.nifi/nifi-aws-abstract-processors/overview)
 * [org.apache.nifi:nifi-aws-bundle](https://central.sonatype.com/artifact/org.apache.nifi/nifi-aws-bundle/overview)
+* [org.apache.nifi:nifi-aws-kinesis](https://central.sonatype.com/artifact/org.apache.nifi/nifi-aws-kinesis/overview)
+* [org.apache.nifi:nifi-aws-kinesis-nar](https://central.sonatype.com/artifact/org.apache.nifi/nifi-aws-kinesis-nar/overview)
 * [org.apache.nifi:nifi-aws-nar](https://central.sonatype.com/artifact/org.apache.nifi/nifi-aws-nar/overview)
 * [org.apache.nifi:nifi-aws-parameter-providers](https://central.sonatype.com/artifact/org.apache.nifi/nifi-aws-parameter-providers/overview)
 * [org.apache.nifi:nifi-aws-parameter-value-providers](https://central.sonatype.com/artifact/org.apache.nifi/nifi-aws-parameter-value-providers/overview)
 * [org.apache.nifi:nifi-aws-processors](https://central.sonatype.com/artifact/org.apache.nifi/nifi-aws-processors/overview)
+* [org.apache.nifi:nifi-aws-regions](https://central.sonatype.com/artifact/org.apache.nifi/nifi-aws-regions/overview)
 * [org.apache.nifi:nifi-aws-schema-registry-service](https://central.sonatype.com/artifact/org.apache.nifi/nifi-aws-schema-registry-service/overview)
 * [org.apache.nifi:nifi-aws-service-api](https://central.sonatype.com/artifact/org.apache.nifi/nifi-aws-service-api/overview)
 * [org.apache.nifi:nifi-aws-service-api-nar](https://central.sonatype.com/artifact/org.apache.nifi/nifi-aws-service-api-nar/overview)
@@ -233,6 +236,8 @@ Source code: [https://github.com/apache/nifi.git](https://github.com/apache/nifi
 * [org.apache.nifi:nifi-couchbase-processors](https://central.sonatype.com/artifact/org.apache.nifi/nifi-couchbase-processors/overview)
 * [org.apache.nifi:nifi-couchbase-services-api](https://central.sonatype.com/artifact/org.apache.nifi/nifi-couchbase-services-api/overview)
 * [org.apache.nifi:nifi-couchbase-services-api-nar](https://central.sonatype.com/artifact/org.apache.nifi/nifi-couchbase-services-api-nar/overview)
+* [org.apache.nifi:nifi-couchbase-standard-services](https://central.sonatype.com/artifact/org.apache.nifi/nifi-couchbase-standard-services/overview)
+* [org.apache.nifi:nifi-couchbase-standard-services-nar](https://central.sonatype.com/artifact/org.apache.nifi/nifi-couchbase-standard-services-nar/overview)
 * [org.apache.nifi:nifi-custom-ui-utilities](https://central.sonatype.com/artifact/org.apache.nifi/nifi-custom-ui-utilities/overview)
 * [org.apache.nifi:nifi-custom-ui-utils](https://central.sonatype.com/artifact/org.apache.nifi/nifi-custom-ui-utils/overview)
 * [org.apache.nifi:nifi-cybersecurity-bundle](https://central.sonatype.com/artifact/org.apache.nifi/nifi-cybersecurity-bundle/overview)
@@ -296,6 +301,7 @@ Source code: [https://github.com/apache/nifi.git](https://github.com/apache/nifi
 * [org.apache.nifi:nifi-email-bundle](https://central.sonatype.com/artifact/org.apache.nifi/nifi-email-bundle/overview)
 * [org.apache.nifi:nifi-email-nar](https://central.sonatype.com/artifact/org.apache.nifi/nifi-email-nar/overview)
 * [org.apache.nifi:nifi-email-processors](https://central.sonatype.com/artifact/org.apache.nifi/nifi-email-processors/overview)
+* [org.apache.nifi:nifi-embedded-database-service](https://central.sonatype.com/artifact/org.apache.nifi/nifi-embedded-database-service/overview)
 * [org.apache.nifi:nifi-enrich-bundle](https://central.sonatype.com/artifact/org.apache.nifi/nifi-enrich-bundle/overview)
 * [org.apache.nifi:nifi-enrich-nar](https://central.sonatype.com/artifact/org.apache.nifi/nifi-enrich-nar/overview)
 * [org.apache.nifi:nifi-enrich-processors](https://central.sonatype.com/artifact/org.apache.nifi/nifi-enrich-processors/overview)
@@ -458,14 +464,25 @@ Source code: [https://github.com/apache/nifi.git](https://github.com/apache/nifi
 * [org.apache.nifi:nifi-hwx-schema-registry-bundle](https://central.sonatype.com/artifact/org.apache.nifi/nifi-hwx-schema-registry-bundle/overview)
 * [org.apache.nifi:nifi-hwx-schema-registry-nar](https://central.sonatype.com/artifact/org.apache.nifi/nifi-hwx-schema-registry-nar/overview)
 * [org.apache.nifi:nifi-hwx-schema-registry-service](https://central.sonatype.com/artifact/org.apache.nifi/nifi-hwx-schema-registry-service/overview)
+* [org.apache.nifi:nifi-iceberg-aws](https://central.sonatype.com/artifact/org.apache.nifi/nifi-iceberg-aws/overview)
+* [org.apache.nifi:nifi-iceberg-aws-nar](https://central.sonatype.com/artifact/org.apache.nifi/nifi-iceberg-aws-nar/overview)
+* [org.apache.nifi:nifi-iceberg-azure](https://central.sonatype.com/artifact/org.apache.nifi/nifi-iceberg-azure/overview)
+* [org.apache.nifi:nifi-iceberg-azure-nar](https://central.sonatype.com/artifact/org.apache.nifi/nifi-iceberg-azure-nar/overview)
 * [org.apache.nifi:nifi-iceberg-bundle](https://central.sonatype.com/artifact/org.apache.nifi/nifi-iceberg-bundle/overview)
 * [org.apache.nifi:nifi-iceberg-common](https://central.sonatype.com/artifact/org.apache.nifi/nifi-iceberg-common/overview)
+* [org.apache.nifi:nifi-iceberg-parquet-writer](https://central.sonatype.com/artifact/org.apache.nifi/nifi-iceberg-parquet-writer/overview)
+* [org.apache.nifi:nifi-iceberg-parquet-writer-nar](https://central.sonatype.com/artifact/org.apache.nifi/nifi-iceberg-parquet-writer-nar/overview)
 * [org.apache.nifi:nifi-iceberg-processors](https://central.sonatype.com/artifact/org.apache.nifi/nifi-iceberg-processors/overview)
 * [org.apache.nifi:nifi-iceberg-processors-nar](https://central.sonatype.com/artifact/org.apache.nifi/nifi-iceberg-processors-nar/overview)
+* [org.apache.nifi:nifi-iceberg-rest-catalog](https://central.sonatype.com/artifact/org.apache.nifi/nifi-iceberg-rest-catalog/overview)
+* [org.apache.nifi:nifi-iceberg-rest-catalog-nar](https://central.sonatype.com/artifact/org.apache.nifi/nifi-iceberg-rest-catalog-nar/overview)
+* [org.apache.nifi:nifi-iceberg-service-api](https://central.sonatype.com/artifact/org.apache.nifi/nifi-iceberg-service-api/overview)
+* [org.apache.nifi:nifi-iceberg-service-api-nar](https://central.sonatype.com/artifact/org.apache.nifi/nifi-iceberg-service-api-nar/overview)
 * [org.apache.nifi:nifi-iceberg-services](https://central.sonatype.com/artifact/org.apache.nifi/nifi-iceberg-services/overview)
 * [org.apache.nifi:nifi-iceberg-services-api](https://central.sonatype.com/artifact/org.apache.nifi/nifi-iceberg-services-api/overview)
 * [org.apache.nifi:nifi-iceberg-services-api-nar](https://central.sonatype.com/artifact/org.apache.nifi/nifi-iceberg-services-api-nar/overview)
 * [org.apache.nifi:nifi-iceberg-services-nar](https://central.sonatype.com/artifact/org.apache.nifi/nifi-iceberg-services-nar/overview)
+* [org.apache.nifi:nifi-iceberg-shared-nar](https://central.sonatype.com/artifact/org.apache.nifi/nifi-iceberg-shared-nar/overview)
 * [org.apache.nifi:nifi-iceberg-test-utils](https://central.sonatype.com/artifact/org.apache.nifi/nifi-iceberg-test-utils/overview)
 * [org.apache.nifi:nifi-ignite-bundle](https://central.sonatype.com/artifact/org.apache.nifi/nifi-ignite-bundle/overview)
 * [org.apache.nifi:nifi-ignite-nar](https://central.sonatype.com/artifact/org.apache.nifi/nifi-ignite-nar/overview)
@@ -620,8 +637,10 @@ Source code: [https://github.com/apache/nifi.git](https://github.com/apache/nifi
 * [org.apache.nifi:nifi-other-graph-services-nar](https://central.sonatype.com/artifact/org.apache.nifi/nifi-other-graph-services-nar/overview)
 * [org.apache.nifi:nifi-parameter](https://central.sonatype.com/artifact/org.apache.nifi/nifi-parameter/overview)
 * [org.apache.nifi:nifi-parquet-bundle](https://central.sonatype.com/artifact/org.apache.nifi/nifi-parquet-bundle/overview)
+* [org.apache.nifi:nifi-parquet-content-viewer](https://central.sonatype.com/artifact/org.apache.nifi/nifi-parquet-content-viewer/overview)
 * [org.apache.nifi:nifi-parquet-nar](https://central.sonatype.com/artifact/org.apache.nifi/nifi-parquet-nar/overview)
 * [org.apache.nifi:nifi-parquet-processors](https://central.sonatype.com/artifact/org.apache.nifi/nifi-parquet-processors/overview)
+* [org.apache.nifi:nifi-parquet-shared](https://central.sonatype.com/artifact/org.apache.nifi/nifi-parquet-shared/overview)
 * [org.apache.nifi:nifi-per-process-group-logging](https://central.sonatype.com/artifact/org.apache.nifi/nifi-per-process-group-logging/overview)
 * [org.apache.nifi:nifi-persistent-provenance-repository](https://central.sonatype.com/artifact/org.apache.nifi/nifi-persistent-provenance-repository/overview)
 * [org.apache.nifi:nifi-pgp-bundle](https://central.sonatype.com/artifact/org.apache.nifi/nifi-pgp-bundle/overview)
@@ -849,6 +868,9 @@ Source code: [https://github.com/apache/nifi.git](https://github.com/apache/nifi
 * [org.apache.nifi:nifi-system-test-authorizer](https://central.sonatype.com/artifact/org.apache.nifi/nifi-system-test-authorizer/overview)
 * [org.apache.nifi:nifi-system-test-authorizer-bundle](https://central.sonatype.com/artifact/org.apache.nifi/nifi-system-test-authorizer-bundle/overview)
 * [org.apache.nifi:nifi-system-test-authorizer-nar](https://central.sonatype.com/artifact/org.apache.nifi/nifi-system-test-authorizer-nar/overview)
+* [org.apache.nifi:nifi-system-test-component-metric-reporter](https://central.sonatype.com/artifact/org.apache.nifi/nifi-system-test-component-metric-reporter/overview)
+* [org.apache.nifi:nifi-system-test-component-metric-reporter-bundle](https://central.sonatype.com/artifact/org.apache.nifi/nifi-system-test-component-metric-reporter-bundle/overview)
+* [org.apache.nifi:nifi-system-test-component-metric-reporter-nar](https://central.sonatype.com/artifact/org.apache.nifi/nifi-system-test-component-metric-reporter-nar/overview)
 * [org.apache.nifi:nifi-system-test-extensions](https://central.sonatype.com/artifact/org.apache.nifi/nifi-system-test-extensions/overview)
 * [org.apache.nifi:nifi-system-test-extensions-bundle](https://central.sonatype.com/artifact/org.apache.nifi/nifi-system-test-extensions-bundle/overview)
 * [org.apache.nifi:nifi-system-test-extensions-nar](https://central.sonatype.com/artifact/org.apache.nifi/nifi-system-test-extensions-nar/overview)
@@ -938,13 +960,18 @@ Source code: [https://github.com/apache/nifi.git](https://github.com/apache/nifi
 * [org.apache.nifi:nifi-zendesk-services-nar](https://central.sonatype.com/artifact/org.apache.nifi/nifi-zendesk-services-nar/overview)
 </details>
 
-rebuilding **31 releases** of org.apache.nifi:nifi:
+rebuilding **35 releases** of org.apache.nifi:nifi:
 - **0** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
-- 31 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
-  - running [stabilize](doc/stabilize.md) on 2, 0 had all their differences removed :recycle:, 2 still had differences :rotating_light: or files not supported by stabilize :no_entry_sign:
+- 35 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
+  - running [stabilize](doc/stabilize.md) on 6, 0 had all their differences removed :recycle:, 6 still had differences :rotating_light: or files not supported by stabilize :no_entry_sign:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
+| [2.9.0](https://central.sonatype.com/artifact/org.apache.nifi/nifi/2.9.0/pom) | | | |
+| [2.8.0](https://central.sonatype.com/artifact/org.apache.nifi/nifi/2.8.0/pom) | [mvn jdk21 osx aarm64](nifi-2.8.0.buildspec) | [result](nifi-2.8.0.buildinfo): [1746 :white_check_mark:  24 :warning:](nifi-2.8.0.buildcompare) | 6 :rotating_light: 18 :no_entry_sign: | 1.6G |
+| [2.7.2](https://central.sonatype.com/artifact/org.apache.nifi/nifi/2.7.2/pom) | [mvn jdk21](nifi-2.7.2.buildspec) | [result](nifi-2.7.2.buildinfo): [1767 :white_check_mark:  11 :warning:](nifi-2.7.2.buildcompare) [:mag:](nifi-2.7.2.diffoscope) | 6 :rotating_light: 5 :no_entry_sign: | 1.6G |
+| [2.7.1](https://central.sonatype.com/artifact/org.apache.nifi/nifi/2.7.1/pom) | [mvn jdk21](nifi-2.7.1.buildspec) | [result](nifi-2.7.1.buildinfo): [1769 :white_check_mark:  9 :warning:](nifi-2.7.1.buildcompare) | 6 :rotating_light: 3 :no_entry_sign: | 1.6G |
+| [2.7.0](https://central.sonatype.com/artifact/org.apache.nifi/nifi/2.7.0/pom) | [mvn jdk21 osx aarm64](nifi-2.7.0.buildspec) | [result](nifi-2.7.0.buildinfo): [1757 :white_check_mark:  21 :warning:](nifi-2.7.0.buildcompare) | 15 :rotating_light: 6 :no_entry_sign: | 1.6G |
 | [2.6.0](https://central.sonatype.com/artifact/org.apache.nifi/nifi/2.6.0/pom) | [mvn jdk21 osx aarm64](nifi-2.6.0.buildspec) | [result](nifi-2.6.0.buildinfo): [1677 :white_check_mark:  34 :warning:](nifi-2.6.0.buildcompare) | 7 :rotating_light: 27 :no_entry_sign: | 1.6G |
 | [2.5.0](https://central.sonatype.com/artifact/org.apache.nifi/nifi/2.5.0/pom) | [mvn jdk21 osx aarm64](nifi-2.5.0.buildspec) | [result](nifi-2.5.0.buildinfo): [1674 :white_check_mark:  15 :warning:](nifi-2.5.0.buildcompare) | 11 :rotating_light: 4 :no_entry_sign: | 1.6G |
 | [2.4.0](https://central.sonatype.com/artifact/org.apache.nifi/nifi/2.4.0/pom) | [mvn jdk21 osx aarm64](nifi-2.4.0.buildspec) | [result](nifi-2.4.0.buildinfo): [1672 :white_check_mark:  14 :warning:](nifi-2.4.0.buildcompare) [:mag:](nifi-2.4.0.diffoscope) | - | 1.6G |

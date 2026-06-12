@@ -27,14 +27,18 @@ Source code: [https://github.com/apache/mina-sshd.git](https://github.com/apache
 * [org.apache.sshd:sshd-spring-sftp](https://central.sonatype.com/artifact/org.apache.sshd/sshd-spring-sftp/overview)
 </details>
 
-rebuilding **18 releases** of org.apache.sshd:sshd:
-- **2** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
+rebuilding **23 releases** of org.apache.sshd:sshd:
+- **7** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
 - 16 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
-| [3.0.0-M2](https://central.sonatype.com/artifact/org.apache.sshd/sshd/3.0.0-M2/pom) | | | |
+| [3.0.0-M4](https://central.sonatype.com/artifact/org.apache.sshd/sshd/3.0.0-M4/pom) | [mvn jdk25](sshd-3.0.0-M4.buildspec) | [result](sshd-3.0.0-M4.buildinfo): [51 :white_check_mark: ](sshd-3.0.0-M4.buildcompare) | | 73M |
+| [3.0.0-M3](https://central.sonatype.com/artifact/org.apache.sshd/sshd/3.0.0-M3/pom) | [mvn jdk25](sshd-3.0.0-M3.buildspec) | [result](sshd-3.0.0-M3.buildinfo): [51 :white_check_mark: ](sshd-3.0.0-M3.buildcompare) | | 72M |
+| [3.0.0-M2](https://central.sonatype.com/artifact/org.apache.sshd/sshd/3.0.0-M2/pom) | [mvn jdk25](sshd-3.0.0-M2.buildspec) | [result](sshd-3.0.0-M2.buildinfo): [51 :white_check_mark: ](sshd-3.0.0-M2.buildcompare) | | 72M |
 | [3.0.0-M1](https://central.sonatype.com/artifact/org.apache.sshd/sshd/3.0.0-M1/pom) | [mvn jdk21](sshd-3.0.0-M1.buildspec) | [result](sshd-3.0.0-M1.buildinfo): [51 :white_check_mark: ](sshd-3.0.0-M1.buildcompare) | | 73M |
+| [2.18.0](https://central.sonatype.com/artifact/org.apache.sshd/sshd/2.18.0/pom) | [mvn jdk21](sshd-2.18.0.buildspec) | [result](sshd-2.18.0.buildinfo): [51 :white_check_mark: ](sshd-2.18.0.buildcompare) | | 69M |
+| [2.17.1](https://central.sonatype.com/artifact/org.apache.sshd/sshd/2.17.1/pom) | [mvn jdk21](sshd-2.17.1.buildspec) | [result](sshd-2.17.1.buildinfo): [51 :white_check_mark: ](sshd-2.17.1.buildcompare) | | 69M |
 | [2.16.0](https://central.sonatype.com/artifact/org.apache.sshd/sshd/2.16.0/pom) | [mvn jdk21](sshd-2.16.0.buildspec) | [result](sshd-2.16.0.buildinfo): [51 :white_check_mark: ](sshd-2.16.0.buildcompare) | | 69M |
 | [2.15.0](https://central.sonatype.com/artifact/org.apache.sshd/sshd/2.15.0/pom) | [mvn jdk21](sshd-2.15.0.buildspec) | [result](sshd-2.15.0.buildinfo): [49 :white_check_mark:  2 :warning:](sshd-2.15.0.buildcompare) [:memo:](https://github.com/apache/mina-sshd/pull/695) | - | 68M |
 | [2.14.0](https://central.sonatype.com/artifact/org.apache.sshd/sshd/2.14.0/pom) | [mvn jdk21](sshd-2.14.0.buildspec) | [result](sshd-2.14.0.buildinfo): [50 :white_check_mark:  1 :warning:](sshd-2.14.0.buildcompare) | - | 77M |

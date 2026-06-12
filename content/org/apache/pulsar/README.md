@@ -7,7 +7,7 @@
 
 Source code: [https://github.com/apache/pulsar.git](https://github.com/apache/pulsar.git)
 
-<details><summary>This project defines 124 modules:</summary>
+<details><summary>This project defines 128 modules:</summary>
 
 * [org.apache.pulsar.tests:integration](https://central.sonatype.com/artifact/org.apache.pulsar.tests/integration/overview)
 * [org.apache.pulsar:bouncy-castle-bc](https://central.sonatype.com/artifact/org.apache.pulsar/bouncy-castle-bc/overview)
@@ -18,10 +18,12 @@ Source code: [https://github.com/apache/pulsar.git](https://github.com/apache/pu
 * [org.apache.pulsar:docker-images](https://central.sonatype.com/artifact/org.apache.pulsar/docker-images/overview)
 * [org.apache.pulsar:jclouds-shaded](https://central.sonatype.com/artifact/org.apache.pulsar/jclouds-shaded/overview)
 * [org.apache.pulsar:jetcd-core-shaded](https://central.sonatype.com/artifact/org.apache.pulsar/jetcd-core-shaded/overview)
+* [org.apache.pulsar:jetty-upgrade](https://central.sonatype.com/artifact/org.apache.pulsar/jetty-upgrade/overview)
 * [org.apache.pulsar:managed-ledger](https://central.sonatype.com/artifact/org.apache.pulsar/managed-ledger/overview)
 * [org.apache.pulsar:pulsar](https://central.sonatype.com/artifact/org.apache.pulsar/pulsar/overview)
 * [org.apache.pulsar:pulsar-all-docker-image](https://central.sonatype.com/artifact/org.apache.pulsar/pulsar-all-docker-image/overview)
 * [org.apache.pulsar:pulsar-bom](https://central.sonatype.com/artifact/org.apache.pulsar/pulsar-bom/overview)
+* [org.apache.pulsar:pulsar-bookkeeper-prometheus-metrics-provider](https://central.sonatype.com/artifact/org.apache.pulsar/pulsar-bookkeeper-prometheus-metrics-provider/overview)
 * [org.apache.pulsar:pulsar-broker](https://central.sonatype.com/artifact/org.apache.pulsar/pulsar-broker/overview)
 * [org.apache.pulsar:pulsar-broker-auth-athenz](https://central.sonatype.com/artifact/org.apache.pulsar/pulsar-broker-auth-athenz/overview)
 * [org.apache.pulsar:pulsar-broker-auth-oidc](https://central.sonatype.com/artifact/org.apache.pulsar/pulsar-broker-auth-oidc/overview)
@@ -128,22 +130,33 @@ Source code: [https://github.com/apache/pulsar.git](https://github.com/apache/pu
 * [org.apache.pulsar:pulsar-transaction-coordinator](https://central.sonatype.com/artifact/org.apache.pulsar/pulsar-transaction-coordinator/overview)
 * [org.apache.pulsar:pulsar-transaction-parent](https://central.sonatype.com/artifact/org.apache.pulsar/pulsar-transaction-parent/overview)
 * [org.apache.pulsar:pulsar-websocket](https://central.sonatype.com/artifact/org.apache.pulsar/pulsar-websocket/overview)
+* [org.apache.pulsar:pulsar-zookeeper-prometheus-metrics](https://central.sonatype.com/artifact/org.apache.pulsar/pulsar-zookeeper-prometheus-metrics/overview)
 * [org.apache.pulsar:structured-event-log](https://central.sonatype.com/artifact/org.apache.pulsar/structured-event-log/overview)
 * [org.apache.pulsar:testmocks](https://central.sonatype.com/artifact/org.apache.pulsar/testmocks/overview)
 * [org.apache.pulsar:tiered-storage-file-system](https://central.sonatype.com/artifact/org.apache.pulsar/tiered-storage-file-system/overview)
 * [org.apache.pulsar:tiered-storage-jcloud](https://central.sonatype.com/artifact/org.apache.pulsar/tiered-storage-jcloud/overview)
 * [org.apache.pulsar:tiered-storage-parent](https://central.sonatype.com/artifact/org.apache.pulsar/tiered-storage-parent/overview)
+* [org.apache.pulsar:zookeeper-with-patched-admin](https://central.sonatype.com/artifact/org.apache.pulsar/zookeeper-with-patched-admin/overview)
 </details>
 
-rebuilding **39 releases** of org.apache.pulsar:pulsar:
+rebuilding **44 releases** of org.apache.pulsar:pulsar:
 - **0** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
-- 39 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
-  - running [stabilize](doc/stabilize.md) on 3, 0 had all their differences removed :recycle:, 3 still had differences :rotating_light: or files not supported by stabilize :no_entry_sign:
+- 44 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
+  - running [stabilize](doc/stabilize.md) on 8, 0 had all their differences removed :recycle:, 8 still had differences :rotating_light: or files not supported by stabilize :no_entry_sign:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
+| [4.2.2](https://central.sonatype.com/artifact/org.apache.pulsar/pulsar/4.2.2/pom) | [mvn jdk21](pulsar-4.2.2.buildspec) | [result](pulsar-4.2.2.buildinfo): [293 :white_check_mark:  31 :warning:](pulsar-4.2.2.buildcompare) [:memo:](https://github.com/apache/pulsar/issues/24718) | 3 :recycle: 9 :rotating_light: 19 :no_entry_sign: | 3.4G |
+| [4.2.1](https://central.sonatype.com/artifact/org.apache.pulsar/pulsar/4.2.1/pom) | [mvn jdk21](pulsar-4.2.1.buildspec) | [result](pulsar-4.2.1.buildinfo): [293 :white_check_mark:  31 :warning:](pulsar-4.2.1.buildcompare) [:memo:](https://github.com/apache/pulsar/issues/24718) | 3 :recycle: 9 :rotating_light: 19 :no_entry_sign: | 3.4G |
+| [4.2.0](https://central.sonatype.com/artifact/org.apache.pulsar/pulsar/4.2.0/pom) | [mvn jdk21](pulsar-4.2.0.buildspec) | [result](pulsar-4.2.0.buildinfo): [293 :white_check_mark:  31 :warning:](pulsar-4.2.0.buildcompare) [:memo:](https://github.com/apache/pulsar/issues/24718) | 3 :recycle: 9 :rotating_light: 19 :no_entry_sign: | 3.4G |
+| [4.1.3](https://central.sonatype.com/artifact/org.apache.pulsar/pulsar/4.1.3/pom) | [mvn jdk21](pulsar-4.1.3.buildspec) | [result](pulsar-4.1.3.buildinfo): [289 :white_check_mark:  31 :warning:](pulsar-4.1.3.buildcompare) [:memo:](https://github.com/apache/pulsar/issues/24718) | 3 :recycle: 9 :rotating_light: 19 :no_entry_sign: | 3.4G |
+| [4.1.2](https://central.sonatype.com/artifact/org.apache.pulsar/pulsar/4.1.2/pom) | [mvn jdk21](pulsar-4.1.2.buildspec) | [result](pulsar-4.1.2.buildinfo): [300 :white_check_mark:  20 :warning:](pulsar-4.1.2.buildcompare) [:memo:](https://github.com/apache/pulsar/issues/24718) | 5 :recycle: 5 :rotating_light: 10 :no_entry_sign: | 3.5G |
 | [4.1.1](https://central.sonatype.com/artifact/org.apache.pulsar/pulsar/4.1.1/pom) | [mvn jdk21](pulsar-4.1.1.buildspec) | :x: | |
 | [4.1.0](https://central.sonatype.com/artifact/org.apache.pulsar/pulsar/4.1.0/pom) | [mvn jdk17](pulsar-4.1.0.buildspec) | [result](pulsar-4.1.0.buildinfo): [288 :white_check_mark:  32 :warning:](pulsar-4.1.0.buildcompare) [:mag:](pulsar-4.1.0.diffoscope) [:memo:](https://github.com/apache/pulsar/issues/24718) | 3 :recycle: 11 :rotating_light: 18 :no_entry_sign: | 3.4G |
+| [4.0.11](https://central.sonatype.com/artifact/org.apache.pulsar/pulsar/4.0.11/pom) | | | |
+| [4.0.10](https://central.sonatype.com/artifact/org.apache.pulsar/pulsar/4.0.10/pom) | | | |
+| [4.0.9](https://central.sonatype.com/artifact/org.apache.pulsar/pulsar/4.0.9/pom) | | | |
+| [4.0.8](https://central.sonatype.com/artifact/org.apache.pulsar/pulsar/4.0.8/pom) | | | |
 | [4.0.7](https://central.sonatype.com/artifact/org.apache.pulsar/pulsar/4.0.7/pom) | | | |
 | [4.0.6](https://central.sonatype.com/artifact/org.apache.pulsar/pulsar/4.0.6/pom) | [mvn jdk21](pulsar-4.0.6.buildspec) | [result](pulsar-4.0.6.buildinfo): [288 :white_check_mark:  34 :warning:](pulsar-4.0.6.buildcompare) | 3 :recycle: 9 :rotating_light: 22 :no_entry_sign: | 3.8G |
 | [4.0.5](https://central.sonatype.com/artifact/org.apache.pulsar/pulsar/4.0.5/pom) | [mvn jdk21](pulsar-4.0.5.buildspec) | [result](pulsar-4.0.5.buildinfo): [288 :white_check_mark:  34 :warning:](pulsar-4.0.5.buildcompare) | 3 :recycle: 9 :rotating_light: 22 :no_entry_sign: | 3.8G |
@@ -172,6 +185,9 @@ rebuilding **39 releases** of org.apache.pulsar:pulsar:
 | [3.1.2](https://central.sonatype.com/artifact/org.apache.pulsar/pulsar/3.1.2/pom) | [mvn jdk17](pulsar-3.1.2.buildspec) | :x: | |
 | [3.1.1](https://central.sonatype.com/artifact/org.apache.pulsar/pulsar/3.1.1/pom) | [mvn jdk17](pulsar-3.1.1.buildspec) | :x: | |
 | [3.1.0](https://central.sonatype.com/artifact/org.apache.pulsar/pulsar/3.1.0/pom) | [mvn jdk17](pulsar-3.1.0.buildspec) | :x: | |
+| [3.0.17](https://central.sonatype.com/artifact/org.apache.pulsar/pulsar/3.0.17/pom) | | | |
+| [3.0.16](https://central.sonatype.com/artifact/org.apache.pulsar/pulsar/3.0.16/pom) | | | |
+| [3.0.15](https://central.sonatype.com/artifact/org.apache.pulsar/pulsar/3.0.15/pom) | | | |
 | [3.0.14](https://central.sonatype.com/artifact/org.apache.pulsar/pulsar/3.0.14/pom) | | | |
 | [3.0.13](https://central.sonatype.com/artifact/org.apache.pulsar/pulsar/3.0.13/pom) | | | |
 | [3.0.12](https://central.sonatype.com/artifact/org.apache.pulsar/pulsar/3.0.12/pom) | [mvn jdk17](pulsar-3.0.12.buildspec) | [result](pulsar-3.0.12.buildinfo): [294 :white_check_mark:  37 :warning:](pulsar-3.0.12.buildcompare) | - | 3.5G |

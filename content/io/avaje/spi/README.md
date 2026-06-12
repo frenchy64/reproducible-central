@@ -14,12 +14,19 @@ Source code: [https://github.com/avaje/avaje-spi-service.git](https://github.com
 * [io.avaje:avaje-spi-service](https://central.sonatype.com/artifact/io.avaje/avaje-spi-service/overview)
 </details>
 
-rebuilding **6 releases** of io.avaje:avaje-spi-parent:
-- **6** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
-- 0 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
+rebuilding **12 releases** of io.avaje:avaje-spi-parent:
+- **9** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
+- 3 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
+  - running [stabilize](doc/stabilize.md) on 3, 0 had all their differences removed :recycle:, 3 still had differences :rotating_light: or files not supported by stabilize :no_entry_sign:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
+| [2.17](https://central.sonatype.com/artifact/io.avaje/avaje-spi-parent/2.17/pom) | [mvn jdk25](avaje-spi-2.17.buildspec) | [result](avaje-spi-parent-2.17.buildinfo): [7 :white_check_mark: ](avaje-spi-parent-2.17.buildcompare) | | 83K |
+| [2.16](https://central.sonatype.com/artifact/io.avaje/avaje-spi-parent/2.16/pom) | [mvn jdk25 w](avaje-spi-2.16.buildspec) | [result](avaje-spi-parent-2.16.buildinfo): [5 :white_check_mark:  2 :warning:](avaje-spi-parent-2.16.buildcompare) [:mag:](avaje-spi-parent-2.16.diffoscope) [:memo:](https://github.com/avaje/avaje-spi-service/issues/78) | 2 :rotating_light: | 82K |
+| [2.15](https://central.sonatype.com/artifact/io.avaje/avaje-spi-parent/2.15/pom) | [mvn jdk25 w](avaje-spi-2.15.buildspec) | [result](avaje-spi-parent-2.15.buildinfo): [5 :white_check_mark:  2 :warning:](avaje-spi-parent-2.15.buildcompare) [:mag:](avaje-spi-parent-2.15.diffoscope) | 2 :rotating_light: | 82K |
+| [2.15-RC1](https://central.sonatype.com/artifact/io.avaje/avaje-spi-parent/2.15-RC1/pom) | [mvn jdk25 w](avaje-spi-2.15-RC1.buildspec) | [result](avaje-spi-parent-2.15-RC1.buildinfo): [5 :white_check_mark:  2 :warning:](avaje-spi-parent-2.15-RC1.buildcompare) | 2 :rotating_light: | 82K |
+| [2.14](https://central.sonatype.com/artifact/io.avaje/avaje-spi-parent/2.14/pom) | [mvn jdk21](avaje-spi-2.14.buildspec) | [result](avaje-spi-parent-2.14.buildinfo): [7 :white_check_mark: ](avaje-spi-parent-2.14.buildcompare) | | 80K |
+| [2.14-RC1](https://central.sonatype.com/artifact/io.avaje/avaje-spi-parent/2.14-RC1/pom) | [mvn jdk25 w](avaje-spi-2.14-RC1.buildspec) | [result](avaje-spi-parent-2.14-RC1.buildinfo): [7 :white_check_mark: ](avaje-spi-parent-2.14-RC1.buildcompare) | | 80K |
 | [2.13](https://central.sonatype.com/artifact/io.avaje/avaje-spi-parent/2.13/pom) | [mvn jdk24 w](avaje-spi-2.13.buildspec) | [result](avaje-spi-parent-2.13.buildinfo): [7 :white_check_mark: ](avaje-spi-parent-2.13.buildcompare) | | 88K |
 | [2.12](https://central.sonatype.com/artifact/io.avaje/avaje-spi-parent/2.12/pom) | [mvn jdk21](avaje-spi-2.12.buildspec) | [result](avaje-spi-parent-2.12.buildinfo): [7 :white_check_mark: ](avaje-spi-parent-2.12.buildcompare) | | 87K |
 | [2.11](https://central.sonatype.com/artifact/io.avaje/avaje-spi-parent/2.11/pom) | [mvn jdk21](avaje-spi-2.11.buildspec) | [result](avaje-spi-parent-2.11.buildinfo): [7 :white_check_mark: ](avaje-spi-parent-2.11.buildcompare) | | 87K |

@@ -7,12 +7,16 @@
 
 Source code: [https://github.com/woo-j/OkapiBarcode.git](https://github.com/woo-j/OkapiBarcode.git)
 
-rebuilding **8 releases** of uk.org.okapibarcode:okapibarcode:
-- **8** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
+rebuilding **12 releases** of uk.org.okapibarcode:okapibarcode:
+- **12** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
 - 0 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
+| [0.5.6](https://central.sonatype.com/artifact/uk.org.okapibarcode/okapibarcode/0.5.6/pom) | [gradle jdk21](okapibarcode-0.5.6.buildspec) | [result](okapibarcode-0.5.6.buildinfo): [3 :white_check_mark: ](okapibarcode-0.5.6.buildcompare) | | 938K |
+| [0.5.5](https://central.sonatype.com/artifact/uk.org.okapibarcode/okapibarcode/0.5.5/pom) | [gradle jdk21](okapibarcode-0.5.5.buildspec) | [result](okapibarcode-0.5.5.buildinfo): [3 :white_check_mark: ](okapibarcode-0.5.5.buildcompare) | | 938K |
+| [0.5.4](https://central.sonatype.com/artifact/uk.org.okapibarcode/okapibarcode/0.5.4/pom) | [gradle jdk21](okapibarcode-0.5.4.buildspec) | [result](okapibarcode-0.5.4.buildinfo): [3 :white_check_mark: ](okapibarcode-0.5.4.buildcompare) | | 939K |
+| [0.5.3](https://central.sonatype.com/artifact/uk.org.okapibarcode/okapibarcode/0.5.3/pom) | [gradle jdk21](okapibarcode-0.5.3.buildspec) | [result](okapibarcode-0.5.3.buildinfo): [3 :white_check_mark: ](okapibarcode-0.5.3.buildcompare) | | 938K |
 | [0.5.2](https://central.sonatype.com/artifact/uk.org.okapibarcode/okapibarcode/0.5.2/pom) | [gradle jdk21](okapibarcode-0.5.2.buildspec) | [result](okapibarcode-0.5.2.buildinfo): [3 :white_check_mark: ](okapibarcode-0.5.2.buildcompare) | | 935K |
 | [0.5.1](https://central.sonatype.com/artifact/uk.org.okapibarcode/okapibarcode/0.5.1/pom) | [gradle jdk21](okapibarcode-0.5.1.buildspec) | [result](okapibarcode-0.5.1.buildinfo): [3 :white_check_mark: ](okapibarcode-0.5.1.buildcompare) | | 930K |
 | [0.5.0](https://central.sonatype.com/artifact/uk.org.okapibarcode/okapibarcode/0.5.0/pom) | [gradle jdk21](okapibarcode-0.5.0.buildspec) | [result](okapibarcode-0.5.0.buildinfo): [3 :white_check_mark: ](okapibarcode-0.5.0.buildcompare) | | 929K |

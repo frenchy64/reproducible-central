@@ -81,32 +81,34 @@ Source code: [https://github.com/apache/jena.git](https://github.com/apache/jena
 * [org.apache.jena:jena-text-es](https://central.sonatype.com/artifact/org.apache.jena/jena-text-es/overview)
 </details>
 
-rebuilding **13 releases** of org.apache.jena:jena:
-- **0** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
-- 13 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
-  - running [stabilize](doc/stabilize.md) on 2, 0 had all their differences removed :recycle:, 2 still had differences :rotating_light: or files not supported by stabilize :no_entry_sign:
+rebuilding **28 releases** of org.apache.jena:jena:
+- **2** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
+- 26 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
+  - running [stabilize](doc/stabilize.md) on 15, 0 had all their differences removed :recycle:, 15 still had differences :rotating_light: or files not supported by stabilize :no_entry_sign:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
+| [6.1.0](https://central.sonatype.com/artifact/org.apache.jena/jena/6.1.0/pom) | [mvn jdk21](jena-6.1.0.buildspec) | [result](jena-6.1.0.buildinfo): [229 :white_check_mark: ](jena-6.1.0.buildcompare) | | 297M |
+| [6.0.0](https://central.sonatype.com/artifact/org.apache.jena/jena/6.0.0/pom) | [mvn jdk21](jena-6.0.0.buildspec) | [result](jena-6.0.0.buildinfo): [251 :white_check_mark: ](jena-6.0.0.buildcompare) | | 361M |
 | [5.6.0](https://central.sonatype.com/artifact/org.apache.jena/jena/5.6.0/pom) | [mvn jdk17](jena-5.6.0.buildspec) | [result](jena-5.6.0.buildinfo): [272 :white_check_mark:  5 :warning:](jena-5.6.0.buildcompare) | 1 :recycle: 1 :rotating_light: 3 :no_entry_sign: | 429M |
 | [5.5.0](https://central.sonatype.com/artifact/org.apache.jena/jena/5.5.0/pom) | [mvn jdk17](jena-5.5.0.buildspec) | [result](jena-5.5.0.buildinfo): [267 :white_check_mark:  6 :warning:](jena-5.5.0.buildcompare) | 1 :recycle: 2 :rotating_light: 3 :no_entry_sign: | 406M |
 | [5.4.0](https://central.sonatype.com/artifact/org.apache.jena/jena/5.4.0/pom) | [mvn jdk17](jena-5.4.0.buildspec) | [result](jena-5.4.0.buildinfo): [267 :white_check_mark:  6 :warning:](jena-5.4.0.buildcompare) | - | 425M |
 | [5.3.0](https://central.sonatype.com/artifact/org.apache.jena/jena/5.3.0/pom) | [mvn jdk17](jena-5.3.0.buildspec) | [result](jena-5.3.0.buildinfo): [145 :white_check_mark:  123 :warning:](jena-5.3.0.buildcompare) | - | 421M |
-| [5.2.0](https://central.sonatype.com/artifact/org.apache.jena/jena/5.2.0/pom) | | | |
-| [5.1.0](https://central.sonatype.com/artifact/org.apache.jena/jena/5.1.0/pom) | | | |
-| [5.0.0](https://central.sonatype.com/artifact/org.apache.jena/jena/5.0.0/pom) | | | |
-| [5.0.0-rc1](https://central.sonatype.com/artifact/org.apache.jena/jena/5.0.0-rc1/pom) | | | |
-| [4.10.0](https://central.sonatype.com/artifact/org.apache.jena/jena/4.10.0/pom) | | | |
-| [4.9.0](https://central.sonatype.com/artifact/org.apache.jena/jena/4.9.0/pom) | | | |
-| [4.8.0](https://central.sonatype.com/artifact/org.apache.jena/jena/4.8.0/pom) | | | |
-| [4.7.0](https://central.sonatype.com/artifact/org.apache.jena/jena/4.7.0/pom) | | | |
-| [4.6.1](https://central.sonatype.com/artifact/org.apache.jena/jena/4.6.1/pom) | | | |
-| [4.6.0](https://central.sonatype.com/artifact/org.apache.jena/jena/4.6.0/pom) | | | |
+| [5.2.0](https://central.sonatype.com/artifact/org.apache.jena/jena/5.2.0/pom) | [mvn jdk21](jena-5.2.0.buildspec) | [result](jena-5.2.0.buildinfo): [128 :white_check_mark:  133 :warning:](jena-5.2.0.buildcompare) | 7 :recycle: 53 :rotating_light: 73 :no_entry_sign: | 400M |
+| [5.1.0](https://central.sonatype.com/artifact/org.apache.jena/jena/5.1.0/pom) | [mvn jdk17](jena-5.1.0.buildspec) | [result](jena-5.1.0.buildinfo): [138 :white_check_mark:  118 :warning:](jena-5.1.0.buildcompare) | 45 :rotating_light: 73 :no_entry_sign: | 385M |
+| [5.0.0](https://central.sonatype.com/artifact/org.apache.jena/jena/5.0.0/pom) | [mvn jdk17](jena-5.0.0.buildspec) | [result](jena-5.0.0.buildinfo): [136 :white_check_mark:  116 :warning:](jena-5.0.0.buildcompare) | 1 :recycle: 44 :rotating_light: 71 :no_entry_sign: | 367M |
+| [5.0.0-rc1](https://central.sonatype.com/artifact/org.apache.jena/jena/5.0.0-rc1/pom) | [mvn jdk17](jena-5.0.0-rc1.buildspec) | [result](jena-5.0.0-rc1.buildinfo): [136 :white_check_mark:  116 :warning:](jena-5.0.0-rc1.buildcompare) | 1 :recycle: 44 :rotating_light: 71 :no_entry_sign: | 331M |
+| [4.10.0](https://central.sonatype.com/artifact/org.apache.jena/jena/4.10.0/pom) | [mvn jdk17](jena-4.10.0.buildspec) | [result](jena-4.10.0.buildinfo): [133 :white_check_mark:  47 :warning:](jena-4.10.0.buildcompare) | 1 :recycle: 43 :rotating_light: 3 :no_entry_sign: | 388M |
+| [4.9.0](https://central.sonatype.com/artifact/org.apache.jena/jena/4.9.0/pom) | [mvn jdk17](jena-4.9.0.buildspec) | [result](jena-4.9.0.buildinfo): [132 :white_check_mark:  48 :warning:](jena-4.9.0.buildcompare) | 1 :recycle: 44 :rotating_light: 3 :no_entry_sign: | 382M |
+| [4.8.0](https://central.sonatype.com/artifact/org.apache.jena/jena/4.8.0/pom) | [mvn jdk17](jena-4.8.0.buildspec) | [result](jena-4.8.0.buildinfo): [130 :white_check_mark:  45 :warning:](jena-4.8.0.buildcompare) | 42 :rotating_light: 3 :no_entry_sign: | 345M |
+| [4.7.0](https://central.sonatype.com/artifact/org.apache.jena/jena/4.7.0/pom) | [mvn jdk17](jena-4.7.0.buildspec) | [result](jena-4.7.0.buildinfo): [129 :white_check_mark:  46 :warning:](jena-4.7.0.buildcompare) | 43 :rotating_light: 3 :no_entry_sign: | 338M |
+| [4.6.1](https://central.sonatype.com/artifact/org.apache.jena/jena/4.6.1/pom) | [mvn jdk17](jena-4.6.1.buildspec) | [result](jena-4.6.1.buildinfo): [133 :white_check_mark:  47 :warning:](jena-4.6.1.buildcompare) | 44 :rotating_light: 3 :no_entry_sign: | 330M |
+| [4.6.0](https://central.sonatype.com/artifact/org.apache.jena/jena/4.6.0/pom) | [mvn jdk17](jena-4.6.0.buildspec) | [result](jena-4.6.0.buildinfo): [133 :white_check_mark:  47 :warning:](jena-4.6.0.buildcompare) | 44 :rotating_light: 3 :no_entry_sign: | 340M |
 | [4.5.0](https://central.sonatype.com/artifact/org.apache.jena/jena/4.5.0/pom) | [mvn jdk17](jena-4.5.0.buildspec) | [result](jena-4.5.0.buildinfo): [165 :white_check_mark:  11 :warning:](jena-4.5.0.buildcompare) [:mag:](jena-4.5.0.diffoscope) | - | 340M |
-| [4.4.0](https://central.sonatype.com/artifact/org.apache.jena/jena/4.4.0/pom) | | | |
+| [4.4.0](https://central.sonatype.com/artifact/org.apache.jena/jena/4.4.0/pom) | [mvn jdk17](jena-4.4.0.buildspec) | [result](jena-4.4.0.buildinfo): [131 :white_check_mark:  45 :warning:](jena-4.4.0.buildcompare) | 42 :rotating_light: 3 :no_entry_sign: | 326M |
 | [4.3.2](https://central.sonatype.com/artifact/org.apache.jena/jena/4.3.2/pom) | [mvn jdk11](jena-4.3.2.buildspec) | [result](jena-4.3.2.buildinfo): [154 :white_check_mark:  19 :warning:](jena-4.3.2.buildcompare) | - | 381M |
-| [4.3.1](https://central.sonatype.com/artifact/org.apache.jena/jena/4.3.1/pom) | | | |
-| [4.3.0](https://central.sonatype.com/artifact/org.apache.jena/jena/4.3.0/pom) | | | |
+| [4.3.1](https://central.sonatype.com/artifact/org.apache.jena/jena/4.3.1/pom) | [mvn jdk11](jena-4.3.1.buildspec) | [result](jena-4.3.1.buildinfo): [129 :white_check_mark:  44 :warning:](jena-4.3.1.buildcompare) | 41 :rotating_light: 3 :no_entry_sign: | 373M |
+| [4.3.0](https://central.sonatype.com/artifact/org.apache.jena/jena/4.3.0/pom) | [mvn jdk11](jena-4.3.0.buildspec) | [result](jena-4.3.0.buildinfo): [129 :white_check_mark:  44 :warning:](jena-4.3.0.buildcompare) | 41 :rotating_light: 3 :no_entry_sign: | 373M |
 | [4.2.0](https://central.sonatype.com/artifact/org.apache.jena/jena/4.2.0/pom) | [mvn jdk11](jena-4.2.0.buildspec) | [result](jena-4.2.0.buildinfo): [116 :white_check_mark:  14 :warning:](jena-4.2.0.buildcompare) [:mag:](jena-4.2.0.diffoscope) | - | 367M |
 | [4.1.0](https://central.sonatype.com/artifact/org.apache.jena/jena/4.1.0/pom) | [mvn jdk11](jena-4.1.0.buildspec) | [result](jena-4.1.0.buildinfo): [106 :white_check_mark:  20 :warning:](jena-4.1.0.buildcompare) [:mag:](jena-4.1.0.diffoscope) | - | 349M |
 | [4.0.0](https://central.sonatype.com/artifact/org.apache.jena/jena/4.0.0/pom) | [mvn jdk11](jena-4.0.0.buildspec) | [result](jena-4.0.0.buildinfo): [115 :white_check_mark:  7 :warning:](jena-4.0.0.buildcompare) | - | 347M |

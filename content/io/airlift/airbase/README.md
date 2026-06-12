@@ -14,12 +14,77 @@ Source code: [https://github.com/airlift/airbase.git](https://github.com/airlift
 * [io.airlift:airbase-root](https://central.sonatype.com/artifact/io.airlift/airbase-root/overview)
 </details>
 
-rebuilding **168 releases** of io.airlift:airbase:
-- **162** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
-- 6 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
+rebuilding **233 releases** of io.airlift:airbase:
+- **226** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
+- 7 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
+| [387](https://central.sonatype.com/artifact/io.airlift/airbase/387/pom) | [mvn jdk25](airbase-387.buildspec) | [result](airbase-387.buildinfo): [4 :white_check_mark: ](airbase-387.buildcompare) | | 104K |
+| [386](https://central.sonatype.com/artifact/io.airlift/airbase/386/pom) | [mvn jdk25](airbase-386.buildspec) | [result](airbase-386.buildinfo): [4 :white_check_mark: ](airbase-386.buildcompare) | | 104K |
+| [385](https://central.sonatype.com/artifact/io.airlift/airbase/385/pom) | [mvn jdk25](airbase-385.buildspec) | [result](airbase-385.buildinfo): [4 :white_check_mark: ](airbase-385.buildcompare) | | 104K |
+| [384](https://central.sonatype.com/artifact/io.airlift/airbase/384/pom) | [mvn jdk25](airbase-384.buildspec) | [result](airbase-384.buildinfo): [4 :white_check_mark: ](airbase-384.buildcompare) | | 104K |
+| [383](https://central.sonatype.com/artifact/io.airlift/airbase/383/pom) | [mvn jdk25](airbase-383.buildspec) | [result](airbase-383.buildinfo): [4 :white_check_mark: ](airbase-383.buildcompare) | | 104K |
+| [382](https://central.sonatype.com/artifact/io.airlift/airbase/382/pom) | [mvn jdk25](airbase-382.buildspec) | [result](airbase-382.buildinfo): [4 :white_check_mark: ](airbase-382.buildcompare) | | 104K |
+| [381](https://central.sonatype.com/artifact/io.airlift/airbase/381/pom) | [mvn jdk25](airbase-381.buildspec) | [result](airbase-381.buildinfo): [4 :white_check_mark: ](airbase-381.buildcompare) | | 104K |
+| [380](https://central.sonatype.com/artifact/io.airlift/airbase/380/pom) | [mvn jdk25](airbase-380.buildspec) | [result](airbase-380.buildinfo): [4 :white_check_mark: ](airbase-380.buildcompare) | | 104K |
+| [379](https://central.sonatype.com/artifact/io.airlift/airbase/379/pom) | [mvn jdk25](airbase-379.buildspec) | [result](airbase-379.buildinfo): [4 :white_check_mark: ](airbase-379.buildcompare) | | 104K |
+| [378](https://central.sonatype.com/artifact/io.airlift/airbase/378/pom) | [mvn jdk25](airbase-378.buildspec) | [result](airbase-378.buildinfo): [4 :white_check_mark: ](airbase-378.buildcompare) | | 105K |
+| [377](https://central.sonatype.com/artifact/io.airlift/airbase/377/pom) | [mvn jdk25](airbase-377.buildspec) | [result](airbase-377.buildinfo): [4 :white_check_mark: ](airbase-377.buildcompare) | | 105K |
+| [376](https://central.sonatype.com/artifact/io.airlift/airbase/376/pom) | [mvn jdk25](airbase-376.buildspec) | :x: | |
+| [375](https://central.sonatype.com/artifact/io.airlift/airbase/375/pom) | [mvn jdk25](airbase-375.buildspec) | [result](airbase-375.buildinfo): [4 :white_check_mark: ](airbase-375.buildcompare) | | 105K |
+| [374](https://central.sonatype.com/artifact/io.airlift/airbase/374/pom) | [mvn jdk25](airbase-374.buildspec) | [result](airbase-374.buildinfo): [4 :white_check_mark: ](airbase-374.buildcompare) | | 105K |
+| [373](https://central.sonatype.com/artifact/io.airlift/airbase/373/pom) | [mvn jdk25](airbase-373.buildspec) | [result](airbase-373.buildinfo): [4 :white_check_mark: ](airbase-373.buildcompare) | | 105K |
+| [372](https://central.sonatype.com/artifact/io.airlift/airbase/372/pom) | [mvn jdk25](airbase-372.buildspec) | [result](airbase-372.buildinfo): [4 :white_check_mark: ](airbase-372.buildcompare) | | 104K |
+| [371](https://central.sonatype.com/artifact/io.airlift/airbase/371/pom) | [mvn jdk25](airbase-371.buildspec) | [result](airbase-371.buildinfo): [4 :white_check_mark: ](airbase-371.buildcompare) | | 104K |
+| [370](https://central.sonatype.com/artifact/io.airlift/airbase/370/pom) | [mvn jdk25](airbase-370.buildspec) | [result](airbase-370.buildinfo): [4 :white_check_mark: ](airbase-370.buildcompare) | | 104K |
+| [369](https://central.sonatype.com/artifact/io.airlift/airbase/369/pom) | [mvn jdk25](airbase-369.buildspec) | [result](airbase-369.buildinfo): [4 :white_check_mark: ](airbase-369.buildcompare) | | 104K |
+| [368](https://central.sonatype.com/artifact/io.airlift/airbase/368/pom) | [mvn jdk25](airbase-368.buildspec) | [result](airbase-368.buildinfo): [4 :white_check_mark: ](airbase-368.buildcompare) | | 104K |
+| [367](https://central.sonatype.com/artifact/io.airlift/airbase/367/pom) | [mvn jdk25](airbase-367.buildspec) | [result](airbase-367.buildinfo): [4 :white_check_mark: ](airbase-367.buildcompare) | | 104K |
+| [366](https://central.sonatype.com/artifact/io.airlift/airbase/366/pom) | [mvn jdk25](airbase-366.buildspec) | [result](airbase-366.buildinfo): [4 :white_check_mark: ](airbase-366.buildcompare) | | 104K |
+| [365](https://central.sonatype.com/artifact/io.airlift/airbase/365/pom) | [mvn jdk25](airbase-365.buildspec) | [result](airbase-365.buildinfo): [4 :white_check_mark: ](airbase-365.buildcompare) | | 104K |
+| [364](https://central.sonatype.com/artifact/io.airlift/airbase/364/pom) | [mvn jdk25](airbase-364.buildspec) | [result](airbase-364.buildinfo): [4 :white_check_mark: ](airbase-364.buildcompare) | | 104K |
+| [363](https://central.sonatype.com/artifact/io.airlift/airbase/363/pom) | [mvn jdk25](airbase-363.buildspec) | [result](airbase-363.buildinfo): [4 :white_check_mark: ](airbase-363.buildcompare) | | 104K |
+| [362](https://central.sonatype.com/artifact/io.airlift/airbase/362/pom) | [mvn jdk25](airbase-362.buildspec) | [result](airbase-362.buildinfo): [4 :white_check_mark: ](airbase-362.buildcompare) | | 104K |
+| [361](https://central.sonatype.com/artifact/io.airlift/airbase/361/pom) | [mvn jdk25](airbase-361.buildspec) | [result](airbase-361.buildinfo): [4 :white_check_mark: ](airbase-361.buildcompare) | | 104K |
+| [360](https://central.sonatype.com/artifact/io.airlift/airbase/360/pom) | [mvn jdk25](airbase-360.buildspec) | [result](airbase-360.buildinfo): [4 :white_check_mark: ](airbase-360.buildcompare) | | 104K |
+| [359](https://central.sonatype.com/artifact/io.airlift/airbase/359/pom) | [mvn jdk25](airbase-359.buildspec) | [result](airbase-359.buildinfo): [4 :white_check_mark: ](airbase-359.buildcompare) | | 104K |
+| [358](https://central.sonatype.com/artifact/io.airlift/airbase/358/pom) | [mvn jdk25](airbase-358.buildspec) | [result](airbase-358.buildinfo): [4 :white_check_mark: ](airbase-358.buildcompare) | | 104K |
+| [357](https://central.sonatype.com/artifact/io.airlift/airbase/357/pom) | [mvn jdk25](airbase-357.buildspec) | [result](airbase-357.buildinfo): [4 :white_check_mark: ](airbase-357.buildcompare) | | 104K |
+| [356](https://central.sonatype.com/artifact/io.airlift/airbase/356/pom) | [mvn jdk25](airbase-356.buildspec) | [result](airbase-356.buildinfo): [4 :white_check_mark: ](airbase-356.buildcompare) | | 104K |
+| [355](https://central.sonatype.com/artifact/io.airlift/airbase/355/pom) | [mvn jdk25](airbase-355.buildspec) | [result](airbase-355.buildinfo): [4 :white_check_mark: ](airbase-355.buildcompare) | | 104K |
+| [354](https://central.sonatype.com/artifact/io.airlift/airbase/354/pom) | [mvn jdk25](airbase-354.buildspec) | [result](airbase-354.buildinfo): [4 :white_check_mark: ](airbase-354.buildcompare) | | 104K |
+| [353](https://central.sonatype.com/artifact/io.airlift/airbase/353/pom) | [mvn jdk25](airbase-353.buildspec) | [result](airbase-353.buildinfo): [4 :white_check_mark: ](airbase-353.buildcompare) | | 104K |
+| [352](https://central.sonatype.com/artifact/io.airlift/airbase/352/pom) | [mvn jdk25](airbase-352.buildspec) | [result](airbase-352.buildinfo): [4 :white_check_mark: ](airbase-352.buildcompare) | | 104K |
+| [351](https://central.sonatype.com/artifact/io.airlift/airbase/351/pom) | [mvn jdk25](airbase-351.buildspec) | [result](airbase-351.buildinfo): [4 :white_check_mark: ](airbase-351.buildcompare) | | 104K |
+| [350](https://central.sonatype.com/artifact/io.airlift/airbase/350/pom) | [mvn jdk25](airbase-350.buildspec) | [result](airbase-350.buildinfo): [4 :white_check_mark: ](airbase-350.buildcompare) | | 104K |
+| [349](https://central.sonatype.com/artifact/io.airlift/airbase/349/pom) | [mvn jdk25](airbase-349.buildspec) | [result](airbase-349.buildinfo): [4 :white_check_mark: ](airbase-349.buildcompare) | | 104K |
+| [348](https://central.sonatype.com/artifact/io.airlift/airbase/348/pom) | [mvn jdk25](airbase-348.buildspec) | [result](airbase-348.buildinfo): [4 :white_check_mark: ](airbase-348.buildcompare) | | 103K |
+| [347](https://central.sonatype.com/artifact/io.airlift/airbase/347/pom) | [mvn jdk25](airbase-347.buildspec) | [result](airbase-347.buildinfo): [4 :white_check_mark: ](airbase-347.buildcompare) | | 103K |
+| [346](https://central.sonatype.com/artifact/io.airlift/airbase/346/pom) | [mvn jdk24](airbase-346.buildspec) | [result](airbase-346.buildinfo): [4 :white_check_mark: ](airbase-346.buildcompare) | | 103K |
+| [345](https://central.sonatype.com/artifact/io.airlift/airbase/345/pom) | [mvn jdk24](airbase-345.buildspec) | [result](airbase-345.buildinfo): [4 :white_check_mark: ](airbase-345.buildcompare) | | 103K |
+| [344](https://central.sonatype.com/artifact/io.airlift/airbase/344/pom) | [mvn jdk24](airbase-344.buildspec) | [result](airbase-344.buildinfo): [4 :white_check_mark: ](airbase-344.buildcompare) | | 103K |
+| [343](https://central.sonatype.com/artifact/io.airlift/airbase/343/pom) | [mvn jdk24](airbase-343.buildspec) | [result](airbase-343.buildinfo): [4 :white_check_mark: ](airbase-343.buildcompare) | | 103K |
+| [342](https://central.sonatype.com/artifact/io.airlift/airbase/342/pom) | [mvn jdk24](airbase-342.buildspec) | [result](airbase-342.buildinfo): [4 :white_check_mark: ](airbase-342.buildcompare) | | 103K |
+| [341](https://central.sonatype.com/artifact/io.airlift/airbase/341/pom) | [mvn jdk24](airbase-341.buildspec) | [result](airbase-341.buildinfo): [4 :white_check_mark: ](airbase-341.buildcompare) | | 103K |
+| [340](https://central.sonatype.com/artifact/io.airlift/airbase/340/pom) | [mvn jdk24](airbase-340.buildspec) | [result](airbase-340.buildinfo): [4 :white_check_mark: ](airbase-340.buildcompare) | | 103K |
+| [339](https://central.sonatype.com/artifact/io.airlift/airbase/339/pom) | [mvn jdk24](airbase-339.buildspec) | [result](airbase-339.buildinfo): [4 :white_check_mark: ](airbase-339.buildcompare) | | 104K |
+| [338](https://central.sonatype.com/artifact/io.airlift/airbase/338/pom) | [mvn jdk24](airbase-338.buildspec) | [result](airbase-338.buildinfo): [4 :white_check_mark: ](airbase-338.buildcompare) | | 104K |
+| [337](https://central.sonatype.com/artifact/io.airlift/airbase/337/pom) | [mvn jdk24](airbase-337.buildspec) | [result](airbase-337.buildinfo): [4 :white_check_mark: ](airbase-337.buildcompare) | | 104K |
+| [336](https://central.sonatype.com/artifact/io.airlift/airbase/336/pom) | [mvn jdk24](airbase-336.buildspec) | [result](airbase-336.buildinfo): [4 :white_check_mark: ](airbase-336.buildcompare) | | 104K |
+| [335](https://central.sonatype.com/artifact/io.airlift/airbase/335/pom) | [mvn jdk24](airbase-335.buildspec) | [result](airbase-335.buildinfo): [4 :white_check_mark: ](airbase-335.buildcompare) | | 104K |
+| [334](https://central.sonatype.com/artifact/io.airlift/airbase/334/pom) | [mvn jdk24](airbase-334.buildspec) | [result](airbase-334.buildinfo): [4 :white_check_mark: ](airbase-334.buildcompare) | | 104K |
+| [333](https://central.sonatype.com/artifact/io.airlift/airbase/333/pom) | [mvn jdk24](airbase-333.buildspec) | [result](airbase-333.buildinfo): [4 :white_check_mark: ](airbase-333.buildcompare) | | 104K |
+| [332](https://central.sonatype.com/artifact/io.airlift/airbase/332/pom) | [mvn jdk24](airbase-332.buildspec) | [result](airbase-332.buildinfo): [4 :white_check_mark: ](airbase-332.buildcompare) | | 104K |
+| [331](https://central.sonatype.com/artifact/io.airlift/airbase/331/pom) | [mvn jdk24](airbase-331.buildspec) | [result](airbase-331.buildinfo): [4 :white_check_mark: ](airbase-331.buildcompare) | | 104K |
+| [330](https://central.sonatype.com/artifact/io.airlift/airbase/330/pom) | [mvn jdk24](airbase-330.buildspec) | [result](airbase-330.buildinfo): [4 :white_check_mark: ](airbase-330.buildcompare) | | 104K |
+| [329](https://central.sonatype.com/artifact/io.airlift/airbase/329/pom) | [mvn jdk24](airbase-329.buildspec) | [result](airbase-329.buildinfo): [4 :white_check_mark: ](airbase-329.buildcompare) | | 104K |
+| [328](https://central.sonatype.com/artifact/io.airlift/airbase/328/pom) | [mvn jdk24](airbase-328.buildspec) | [result](airbase-328.buildinfo): [4 :white_check_mark: ](airbase-328.buildcompare) | | 104K |
+| [327](https://central.sonatype.com/artifact/io.airlift/airbase/327/pom) | [mvn jdk24](airbase-327.buildspec) | [result](airbase-327.buildinfo): [4 :white_check_mark: ](airbase-327.buildcompare) | | 104K |
+| [326](https://central.sonatype.com/artifact/io.airlift/airbase/326/pom) | [mvn jdk24](airbase-326.buildspec) | [result](airbase-326.buildinfo): [4 :white_check_mark: ](airbase-326.buildcompare) | | 104K |
+| [325](https://central.sonatype.com/artifact/io.airlift/airbase/325/pom) | [mvn jdk24](airbase-325.buildspec) | [result](airbase-325.buildinfo): [4 :white_check_mark: ](airbase-325.buildcompare) | | 104K |
+| [324](https://central.sonatype.com/artifact/io.airlift/airbase/324/pom) | [mvn jdk24](airbase-324.buildspec) | [result](airbase-324.buildinfo): [4 :white_check_mark: ](airbase-324.buildcompare) | | 104K |
+| [323](https://central.sonatype.com/artifact/io.airlift/airbase/323/pom) | [mvn jdk24](airbase-323.buildspec) | [result](airbase-323.buildinfo): [4 :white_check_mark: ](airbase-323.buildcompare) | | 104K |
 | [322](https://central.sonatype.com/artifact/io.airlift/airbase/322/pom) | [mvn jdk24](airbase-322.buildspec) | [result](airbase-322.buildinfo): [4 :white_check_mark: ](airbase-322.buildcompare) | | 104K |
 | [321](https://central.sonatype.com/artifact/io.airlift/airbase/321/pom) | [mvn jdk24](airbase-321.buildspec) | [result](airbase-321.buildinfo): [4 :white_check_mark: ](airbase-321.buildcompare) | | 104K |
 | [320](https://central.sonatype.com/artifact/io.airlift/airbase/320/pom) | [mvn jdk24](airbase-320.buildspec) | [result](airbase-320.buildinfo): [4 :white_check_mark: ](airbase-320.buildcompare) | | 104K |

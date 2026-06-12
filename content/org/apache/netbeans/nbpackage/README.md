@@ -1,0 +1,21 @@
+[org.apache.netbeans:nbpackage](https://central.sonatype.com/artifact/org.apache.netbeans/nbpackage/versions) RB check
+=======
+
+[![Reproducible Builds](https://reproducible-builds.org/images/logos/rb.svg) an independently-verifiable path from source to binary code](https://reproducible-builds.org/)
+
+## Project: [org.apache.netbeans:nbpackage](https://central.sonatype.com/artifact/org.apache.netbeans/nbpackage/versions) [![Reproducible Builds](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/jvm-repo-rebuild/reproducible-central/master/content/org/apache/netbeans/nbpackage/badge.json)](https://github.com/jvm-repo-rebuild/reproducible-central/blob/master/content/org/apache/netbeans/nbpackage/README.md)
+
+Source code: [https://gitbox.apache.org/repos/asf/netbeans-nbpackage.git](https://gitbox.apache.org/repos/asf/netbeans-nbpackage.git)
+
+rebuilding **4 releases** of org.apache.netbeans:nbpackage:
+- **4** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
+- 0 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
+
+| version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
+| -- | --------- | ------ | ------ | -- |
+| [1.0](https://central.sonatype.com/artifact/org.apache.netbeans/nbpackage/1.0/pom) | [mvn jdk21](nbpackage-1.0.buildspec) | [result](nbpackage-1.0.buildinfo): [6 :white_check_mark: ](nbpackage-1.0.buildcompare) | | 7.2M |
+| [1.0-beta6](https://central.sonatype.com/artifact/org.apache.netbeans/nbpackage/1.0-beta6/pom) | [mvn jdk21](nbpackage-1.0-beta6.buildspec) | [result](nbpackage-1.0-beta6.buildinfo): [6 :white_check_mark: ](nbpackage-1.0-beta6.buildcompare) | | 7.0M |
+| [1.0-beta5](https://central.sonatype.com/artifact/org.apache.netbeans/nbpackage/1.0-beta5/pom) | [mvn jdk17](nbpackage-1.0-beta5.buildspec) | [result](nbpackage-1.0-beta5.buildinfo): [6 :white_check_mark: ](nbpackage-1.0-beta5.buildcompare) | | 6.9M |
+| [1.0-beta4](https://central.sonatype.com/artifact/org.apache.netbeans/nbpackage/1.0-beta4/pom) | [mvn jdk11](nbpackage-1.0-beta4.buildspec) | [result](nbpackage-1.0-beta4.buildinfo): [6 :white_check_mark: ](nbpackage-1.0-beta4.buildcompare) | | 4.0M |
+
+<i>(size is calculated without javadoc, that has been excluded from reproducibility checks)</i>

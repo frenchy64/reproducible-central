@@ -7,13 +7,17 @@
 
 Source code: [https://github.com/hazendaz/base-parent.git](https://github.com/hazendaz/base-parent.git)
 
-rebuilding **24 releases** of com.github.hazendaz:base-parent:
-- **24** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
+rebuilding **29 releases** of com.github.hazendaz:base-parent:
+- **29** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
 - 0 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
-| [56](https://central.sonatype.com/artifact/com.github.hazendaz/base-parent/56/pom) | | | |
+| [60](https://central.sonatype.com/artifact/com.github.hazendaz/base-parent/60/pom) | [mvn jdk21 w](base-parent-60.buildspec) | [result](base-parent-60.buildinfo): [3 :white_check_mark: ](base-parent-60.buildcompare) | | 137K |
+| [59](https://central.sonatype.com/artifact/com.github.hazendaz/base-parent/59/pom) | [mvn jdk21 w](base-parent-59.buildspec) | [result](base-parent-59.buildinfo): [3 :white_check_mark: ](base-parent-59.buildcompare) | | 135K |
+| [58](https://central.sonatype.com/artifact/com.github.hazendaz/base-parent/58/pom) | [mvn jdk21 w](base-parent-58.buildspec) | [result](base-parent-58.buildinfo): [3 :white_check_mark: ](base-parent-58.buildcompare) | | 130K |
+| [57](https://central.sonatype.com/artifact/com.github.hazendaz/base-parent/57/pom) | [mvn jdk21 w](base-parent-57.buildspec) | [result](base-parent-57.buildinfo): [3 :white_check_mark: ](base-parent-57.buildcompare) | | 128K |
+| [56](https://central.sonatype.com/artifact/com.github.hazendaz/base-parent/56/pom) | [mvn jdk21 w](base-parent-56.buildspec) | [result](base-parent-56.buildinfo): [3 :white_check_mark: ](base-parent-56.buildcompare) | | 129K |
 | [55](https://central.sonatype.com/artifact/com.github.hazendaz/base-parent/55/pom) | [mvn jdk21 w](base-parent-55.buildspec) | [result](base-parent-55.buildinfo): [3 :white_check_mark: ](base-parent-55.buildcompare) | | 129K |
 | [54](https://central.sonatype.com/artifact/com.github.hazendaz/base-parent/54/pom) | [mvn jdk21 w](base-parent-54.buildspec) | [result](base-parent-54.buildinfo): [3 :white_check_mark: ](base-parent-54.buildcompare) | | 129K |
 | [53](https://central.sonatype.com/artifact/com.github.hazendaz/base-parent/53/pom) | [mvn jdk21 w](base-parent-53.buildspec) | [result](base-parent-53.buildinfo): [3 :white_check_mark: ](base-parent-53.buildcompare) | | 128K |

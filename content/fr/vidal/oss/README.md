@@ -7,14 +7,23 @@
 
 Source code: [https://github.com/vidal-community/atom-jaxb.git](https://github.com/vidal-community/atom-jaxb.git)
 
-rebuilding **4 releases** of fr.vidal.oss:atom-jaxb:
-- **1** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
+<details><summary>This project defines 2 modules:</summary>
+
+* [fr.vidal.oss:atom-jaxb](https://central.sonatype.com/artifact/fr.vidal.oss/atom-jaxb/overview)
+* [fr.vidal.oss:atom-jaxb-parent](https://central.sonatype.com/artifact/fr.vidal.oss/atom-jaxb-parent/overview)
+</details>
+
+rebuilding **7 releases** of fr.vidal.oss:atom-jaxb:
+- **4** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
 - 3 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
+  - running [stabilize](doc/stabilize.md) on 1, 0 had all their differences removed :recycle:, 1 still had differences :rotating_light: or files not supported by stabilize :no_entry_sign:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
-| [2.0.0](https://central.sonatype.com/artifact/fr.vidal.oss/atom-jaxb-parent/2.0.0/pom) | [mvn jdk11](atom-jaxb-2.0.0.buildspec) | :x: | |
-| [1.1.1](https://central.sonatype.com/artifact/fr.vidal.oss/atom-jaxb-parent/1.1.1/pom) | | | |
+| [2.1.0](https://central.sonatype.com/artifact/fr.vidal.oss/atom-jaxb-parent/2.1.0/pom) | [mvn jdk11](atom-jaxb-2.1.0.buildspec) | [result](atom-jaxb-parent-2.1.0.buildinfo): [5 :white_check_mark: ](atom-jaxb-parent-2.1.0.buildcompare) | | 150K |
+| [2.0.0](https://central.sonatype.com/artifact/fr.vidal.oss/atom-jaxb-parent/2.0.0/pom) | [mvn jdk11](atom-jaxb-2.0.0.buildspec) | [result](atom-jaxb-parent-2.0.0.buildinfo): [4 :white_check_mark:  1 :warning:](atom-jaxb-parent-2.0.0.buildcompare) | 1 :rotating_light: | 149K |
+| [1.1.2](https://central.sonatype.com/artifact/fr.vidal.oss/atom-jaxb/1.1.2/pom) | [mvn jdk8](atom-jaxb-1.1.2.buildspec) | [result](atom-jaxb-1.1.2.buildinfo): [4 :white_check_mark: ](atom-jaxb-1.1.2.buildcompare) | | 156K |
+| [1.1.1](https://central.sonatype.com/artifact/fr.vidal.oss/atom-jaxb/1.1.1/pom) | [mvn jdk8](atom-jaxb-1.1.1.buildspec) | [result](atom-jaxb-1.1.1.buildinfo): [4 :white_check_mark: ](atom-jaxb-1.1.1.buildcompare) | | 155K |
 | [1.1.0](https://central.sonatype.com/artifact/fr.vidal.oss/atom-jaxb/1.1.0/pom) | [mvn jdk8](atom-jaxb-1.1.0.buildspec) | [result](atom-jaxb-1.1.0.buildinfo): [3 :white_check_mark:  1 :warning:](atom-jaxb-1.1.0.buildcompare) [:mag:](atom-jaxb-1.1.0.diffoscope) | - | 155K |
 | [1.0.1](https://central.sonatype.com/artifact/fr.vidal.oss/atom-jaxb/1.0.1/pom) | [mvn jdk8](atom-jaxb-1.0.1.buildspec) | [result](atom-jaxb-1.0.1.buildinfo): [4 :white_check_mark: ](atom-jaxb-1.0.1.buildcompare) | | 155K |
 | [1.0.0](https://central.sonatype.com/artifact/fr.vidal.oss/atom-jaxb/1.0.0/pom) | [mvn jdk8](atom-jaxb-1.0.0.buildspec) | [result](atom-jaxb-1.0.0.buildinfo): [1 :white_check_mark:  3 :warning:](atom-jaxb-1.0.0.buildcompare) [:memo:](https://github.com/vidal-community/atom-jaxb/issues/54) | - | 155K |

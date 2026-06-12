@@ -109,7 +109,7 @@ do
     row="| [${version}](https://central.sonatype.com/artifact/${groupId}/${artifactId}/${version}/pom) "
     row+="| [$(echo "${tool}"  | cut -d - -f 1)"
     row+=" jdk${jdk}"
-    [[ "${newline}" == crlf* ]] && row+=" w"
+    [[ "${newline}" == "crlf" ]] && row+=" w"
     [ -n "${os}" ] && row+=" ${os}"
     [ -n "${arch}" ] && row+=" ${arch}"
     row+="](${buildspec}) | "
@@ -152,12 +152,12 @@ do
       echo "$row:x: | |" >> tmp/${projectReadme}
     fi
 
-    # remove line from doc/add.md if it is listed there
-    if [ $(grep "$dir/${buildspec}" doc/add.md | wc -l) -eq 1 ]
+    # remove line from doc/new-releases.md if it is listed there
+    if [ $(grep "$dir/${buildspec}" doc/new-releases.md | wc -l) -eq 1 ]
     then
-      mv doc/add.md doc/add.md.old
-      grep -v "$dir/${buildspec}" doc/add.md.old > doc/add.md
-      rm doc/add.md.old
+      mv doc/new-releases.md doc/new-releases.md.old
+      grep -v "$dir/${buildspec}" doc/new-releases.md.old > doc/new-releases.md
+      rm doc/new-releases.md.old
     fi
   fi
   # don't continue if it's the oldest version with buildspec

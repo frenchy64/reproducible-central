@@ -7,12 +7,20 @@
 
 Source code: [https://github.com/cucumber/gherkin.git](https://github.com/cucumber/gherkin.git)
 
-rebuilding **26 releases** of io.cucumber:gherkin:
-- **26** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
-- 0 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
+rebuilding **35 releases** of io.cucumber:gherkin:
+- **33** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
+- 2 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
+  - running [stabilize](doc/stabilize.md) on 2, 0 had all their differences removed :recycle:, 2 still had differences :rotating_light: or files not supported by stabilize :no_entry_sign:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
+| [40.0.0](https://central.sonatype.com/artifact/io.cucumber/gherkin/40.0.0/pom) | [mvn jdk21](gherkin-40.0.0.buildspec) | [result](gherkin-40.0.0.buildinfo): [3 :white_check_mark: ](gherkin-40.0.0.buildcompare) | | 302K |
+| [39.1.0](https://central.sonatype.com/artifact/io.cucumber/gherkin/39.1.0/pom) | [mvn jdk21](gherkin-39.1.0.buildspec) | [result](gherkin-39.1.0.buildinfo): [3 :white_check_mark: ](gherkin-39.1.0.buildcompare) | | 302K |
+| [39.0.0](https://central.sonatype.com/artifact/io.cucumber/gherkin/39.0.0/pom) | [mvn jdk21](gherkin-39.0.0.buildspec) | [result](gherkin-39.0.0.buildinfo): [3 :white_check_mark: ](gherkin-39.0.0.buildcompare) | | 298K |
+| [38.0.0](https://central.sonatype.com/artifact/io.cucumber/gherkin/38.0.0/pom) | [mvn jdk21](gherkin-38.0.0.buildspec) | [result](gherkin-38.0.0.buildinfo): [2 :white_check_mark:  1 :warning:](gherkin-38.0.0.buildcompare) [:mag:](gherkin-38.0.0.diffoscope) | 1 :no_entry_sign: | 298K |
+| [37.0.1](https://central.sonatype.com/artifact/io.cucumber/gherkin/37.0.1/pom) | [mvn jdk17](gherkin-37.0.1.buildspec) | [result](gherkin-37.0.1.buildinfo): [2 :white_check_mark:  1 :warning:](gherkin-37.0.1.buildcompare) | 1 :no_entry_sign: | 289K |
+| [37.0.0](https://central.sonatype.com/artifact/io.cucumber/gherkin/37.0.0/pom) | [mvn jdk17](gherkin-37.0.0.buildspec) | [result](gherkin-37.0.0.buildinfo): [3 :white_check_mark: ](gherkin-37.0.0.buildcompare) | | 289K |
+| [36.1.0](https://central.sonatype.com/artifact/io.cucumber/gherkin/36.1.0/pom) | [mvn jdk17](gherkin-36.1.0.buildspec) | [result](gherkin-36.1.0.buildinfo): [3 :white_check_mark: ](gherkin-36.1.0.buildcompare) | | 289K |
 | [36.0.0](https://central.sonatype.com/artifact/io.cucumber/gherkin/36.0.0/pom) | [mvn jdk17](gherkin-36.0.0.buildspec) | [result](gherkin-36.0.0.buildinfo): [3 :white_check_mark: ](gherkin-36.0.0.buildcompare) | | 288K |
 | [35.1.0](https://central.sonatype.com/artifact/io.cucumber/gherkin/35.1.0/pom) | [mvn jdk11](gherkin-35.1.0.buildspec) | [result](gherkin-35.1.0.buildinfo): [3 :white_check_mark: ](gherkin-35.1.0.buildcompare) | | 285K |
 | [35.0.0](https://central.sonatype.com/artifact/io.cucumber/gherkin/35.0.0/pom) | [mvn jdk11](gherkin-35.0.0.buildspec) | [result](gherkin-35.0.0.buildinfo): [3 :white_check_mark: ](gherkin-35.0.0.buildcompare) | | 285K |
@@ -25,6 +33,8 @@ rebuilding **26 releases** of io.cucumber:gherkin:
 | [32.0.1](https://central.sonatype.com/artifact/io.cucumber/gherkin/32.0.1/pom) | [mvn jdk11](gherkin-32.0.1.buildspec) | [result](gherkin-32.0.1.buildinfo): [3 :white_check_mark: ](gherkin-32.0.1.buildcompare) | | 150K |
 | [32.0.0](https://central.sonatype.com/artifact/io.cucumber/gherkin/32.0.0/pom) | [mvn jdk11](gherkin-32.0.0.buildspec) | [result](gherkin-32.0.0.buildinfo): [3 :white_check_mark: ](gherkin-32.0.0.buildcompare) | | 150K |
 | [31.0.0](https://central.sonatype.com/artifact/io.cucumber/gherkin/31.0.0/pom) | [mvn jdk11](gherkin-31.0.0.buildspec) | [result](gherkin-31.0.0.buildinfo): [3 :white_check_mark: ](gherkin-31.0.0.buildcompare) | | 150K |
+| [30.1.3](https://central.sonatype.com/artifact/io.cucumber/gherkin/30.1.3/pom) | [mvn jdk17](gherkin-30.1.3.buildspec) | [result](gherkin-30.1.3.buildinfo): [3 :white_check_mark: ](gherkin-30.1.3.buildcompare) | | 155K |
+| [30.1.0](https://central.sonatype.com/artifact/io.cucumber/gherkin/30.1.0/pom) | [mvn jdk17](gherkin-30.1.0.buildspec) | [result](gherkin-30.1.0.buildinfo): [3 :white_check_mark: ](gherkin-30.1.0.buildcompare) | | 289K |
 | [30.0.4](https://central.sonatype.com/artifact/io.cucumber/gherkin/30.0.4/pom) | [mvn jdk11](gherkin-30.0.4.buildspec) | [result](gherkin-30.0.4.buildinfo): [3 :white_check_mark: ](gherkin-30.0.4.buildcompare) | | 153K |
 | [30.0.3](https://central.sonatype.com/artifact/io.cucumber/gherkin/30.0.3/pom) | [mvn jdk11](gherkin-30.0.3.buildspec) | [result](gherkin-30.0.3.buildinfo): [3 :white_check_mark: ](gherkin-30.0.3.buildcompare) | | 153K |
 | [30.0.2](https://central.sonatype.com/artifact/io.cucumber/gherkin/30.0.2/pom) | [mvn jdk11](gherkin-30.0.2.buildspec) | [result](gherkin-30.0.2.buildinfo): [3 :white_check_mark: ](gherkin-30.0.2.buildcompare) | | 153K |

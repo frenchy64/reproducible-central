@@ -7,12 +7,24 @@
 
 Source code: [https://github.com/cucumber/messages.git](https://github.com/cucumber/messages.git)
 
-rebuilding **22 releases** of io.cucumber:messages:
-- **22** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
+rebuilding **32 releases** of io.cucumber:messages:
+- **32** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
 - 0 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
+| [33.0.2](https://central.sonatype.com/artifact/io.cucumber/messages/33.0.2/pom) | [mvn jdk21](messages-33.0.2.buildspec) | [result](messages-33.0.2.buildinfo): [3 :white_check_mark: ](messages-33.0.2.buildcompare) | | 198K |
+| [33.0.1](https://central.sonatype.com/artifact/io.cucumber/messages/33.0.1/pom) | | | |
+| [33.0.0](https://central.sonatype.com/artifact/io.cucumber/messages/33.0.0/pom) | | | |
+| [32.3.1](https://central.sonatype.com/artifact/io.cucumber/messages/32.3.1/pom) | [mvn jdk21](messages-32.3.1.buildspec) | [result](messages-32.3.1.buildinfo): [3 :white_check_mark: ](messages-32.3.1.buildcompare) | | 197K |
+| [32.2.0](https://central.sonatype.com/artifact/io.cucumber/messages/32.2.0/pom) | [mvn jdk21](messages-32.2.0.buildspec) | [result](messages-32.2.0.buildinfo): [3 :white_check_mark: ](messages-32.2.0.buildcompare) | | 192K |
+| [32.1.0](https://central.sonatype.com/artifact/io.cucumber/messages/32.1.0/pom) | [mvn jdk21](messages-32.1.0.buildspec) | [result](messages-32.1.0.buildinfo): [3 :white_check_mark: ](messages-32.1.0.buildcompare) | | 192K |
+| [32.0.1](https://central.sonatype.com/artifact/io.cucumber/messages/32.0.1/pom) | [mvn jdk21](messages-32.0.1.buildspec) | [result](messages-32.0.1.buildinfo): [3 :white_check_mark: ](messages-32.0.1.buildcompare) | | 192K |
+| [32.0.0](https://central.sonatype.com/artifact/io.cucumber/messages/32.0.0/pom) | [mvn jdk21](messages-32.0.0.buildspec) | [result](messages-32.0.0.buildinfo): [3 :white_check_mark: ](messages-32.0.0.buildcompare) | | 192K |
+| [31.2.0](https://central.sonatype.com/artifact/io.cucumber/messages/31.2.0/pom) | [mvn jdk17](messages-31.2.0.buildspec) | [result](messages-31.2.0.buildinfo): [3 :white_check_mark: ](messages-31.2.0.buildcompare) | | 177K |
+| [31.1.0](https://central.sonatype.com/artifact/io.cucumber/messages/31.1.0/pom) | [mvn jdk17](messages-31.1.0.buildspec) | [result](messages-31.1.0.buildinfo): [3 :white_check_mark: ](messages-31.1.0.buildcompare) | | 173K |
+| [31.0.1](https://central.sonatype.com/artifact/io.cucumber/messages/31.0.1/pom) | [mvn jdk17](messages-31.0.1.buildspec) | [result](messages-31.0.1.buildinfo): [3 :white_check_mark: ](messages-31.0.1.buildcompare) | | 173K |
+| [31.0.0](https://central.sonatype.com/artifact/io.cucumber/messages/31.0.0/pom) | [mvn jdk17](messages-31.0.0.buildspec) | [result](messages-31.0.0.buildinfo): [3 :white_check_mark: ](messages-31.0.0.buildcompare) | | 173K |
 | [30.1.0](https://central.sonatype.com/artifact/io.cucumber/messages/30.1.0/pom) | [mvn jdk17](messages-30.1.0.buildspec) | [result](messages-30.1.0.buildinfo): [3 :white_check_mark: ](messages-30.1.0.buildcompare) | | 173K |
 | [30.0.0](https://central.sonatype.com/artifact/io.cucumber/messages/30.0.0/pom) | [mvn jdk17](messages-30.0.0.buildspec) | [result](messages-30.0.0.buildinfo): [3 :white_check_mark: ](messages-30.0.0.buildcompare) | | 172K |
 | [29.0.1](https://central.sonatype.com/artifact/io.cucumber/messages/29.0.1/pom) | [mvn jdk11](messages-29.0.1.buildspec) | [result](messages-29.0.1.buildinfo): [3 :white_check_mark: ](messages-29.0.1.buildcompare) | | 170K |

@@ -639,12 +639,27 @@ rebuilding **10 releases** of org.apache.camel:camel:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
+| [4.20.0](https://central.sonatype.com/artifact/org.apache.camel/camel/4.20.0/pom) | | | |
+| [4.19.0](https://central.sonatype.com/artifact/org.apache.camel/camel/4.19.0/pom) | | | |
+| [4.18.2](https://central.sonatype.com/artifact/org.apache.camel/camel/4.18.2/pom) | | | |
+| [4.18.1](https://central.sonatype.com/artifact/org.apache.camel/camel/4.18.1/pom) | | | |
+| [4.18.0](https://central.sonatype.com/artifact/org.apache.camel/camel/4.18.0/pom) | | | |
+| [4.17.0](https://central.sonatype.com/artifact/org.apache.camel/camel/4.17.0/pom) | | | |
+| [4.16.0](https://central.sonatype.com/artifact/org.apache.camel/camel/4.16.0/pom) | | | |
 | [4.15.0](https://central.sonatype.com/artifact/org.apache.camel/camel/4.15.0/pom) | | | |
+| [4.14.7](https://central.sonatype.com/artifact/org.apache.camel/camel/4.14.7/pom) | | | |
+| [4.14.6](https://central.sonatype.com/artifact/org.apache.camel/camel/4.14.6/pom) | | | |
+| [4.14.5](https://central.sonatype.com/artifact/org.apache.camel/camel/4.14.5/pom) | | | |
+| [4.14.4](https://central.sonatype.com/artifact/org.apache.camel/camel/4.14.4/pom) | | | |
+| [4.14.3](https://central.sonatype.com/artifact/org.apache.camel/camel/4.14.3/pom) | | | |
+| [4.14.2](https://central.sonatype.com/artifact/org.apache.camel/camel/4.14.2/pom) | | | |
 | [4.14.1](https://central.sonatype.com/artifact/org.apache.camel/camel/4.14.1/pom) | | | |
 | [4.14.0](https://central.sonatype.com/artifact/org.apache.camel/camel/4.14.0/pom) | | | |
 | [4.13.0](https://central.sonatype.com/artifact/org.apache.camel/camel/4.13.0/pom) | | | |
 | [4.12.0](https://central.sonatype.com/artifact/org.apache.camel/camel/4.12.0/pom) | | | |
 | [4.11.0](https://central.sonatype.com/artifact/org.apache.camel/camel/4.11.0/pom) | | | |
+| [4.10.9](https://central.sonatype.com/artifact/org.apache.camel/camel/4.10.9/pom) | | | |
+| [4.10.8](https://central.sonatype.com/artifact/org.apache.camel/camel/4.10.8/pom) | | | |
 | [4.10.7](https://central.sonatype.com/artifact/org.apache.camel/camel/4.10.7/pom) | | | |
 | [4.10.6](https://central.sonatype.com/artifact/org.apache.camel/camel/4.10.6/pom) | | | |
 | [4.10.5](https://central.sonatype.com/artifact/org.apache.camel/camel/4.10.5/pom) | | | |

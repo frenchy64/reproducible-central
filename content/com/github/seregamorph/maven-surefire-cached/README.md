@@ -15,12 +15,19 @@ Source code: [https://github.com/seregamorph/maven-surefire-cached.git](https://
 * [com.github.seregamorph:surefire-cached-extension-s3](https://central.sonatype.com/artifact/com.github.seregamorph/surefire-cached-extension-s3/overview)
 </details>
 
-rebuilding **10 releases** of com.github.seregamorph:maven-surefire-cached:
-- **10** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
+rebuilding **17 releases** of com.github.seregamorph:maven-surefire-cached:
+- **17** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
 - 0 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
+| [0.30](https://central.sonatype.com/artifact/com.github.seregamorph/maven-surefire-cached/0.30/pom) | [mvn jdk17](maven-surefire-cached-0.30.buildspec) | [result](maven-surefire-cached-0.30.buildinfo): [10 :white_check_mark: ](maven-surefire-cached-0.30.buildcompare) | | 217K |
+| [0.29](https://central.sonatype.com/artifact/com.github.seregamorph/maven-surefire-cached/0.29/pom) | [mvn jdk17](maven-surefire-cached-0.29.buildspec) | [result](maven-surefire-cached-0.29.buildinfo): [10 :white_check_mark: ](maven-surefire-cached-0.29.buildcompare) | | 218K |
+| [0.28](https://central.sonatype.com/artifact/com.github.seregamorph/maven-surefire-cached/0.28/pom) | [mvn jdk17](maven-surefire-cached-0.28.buildspec) | [result](maven-surefire-cached-0.28.buildinfo): [10 :white_check_mark: ](maven-surefire-cached-0.28.buildcompare) | | 214K |
+| [0.27](https://central.sonatype.com/artifact/com.github.seregamorph/maven-surefire-cached/0.27/pom) | [mvn jdk17](maven-surefire-cached-0.27.buildspec) | [result](maven-surefire-cached-0.27.buildinfo): [10 :white_check_mark: ](maven-surefire-cached-0.27.buildcompare) | | 213K |
+| [0.26](https://central.sonatype.com/artifact/com.github.seregamorph/maven-surefire-cached/0.26/pom) | [mvn jdk17](maven-surefire-cached-0.26.buildspec) | [result](maven-surefire-cached-0.26.buildinfo): [10 :white_check_mark: ](maven-surefire-cached-0.26.buildcompare) | | 212K |
+| [0.25](https://central.sonatype.com/artifact/com.github.seregamorph/maven-surefire-cached/0.25/pom) | [mvn jdk17](maven-surefire-cached-0.25.buildspec) | [result](maven-surefire-cached-0.25.buildinfo): [10 :white_check_mark: ](maven-surefire-cached-0.25.buildcompare) | | 200K |
+| [0.24](https://central.sonatype.com/artifact/com.github.seregamorph/maven-surefire-cached/0.24/pom) | [mvn jdk17](maven-surefire-cached-0.24.buildspec) | [result](maven-surefire-cached-0.24.buildinfo): [10 :white_check_mark: ](maven-surefire-cached-0.24.buildcompare) | | 200K |
 | [0.23](https://central.sonatype.com/artifact/com.github.seregamorph/maven-surefire-cached/0.23/pom) | [mvn jdk17](maven-surefire-cached-0.23.buildspec) | [result](maven-surefire-cached-0.23.buildinfo): [10 :white_check_mark: ](maven-surefire-cached-0.23.buildcompare) | | 190K |
 | [0.22](https://central.sonatype.com/artifact/com.github.seregamorph/maven-surefire-cached/0.22/pom) | [mvn jdk17](maven-surefire-cached-0.22.buildspec) | [result](maven-surefire-cached-0.22.buildinfo): [10 :white_check_mark: ](maven-surefire-cached-0.22.buildcompare) | | 190K |
 | [0.21](https://central.sonatype.com/artifact/com.github.seregamorph/maven-surefire-cached/0.21/pom) | [mvn jdk17](maven-surefire-cached-0.21.buildspec) | [result](maven-surefire-cached-0.21.buildinfo): [7 :white_check_mark: ](maven-surefire-cached-0.21.buildcompare) | | 170K |

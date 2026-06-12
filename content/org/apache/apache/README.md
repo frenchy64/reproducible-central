@@ -7,12 +7,15 @@
 
 Source code: [https://github.com/apache/maven-apache-parent.git](https://github.com/apache/maven-apache-parent.git)
 
-rebuilding **14 releases** of org.apache:apache:
-- **12** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
+rebuilding **17 releases** of org.apache:apache:
+- **15** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
 - 2 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
+| [38](https://central.sonatype.com/artifact/org.apache/apache/38/pom) | [mvn jdk8](apache-38.buildspec) | [result](apache-38.buildinfo): [2 :white_check_mark: ](apache-38.buildcompare) | | 47K |
+| [37](https://central.sonatype.com/artifact/org.apache/apache/37/pom) | [mvn jdk8](apache-37.buildspec) | [result](apache-37.buildinfo): [2 :white_check_mark: ](apache-37.buildcompare) | | 47K |
+| [36](https://central.sonatype.com/artifact/org.apache/apache/36/pom) | [mvn jdk8](apache-36.buildspec) | [result](apache-36.buildinfo): [2 :white_check_mark: ](apache-36.buildcompare) | | 47K |
 | [35](https://central.sonatype.com/artifact/org.apache/apache/35/pom) | [mvn jdk8](apache-35.buildspec) | [result](apache-35.buildinfo): [2 :white_check_mark: ](apache-35.buildcompare) | | 46K |
 | [34](https://central.sonatype.com/artifact/org.apache/apache/34/pom) | [mvn jdk8](apache-34.buildspec) | [result](apache-34.buildinfo): [2 :white_check_mark: ](apache-34.buildcompare) | | 46K |
 | [33](https://central.sonatype.com/artifact/org.apache/apache/33/pom) | [mvn jdk8](apache-33.buildspec) | [result](apache-33.buildinfo): [2 :white_check_mark: ](apache-33.buildcompare) | | 46K |

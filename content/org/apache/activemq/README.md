@@ -56,12 +56,20 @@ Source code: [https://github.com/apache/activemq.git](https://github.com/apache/
 * [org.apache.activemq:apache-activemq](https://central.sonatype.com/artifact/org.apache.activemq/apache-activemq/overview)
 </details>
 
-rebuilding **34 releases** of org.apache.activemq:activemq-parent:
-- **16** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
-- 18 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
+rebuilding **47 releases** of org.apache.activemq:activemq-parent:
+- **28** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
+- 19 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
+  - running [stabilize](doc/stabilize.md) on 1, 0 had all their differences removed :recycle:, 1 still had differences :rotating_light: or files not supported by stabilize :no_entry_sign:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
+| [6.2.6](https://central.sonatype.com/artifact/org.apache.activemq/activemq-parent/6.2.6/pom) | [mvn jdk17](activemq-6.2.6.buildspec) | [result](activemq-parent-6.2.6.buildinfo): [126 :white_check_mark: ](activemq-parent-6.2.6.buildcompare) | | 220M |
+| [6.2.5](https://central.sonatype.com/artifact/org.apache.activemq/activemq-parent/6.2.5/pom) | [mvn jdk17](activemq-6.2.5.buildspec) | [result](activemq-parent-6.2.5.buildinfo): [126 :white_check_mark: ](activemq-parent-6.2.5.buildcompare) | | 220M |
+| [6.2.4](https://central.sonatype.com/artifact/org.apache.activemq/activemq-parent/6.2.4/pom) | [mvn jdk17](activemq-6.2.4.buildspec) | [result](activemq-parent-6.2.4.buildinfo): [126 :white_check_mark: ](activemq-parent-6.2.4.buildcompare) | | 220M |
+| [6.2.3](https://central.sonatype.com/artifact/org.apache.activemq/activemq-parent/6.2.3/pom) | [mvn jdk17](activemq-6.2.3.buildspec) | [result](activemq-parent-6.2.3.buildinfo): [126 :white_check_mark: ](activemq-parent-6.2.3.buildcompare) | | 220M |
+| [6.2.2](https://central.sonatype.com/artifact/org.apache.activemq/activemq-parent/6.2.2/pom) | [mvn jdk17](activemq-6.2.2.buildspec) | [result](activemq-parent-6.2.2.buildinfo): [126 :white_check_mark: ](activemq-parent-6.2.2.buildcompare) | | 220M |
+| [6.2.1](https://central.sonatype.com/artifact/org.apache.activemq/activemq-parent/6.2.1/pom) | [mvn jdk17](activemq-6.2.1.buildspec) | [result](activemq-parent-6.2.1.buildinfo): [126 :white_check_mark: ](activemq-parent-6.2.1.buildcompare) | | 220M |
+| [6.2.0](https://central.sonatype.com/artifact/org.apache.activemq/activemq-parent/6.2.0/pom) | [mvn jdk17](activemq-6.2.0.buildspec) | [result](activemq-parent-6.2.0.buildinfo): [126 :white_check_mark: ](activemq-parent-6.2.0.buildcompare) | | 219M |
 | [6.1.8](https://central.sonatype.com/artifact/org.apache.activemq/activemq-parent/6.1.8/pom) | [mvn jdk17](activemq-6.1.8.buildspec) | [result](activemq-parent-6.1.8.buildinfo): [126 :white_check_mark: ](activemq-parent-6.1.8.buildcompare) | | 221M |
 | [6.1.7](https://central.sonatype.com/artifact/org.apache.activemq/activemq-parent/6.1.7/pom) | [mvn jdk17](activemq-6.1.7.buildspec) | [result](activemq-parent-6.1.7.buildinfo): [124 :white_check_mark:  2 :warning:](activemq-parent-6.1.7.buildcompare) | - | 220M |
 | [6.1.6](https://central.sonatype.com/artifact/org.apache.activemq/activemq-parent/6.1.6/pom) | [mvn jdk17](activemq-6.1.6.buildspec) | [result](activemq-parent-6.1.6.buildinfo): [126 :white_check_mark: ](activemq-parent-6.1.6.buildcompare) | | 220M |
@@ -73,6 +81,12 @@ rebuilding **34 releases** of org.apache.activemq:activemq-parent:
 | [6.1.0](https://central.sonatype.com/artifact/org.apache.activemq/activemq-parent/6.1.0/pom) | [mvn jdk17](activemq-6.1.0.buildspec) | [result](activemq-parent-6.1.0.buildinfo): [95 :white_check_mark: ](activemq-parent-6.1.0.buildcompare) | | 216M |
 | [6.0.1](https://central.sonatype.com/artifact/org.apache.activemq/activemq-parent/6.0.1/pom) | [mvn jdk17](activemq-6.0.1.buildspec) | [result](activemq-parent-6.0.1.buildinfo): [95 :white_check_mark: ](activemq-parent-6.0.1.buildcompare) | | 213M |
 | [6.0.0](https://central.sonatype.com/artifact/org.apache.activemq/activemq-parent/6.0.0/pom) | [mvn jdk17](activemq-6.0.0.buildspec) | [result](activemq-parent-6.0.0.buildinfo): [95 :white_check_mark: ](activemq-parent-6.0.0.buildcompare) | | 213M |
+| [5.19.7](https://central.sonatype.com/artifact/org.apache.activemq/activemq-parent/5.19.7/pom) | [mvn jdk11](activemq-5.19.7.buildspec) | [result](activemq-parent-5.19.7.buildinfo): [96 :white_check_mark: ](activemq-parent-5.19.7.buildcompare) | | 207M |
+| [5.19.6](https://central.sonatype.com/artifact/org.apache.activemq/activemq-parent/5.19.6/pom) | [mvn jdk11](activemq-5.19.6.buildspec) | [result](activemq-parent-5.19.6.buildinfo): [96 :white_check_mark: ](activemq-parent-5.19.6.buildcompare) | | 207M |
+| [5.19.5](https://central.sonatype.com/artifact/org.apache.activemq/activemq-parent/5.19.5/pom) | [mvn jdk11](activemq-5.19.5.buildspec) | [result](activemq-parent-5.19.5.buildinfo): [96 :white_check_mark: ](activemq-parent-5.19.5.buildcompare) | | 207M |
+| [5.19.4](https://central.sonatype.com/artifact/org.apache.activemq/activemq-parent/5.19.4/pom) | [mvn jdk11](activemq-5.19.4.buildspec) | [result](activemq-parent-5.19.4.buildinfo): [96 :white_check_mark: ](activemq-parent-5.19.4.buildcompare) | | 207M |
+| [5.19.3](https://central.sonatype.com/artifact/org.apache.activemq/activemq-parent/5.19.3/pom) | [mvn jdk11](activemq-5.19.3.buildspec) | [result](activemq-parent-5.19.3.buildinfo): [96 :white_check_mark: ](activemq-parent-5.19.3.buildcompare) | | 207M |
+| [5.19.2](https://central.sonatype.com/artifact/org.apache.activemq/activemq-parent/5.19.2/pom) | [mvn jdk11](activemq-5.19.2.buildspec) | [result](activemq-parent-5.19.2.buildinfo): [95 :white_check_mark:  1 :warning:](activemq-parent-5.19.2.buildcompare) | 1 :rotating_light: | 207M |
 | [5.19.1](https://central.sonatype.com/artifact/org.apache.activemq/activemq-parent/5.19.1/pom) | [mvn jdk11](activemq-5.19.1.buildspec) | [result](activemq-parent-5.19.1.buildinfo): [96 :white_check_mark: ](activemq-parent-5.19.1.buildcompare) | | 207M |
 | [5.19.0](https://central.sonatype.com/artifact/org.apache.activemq/activemq-parent/5.19.0/pom) | [mvn jdk11](activemq-5.19.0.buildspec) | [result](activemq-parent-5.19.0.buildinfo): [96 :white_check_mark: ](activemq-parent-5.19.0.buildcompare) | | 207M |
 | [5.18.7](https://central.sonatype.com/artifact/org.apache.activemq/activemq-parent/5.18.7/pom) | [mvn jdk11](activemq-5.18.7.buildspec) | [result](activemq-parent-5.18.7.buildinfo): [96 :white_check_mark: ](activemq-parent-5.18.7.buildcompare) | | 206M |

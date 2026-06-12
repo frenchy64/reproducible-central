@@ -26,7 +26,7 @@ rebuildToolGradle() {
 #      jdkImage="openjdk:17-slim"
 #      ;;
 #  esac
-  jdkImage="docker.io/library/gradle:8-jdk${jdk}"
+  jdkImage="docker.io/library/gradle:9-jdk${jdk}"
 
   info "Rebuilding using container image ${jdkImage}"
 
@@ -66,7 +66,7 @@ rebuildToolGradle() {
       # output content is expected to be available in repository/ directory
 
       # fix line endings of pom files for gradle on windows
-      if [[ "${newline}" == crlf* ]]; then
+      if [[ "${newline}" == "crlf" ]]; then
         find ${OUTPUTDIR} -name "*.pom" -exec sed -i -z "s/\n/\r\n/g" {} \;
       fi
 
