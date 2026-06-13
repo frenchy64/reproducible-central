@@ -7,10 +7,10 @@
 
 Source code: [https://github.com/clojure/clojure.git](https://github.com/clojure/clojure.git)
 
-rebuilding **24 releases** of org.clojure:clojure:
+rebuilding **26 releases** of org.clojure:clojure:
 - **0** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
-- 24 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
-  - running [stabilize](doc/stabilize.md) on 24, 0 had all their differences removed :recycle:, 24 still had differences :rotating_light: or files not supported by stabilize :no_entry_sign:
+- 26 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
+  - running [stabilize](doc/stabilize.md) on 26, 0 had all their differences removed :recycle:, 26 still had differences :rotating_light: or files not supported by stabilize :no_entry_sign:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
@@ -38,5 +38,33 @@ rebuilding **24 releases** of org.clojure:clojure:
 | [1.12.0-alpha3](https://central.sonatype.com/artifact/org.clojure/clojure/1.12.0-alpha3/pom) | [mvn jdk8](clojure-1.12.0-alpha3.buildspec) | [result](clojure-1.12.0-alpha3.buildinfo): [1 :white_check_mark:  3 :warning:](clojure-1.12.0-alpha3.buildcompare) [:mag:](clojure-1.12.0-alpha3.diffoscope) | 1 :recycle: 2 :rotating_light: | 5.7M |
 | [1.12.0-alpha2](https://central.sonatype.com/artifact/org.clojure/clojure/1.12.0-alpha2/pom) | [mvn jdk8](clojure-1.12.0-alpha2.buildspec) | [result](clojure-1.12.0-alpha2.buildinfo): [1 :white_check_mark:  3 :warning:](clojure-1.12.0-alpha2.buildcompare) [:mag:](clojure-1.12.0-alpha2.diffoscope) | 2 :recycle: 1 :rotating_light: | 5.8M |
 | [1.12.0-alpha1](https://central.sonatype.com/artifact/org.clojure/clojure/1.12.0-alpha1/pom) | [mvn jdk8](clojure-1.12.0-alpha1.buildspec) | [result](clojure-1.12.0-alpha1.buildinfo): [1 :white_check_mark:  3 :warning:](clojure-1.12.0-alpha1.buildcompare) [:mag:](clojure-1.12.0-alpha1.diffoscope) | 1 :recycle: 2 :rotating_light: | 5.7M |
+| [1.11.4](https://central.sonatype.com/artifact/org.clojure/clojure/1.11.4/pom) | | | |
+| [1.11.3](https://central.sonatype.com/artifact/org.clojure/clojure/1.11.3/pom) | | | |
+| [1.11.2](https://central.sonatype.com/artifact/org.clojure/clojure/1.11.2/pom) | | | |
+| [1.11.1](https://central.sonatype.com/artifact/org.clojure/clojure/1.11.1/pom) | | | |
+| [1.11.1-rc1](https://central.sonatype.com/artifact/org.clojure/clojure/1.11.1-rc1/pom) | | | |
+| [1.11.0](https://central.sonatype.com/artifact/org.clojure/clojure/1.11.0/pom) | [mvn jdk8](clojure-1.11.0.buildspec) | [result](clojure-1.11.0.buildinfo): [1 :white_check_mark:  3 :warning:](clojure-1.11.0.buildcompare) [:mag:](clojure-1.11.0.diffoscope) | 1 :recycle: 2 :rotating_light: | 5.6M |
+| [1.11.0-rc1](https://central.sonatype.com/artifact/org.clojure/clojure/1.11.0-rc1/pom) | | | |
+| [1.11.0-beta1](https://central.sonatype.com/artifact/org.clojure/clojure/1.11.0-beta1/pom) | | | |
+| [1.11.0-alpha4](https://central.sonatype.com/artifact/org.clojure/clojure/1.11.0-alpha4/pom) | | | |
+| [1.11.0-alpha3](https://central.sonatype.com/artifact/org.clojure/clojure/1.11.0-alpha3/pom) | | | |
+| [1.11.0-alpha2](https://central.sonatype.com/artifact/org.clojure/clojure/1.11.0-alpha2/pom) | | | |
+| [1.11.0-alpha1](https://central.sonatype.com/artifact/org.clojure/clojure/1.11.0-alpha1/pom) | | | |
+| [1.10.3](https://central.sonatype.com/artifact/org.clojure/clojure/1.10.3/pom) | | | |
+| [1.10.3-rc1](https://central.sonatype.com/artifact/org.clojure/clojure/1.10.3-rc1/pom) | | | |
+| [1.10.2](https://central.sonatype.com/artifact/org.clojure/clojure/1.10.2/pom) | | | |
+| [1.10.2-rc3](https://central.sonatype.com/artifact/org.clojure/clojure/1.10.2-rc3/pom) | | | |
+| [1.10.2-rc2](https://central.sonatype.com/artifact/org.clojure/clojure/1.10.2-rc2/pom) | | | |
+| [1.10.2-rc1](https://central.sonatype.com/artifact/org.clojure/clojure/1.10.2-rc1/pom) | | | |
+| [1.10.2-alpha4](https://central.sonatype.com/artifact/org.clojure/clojure/1.10.2-alpha4/pom) | | | |
+| [1.10.2-alpha3](https://central.sonatype.com/artifact/org.clojure/clojure/1.10.2-alpha3/pom) | | | |
+| [1.10.2-alpha2](https://central.sonatype.com/artifact/org.clojure/clojure/1.10.2-alpha2/pom) | | | |
+| [1.10.2-alpha1](https://central.sonatype.com/artifact/org.clojure/clojure/1.10.2-alpha1/pom) | | | |
+| [1.10.1](https://central.sonatype.com/artifact/org.clojure/clojure/1.10.1/pom) | | | |
+| [1.10.1-RC1](https://central.sonatype.com/artifact/org.clojure/clojure/1.10.1-RC1/pom) | | | |
+| [1.10.1-beta3](https://central.sonatype.com/artifact/org.clojure/clojure/1.10.1-beta3/pom) | | | |
+| [1.10.1-beta2](https://central.sonatype.com/artifact/org.clojure/clojure/1.10.1-beta2/pom) | | | |
+| [1.10.1-beta1](https://central.sonatype.com/artifact/org.clojure/clojure/1.10.1-beta1/pom) | | | |
+| [1.10.0](https://central.sonatype.com/artifact/org.clojure/clojure/1.10.0/pom) | [mvn jdk8](clojure-1.10.0.buildspec) | [result](clojure-1.10.0.buildinfo): [1 :white_check_mark:  3 :warning:](clojure-1.10.0.buildcompare) [:mag:](clojure-1.10.0.diffoscope) | 1 :recycle: 2 :rotating_light: | 5.4M |
 
 <i>(size is calculated without javadoc, that has been excluded from reproducibility checks)</i>
