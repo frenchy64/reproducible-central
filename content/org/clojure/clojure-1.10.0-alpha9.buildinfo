@@ -1,0 +1,47 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=clojure
+group-id=org.clojure
+artifact-id=clojure
+version=1.10.0-alpha9
+
+# source information
+source.scm.uri=scm:git:git@github.com:clojure/clojure.git
+source.scm.tag=clojure-1.10.0-alpha9
+
+# build instructions
+build-tool=mvn
+
+# effective build environment information
+java.version=1.8.0_492
+java.vendor=Private Build
+os.name=Linux
+os.version=7.0.0-22-generic
+os.arch=amd64
+line.separator=\n
+
+# Maven rebuild instructions and effective environment
+mvn.version=3.9.11
+
+# output
+
+outputs.0.groupId=org.clojure
+outputs.0.filename=clojure-1.10.0-alpha9.pom
+outputs.0.length=10055
+outputs.0.checksums.sha512=d59c1275c94684fd4bfd83afec5799a0b83cb81060cd527caca15264ac86f612468ad99c30575bcd34cf3b24297be4bacbdc2a2d1558a28e4f5a6cafc70e4b75
+
+outputs.1.groupId=org.clojure
+outputs.1.filename=clojure-1.10.0-alpha9.jar
+outputs.1.length=3847400
+outputs.1.checksums.sha512=cd6c87d27218abf4c4cb2efa19335448117a1177ba941fcbd33bb20c534f72b55c66566465ab48188e7602ad77718202effcb9f5923645d0ecb154f3aee057a0
+
+outputs.2.groupId=org.clojure
+outputs.2.filename=clojure-1.10.0-alpha9-slim.jar
+outputs.2.length=1084311
+outputs.2.checksums.sha512=233675a8a97afa8835044c6267cb617380be1d83f3a8fbaea251924eec368cf762c28b8efb3386c12ac3d0254a9a32e7ef832fa56e0ab38c3de3095dadca2cad
+
+outputs.3.groupId=org.clojure
+outputs.3.filename=clojure-1.10.0-alpha9-sources.jar
+outputs.3.length=631569
+outputs.3.checksums.sha512=58ad2ef3c471d41dfd38daef2f4cd2899490adbec01e569e6502b592d1a930906300dea86680881dc8d996f7e111578679588c5a76b98ceb5963d5e8019d7ec1

@@ -7,10 +7,10 @@
 
 Source code: [https://github.com/clojure/clojure.git](https://github.com/clojure/clojure.git)
 
-rebuilding **36 releases** of org.clojure:clojure:
+rebuilding **190 releases** of org.clojure:clojure:
 - **0** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
-- 36 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
-  - running [stabilize](doc/stabilize.md) on 36, 0 had all their differences removed :recycle:, 36 still had differences :rotating_light: or files not supported by stabilize :no_entry_sign:
+- 190 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
+  - running [stabilize](doc/stabilize.md) on 51, 0 had all their differences removed :recycle:, 51 still had differences :rotating_light: or files not supported by stabilize :no_entry_sign:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
@@ -38,169 +38,169 @@ rebuilding **36 releases** of org.clojure:clojure:
 | [1.12.0-alpha3](https://central.sonatype.com/artifact/org.clojure/clojure/1.12.0-alpha3/pom) | [mvn jdk8](clojure-1.12.0-alpha3.buildspec) | [result](clojure-1.12.0-alpha3.buildinfo): [1 :white_check_mark:  3 :warning:](clojure-1.12.0-alpha3.buildcompare) [:mag:](clojure-1.12.0-alpha3.diffoscope) | 1 :recycle: 2 :rotating_light: | 5.7M |
 | [1.12.0-alpha2](https://central.sonatype.com/artifact/org.clojure/clojure/1.12.0-alpha2/pom) | [mvn jdk8](clojure-1.12.0-alpha2.buildspec) | [result](clojure-1.12.0-alpha2.buildinfo): [1 :white_check_mark:  3 :warning:](clojure-1.12.0-alpha2.buildcompare) [:mag:](clojure-1.12.0-alpha2.diffoscope) | 2 :recycle: 1 :rotating_light: | 5.8M |
 | [1.12.0-alpha1](https://central.sonatype.com/artifact/org.clojure/clojure/1.12.0-alpha1/pom) | [mvn jdk8](clojure-1.12.0-alpha1.buildspec) | [result](clojure-1.12.0-alpha1.buildinfo): [1 :white_check_mark:  3 :warning:](clojure-1.12.0-alpha1.buildcompare) [:mag:](clojure-1.12.0-alpha1.diffoscope) | 1 :recycle: 2 :rotating_light: | 5.7M |
-| [1.11.4](https://central.sonatype.com/artifact/org.clojure/clojure/1.11.4/pom) | | | |
-| [1.11.3](https://central.sonatype.com/artifact/org.clojure/clojure/1.11.3/pom) | | | |
-| [1.11.2](https://central.sonatype.com/artifact/org.clojure/clojure/1.11.2/pom) | | | |
-| [1.11.1](https://central.sonatype.com/artifact/org.clojure/clojure/1.11.1/pom) | | | |
-| [1.11.1-rc1](https://central.sonatype.com/artifact/org.clojure/clojure/1.11.1-rc1/pom) | | | |
+| [1.11.4](https://central.sonatype.com/artifact/org.clojure/clojure/1.11.4/pom) | [mvn jdk8](clojure-1.11.4.buildspec) | :x: | |
+| [1.11.3](https://central.sonatype.com/artifact/org.clojure/clojure/1.11.3/pom) | [mvn jdk8](clojure-1.11.3.buildspec) | :x: | |
+| [1.11.2](https://central.sonatype.com/artifact/org.clojure/clojure/1.11.2/pom) | [mvn jdk8](clojure-1.11.2.buildspec) | :x: | |
+| [1.11.1](https://central.sonatype.com/artifact/org.clojure/clojure/1.11.1/pom) | [mvn jdk8](clojure-1.11.1.buildspec) | :x: | |
+| [1.11.1-rc1](https://central.sonatype.com/artifact/org.clojure/clojure/1.11.1-rc1/pom) | [mvn jdk8](clojure-1.11.1-rc1.buildspec) | :x: | |
 | [1.11.0](https://central.sonatype.com/artifact/org.clojure/clojure/1.11.0/pom) | [mvn jdk8](clojure-1.11.0.buildspec) | [result](clojure-1.11.0.buildinfo): [1 :white_check_mark:  3 :warning:](clojure-1.11.0.buildcompare) [:mag:](clojure-1.11.0.diffoscope) | 1 :recycle: 2 :rotating_light: | 5.6M |
-| [1.11.0-rc1](https://central.sonatype.com/artifact/org.clojure/clojure/1.11.0-rc1/pom) | | | |
-| [1.11.0-beta1](https://central.sonatype.com/artifact/org.clojure/clojure/1.11.0-beta1/pom) | | | |
-| [1.11.0-alpha4](https://central.sonatype.com/artifact/org.clojure/clojure/1.11.0-alpha4/pom) | | | |
-| [1.11.0-alpha3](https://central.sonatype.com/artifact/org.clojure/clojure/1.11.0-alpha3/pom) | | | |
-| [1.11.0-alpha2](https://central.sonatype.com/artifact/org.clojure/clojure/1.11.0-alpha2/pom) | | | |
-| [1.11.0-alpha1](https://central.sonatype.com/artifact/org.clojure/clojure/1.11.0-alpha1/pom) | | | |
-| [1.10.3](https://central.sonatype.com/artifact/org.clojure/clojure/1.10.3/pom) | | | |
-| [1.10.3-rc1](https://central.sonatype.com/artifact/org.clojure/clojure/1.10.3-rc1/pom) | | | |
-| [1.10.2](https://central.sonatype.com/artifact/org.clojure/clojure/1.10.2/pom) | | | |
-| [1.10.2-rc3](https://central.sonatype.com/artifact/org.clojure/clojure/1.10.2-rc3/pom) | | | |
-| [1.10.2-rc2](https://central.sonatype.com/artifact/org.clojure/clojure/1.10.2-rc2/pom) | | | |
-| [1.10.2-rc1](https://central.sonatype.com/artifact/org.clojure/clojure/1.10.2-rc1/pom) | | | |
-| [1.10.2-alpha4](https://central.sonatype.com/artifact/org.clojure/clojure/1.10.2-alpha4/pom) | | | |
-| [1.10.2-alpha3](https://central.sonatype.com/artifact/org.clojure/clojure/1.10.2-alpha3/pom) | | | |
-| [1.10.2-alpha2](https://central.sonatype.com/artifact/org.clojure/clojure/1.10.2-alpha2/pom) | | | |
-| [1.10.2-alpha1](https://central.sonatype.com/artifact/org.clojure/clojure/1.10.2-alpha1/pom) | | | |
-| [1.10.1](https://central.sonatype.com/artifact/org.clojure/clojure/1.10.1/pom) | | | |
-| [1.10.1-RC1](https://central.sonatype.com/artifact/org.clojure/clojure/1.10.1-RC1/pom) | | | |
-| [1.10.1-beta3](https://central.sonatype.com/artifact/org.clojure/clojure/1.10.1-beta3/pom) | | | |
-| [1.10.1-beta2](https://central.sonatype.com/artifact/org.clojure/clojure/1.10.1-beta2/pom) | | | |
-| [1.10.1-beta1](https://central.sonatype.com/artifact/org.clojure/clojure/1.10.1-beta1/pom) | | | |
+| [1.11.0-rc1](https://central.sonatype.com/artifact/org.clojure/clojure/1.11.0-rc1/pom) | [mvn jdk8](clojure-1.11.0-rc1.buildspec) | :x: | |
+| [1.11.0-beta1](https://central.sonatype.com/artifact/org.clojure/clojure/1.11.0-beta1/pom) | [mvn jdk8](clojure-1.11.0-beta1.buildspec) | :x: | |
+| [1.11.0-alpha4](https://central.sonatype.com/artifact/org.clojure/clojure/1.11.0-alpha4/pom) | [mvn jdk8](clojure-1.11.0-alpha4.buildspec) | :x: | |
+| [1.11.0-alpha3](https://central.sonatype.com/artifact/org.clojure/clojure/1.11.0-alpha3/pom) | [mvn jdk8](clojure-1.11.0-alpha3.buildspec) | :x: | |
+| [1.11.0-alpha2](https://central.sonatype.com/artifact/org.clojure/clojure/1.11.0-alpha2/pom) | [mvn jdk8](clojure-1.11.0-alpha2.buildspec) | :x: | |
+| [1.11.0-alpha1](https://central.sonatype.com/artifact/org.clojure/clojure/1.11.0-alpha1/pom) | [mvn jdk8](clojure-1.11.0-alpha1.buildspec) | :x: | |
+| [1.10.3](https://central.sonatype.com/artifact/org.clojure/clojure/1.10.3/pom) | [mvn jdk8](clojure-1.10.3.buildspec) | :x: | |
+| [1.10.3-rc1](https://central.sonatype.com/artifact/org.clojure/clojure/1.10.3-rc1/pom) | [mvn jdk8](clojure-1.10.3-rc1.buildspec) | :x: | |
+| [1.10.2](https://central.sonatype.com/artifact/org.clojure/clojure/1.10.2/pom) | [mvn jdk8](clojure-1.10.2.buildspec) | :x: | |
+| [1.10.2-rc3](https://central.sonatype.com/artifact/org.clojure/clojure/1.10.2-rc3/pom) | [mvn jdk8](clojure-1.10.2-rc3.buildspec) | :x: | |
+| [1.10.2-rc2](https://central.sonatype.com/artifact/org.clojure/clojure/1.10.2-rc2/pom) | [mvn jdk8](clojure-1.10.2-rc2.buildspec) | :x: | |
+| [1.10.2-rc1](https://central.sonatype.com/artifact/org.clojure/clojure/1.10.2-rc1/pom) | [mvn jdk8](clojure-1.10.2-rc1.buildspec) | :x: | |
+| [1.10.2-alpha4](https://central.sonatype.com/artifact/org.clojure/clojure/1.10.2-alpha4/pom) | [mvn jdk8](clojure-1.10.2-alpha4.buildspec) | :x: | |
+| [1.10.2-alpha3](https://central.sonatype.com/artifact/org.clojure/clojure/1.10.2-alpha3/pom) | [mvn jdk8](clojure-1.10.2-alpha3.buildspec) | :x: | |
+| [1.10.2-alpha2](https://central.sonatype.com/artifact/org.clojure/clojure/1.10.2-alpha2/pom) | [mvn jdk8](clojure-1.10.2-alpha2.buildspec) | :x: | |
+| [1.10.2-alpha1](https://central.sonatype.com/artifact/org.clojure/clojure/1.10.2-alpha1/pom) | [mvn jdk8](clojure-1.10.2-alpha1.buildspec) | :x: | |
+| [1.10.1](https://central.sonatype.com/artifact/org.clojure/clojure/1.10.1/pom) | [mvn jdk8](clojure-1.10.1.buildspec) | :x: | |
+| [1.10.1-RC1](https://central.sonatype.com/artifact/org.clojure/clojure/1.10.1-RC1/pom) | [mvn jdk8](clojure-1.10.1-RC1.buildspec) | :x: | |
+| [1.10.1-beta3](https://central.sonatype.com/artifact/org.clojure/clojure/1.10.1-beta3/pom) | [mvn jdk8](clojure-1.10.1-beta3.buildspec) | :x: | |
+| [1.10.1-beta2](https://central.sonatype.com/artifact/org.clojure/clojure/1.10.1-beta2/pom) | [mvn jdk8](clojure-1.10.1-beta2.buildspec) | :x: | |
+| [1.10.1-beta1](https://central.sonatype.com/artifact/org.clojure/clojure/1.10.1-beta1/pom) | [mvn jdk8](clojure-1.10.1-beta1.buildspec) | :x: | |
 | [1.10.0](https://central.sonatype.com/artifact/org.clojure/clojure/1.10.0/pom) | [mvn jdk8](clojure-1.10.0.buildspec) | [result](clojure-1.10.0.buildinfo): [1 :white_check_mark:  3 :warning:](clojure-1.10.0.buildcompare) [:mag:](clojure-1.10.0.diffoscope) | 1 :recycle: 2 :rotating_light: | 5.4M |
-| [1.10.0-RC5](https://central.sonatype.com/artifact/org.clojure/clojure/1.10.0-RC5/pom) | | | |
-| [1.10.0-RC4](https://central.sonatype.com/artifact/org.clojure/clojure/1.10.0-RC4/pom) | | | |
-| [1.10.0-RC3](https://central.sonatype.com/artifact/org.clojure/clojure/1.10.0-RC3/pom) | | | |
-| [1.10.0-RC2](https://central.sonatype.com/artifact/org.clojure/clojure/1.10.0-RC2/pom) | | | |
-| [1.10.0-RC1](https://central.sonatype.com/artifact/org.clojure/clojure/1.10.0-RC1/pom) | | | |
-| [1.10.0-beta8](https://central.sonatype.com/artifact/org.clojure/clojure/1.10.0-beta8/pom) | | | |
-| [1.10.0-beta7](https://central.sonatype.com/artifact/org.clojure/clojure/1.10.0-beta7/pom) | | | |
-| [1.10.0-beta6](https://central.sonatype.com/artifact/org.clojure/clojure/1.10.0-beta6/pom) | | | |
-| [1.10.0-beta5](https://central.sonatype.com/artifact/org.clojure/clojure/1.10.0-beta5/pom) | | | |
-| [1.10.0-beta4](https://central.sonatype.com/artifact/org.clojure/clojure/1.10.0-beta4/pom) | | | |
-| [1.10.0-beta3](https://central.sonatype.com/artifact/org.clojure/clojure/1.10.0-beta3/pom) | | | |
-| [1.10.0-beta2](https://central.sonatype.com/artifact/org.clojure/clojure/1.10.0-beta2/pom) | | | |
-| [1.10.0-beta1](https://central.sonatype.com/artifact/org.clojure/clojure/1.10.0-beta1/pom) | | | |
-| [1.10.0-alpha9](https://central.sonatype.com/artifact/org.clojure/clojure/1.10.0-alpha9/pom) | | | |
-| [1.10.0-alpha8](https://central.sonatype.com/artifact/org.clojure/clojure/1.10.0-alpha8/pom) | | | |
-| [1.10.0-alpha7](https://central.sonatype.com/artifact/org.clojure/clojure/1.10.0-alpha7/pom) | | | |
-| [1.10.0-alpha6](https://central.sonatype.com/artifact/org.clojure/clojure/1.10.0-alpha6/pom) | | | |
-| [1.10.0-alpha5](https://central.sonatype.com/artifact/org.clojure/clojure/1.10.0-alpha5/pom) | | | |
-| [1.10.0-alpha4](https://central.sonatype.com/artifact/org.clojure/clojure/1.10.0-alpha4/pom) | | | |
-| [1.10.0-alpha3](https://central.sonatype.com/artifact/org.clojure/clojure/1.10.0-alpha3/pom) | | | |
-| [1.10.0-alpha2](https://central.sonatype.com/artifact/org.clojure/clojure/1.10.0-alpha2/pom) | | | |
-| [1.10.0-alpha1](https://central.sonatype.com/artifact/org.clojure/clojure/1.10.0-alpha1/pom) | | | |
+| [1.10.0-RC5](https://central.sonatype.com/artifact/org.clojure/clojure/1.10.0-RC5/pom) | [mvn jdk8](clojure-1.10.0-RC5.buildspec) | [result](clojure-1.10.0-RC5.buildinfo): [1 :white_check_mark:  3 :warning:](clojure-1.10.0-RC5.buildcompare) [:mag:](clojure-1.10.0-RC5.diffoscope) | 1 :recycle: 2 :rotating_light: | 5.4M |
+| [1.10.0-RC4](https://central.sonatype.com/artifact/org.clojure/clojure/1.10.0-RC4/pom) | [mvn jdk8](clojure-1.10.0-RC4.buildspec) | [result](clojure-1.10.0-RC4.buildinfo): [1 :white_check_mark:  3 :warning:](clojure-1.10.0-RC4.buildcompare) [:mag:](clojure-1.10.0-RC4.diffoscope) | 1 :recycle: 2 :rotating_light: | 5.4M |
+| [1.10.0-RC3](https://central.sonatype.com/artifact/org.clojure/clojure/1.10.0-RC3/pom) | [mvn jdk8](clojure-1.10.0-RC3.buildspec) | [result](clojure-1.10.0-RC3.buildinfo): [1 :white_check_mark:  3 :warning:](clojure-1.10.0-RC3.buildcompare) [:mag:](clojure-1.10.0-RC3.diffoscope) | 1 :recycle: 2 :rotating_light: | 5.4M |
+| [1.10.0-RC2](https://central.sonatype.com/artifact/org.clojure/clojure/1.10.0-RC2/pom) | [mvn jdk8](clojure-1.10.0-RC2.buildspec) | [result](clojure-1.10.0-RC2.buildinfo): [1 :white_check_mark:  3 :warning:](clojure-1.10.0-RC2.buildcompare) [:mag:](clojure-1.10.0-RC2.diffoscope) | 1 :recycle: 2 :rotating_light: | 5.4M |
+| [1.10.0-RC1](https://central.sonatype.com/artifact/org.clojure/clojure/1.10.0-RC1/pom) | [mvn jdk8](clojure-1.10.0-RC1.buildspec) | [result](clojure-1.10.0-RC1.buildinfo): [1 :white_check_mark:  3 :warning:](clojure-1.10.0-RC1.buildcompare) [:mag:](clojure-1.10.0-RC1.diffoscope) | 1 :recycle: 2 :rotating_light: | 5.4M |
+| [1.10.0-beta8](https://central.sonatype.com/artifact/org.clojure/clojure/1.10.0-beta8/pom) | [mvn jdk8](clojure-1.10.0-beta8.buildspec) | :x: | |
+| [1.10.0-beta7](https://central.sonatype.com/artifact/org.clojure/clojure/1.10.0-beta7/pom) | [mvn jdk8](clojure-1.10.0-beta7.buildspec) | :x: | |
+| [1.10.0-beta6](https://central.sonatype.com/artifact/org.clojure/clojure/1.10.0-beta6/pom) | [mvn jdk8](clojure-1.10.0-beta6.buildspec) | :x: | |
+| [1.10.0-beta5](https://central.sonatype.com/artifact/org.clojure/clojure/1.10.0-beta5/pom) | [mvn jdk8](clojure-1.10.0-beta5.buildspec) | :x: | |
+| [1.10.0-beta4](https://central.sonatype.com/artifact/org.clojure/clojure/1.10.0-beta4/pom) | [mvn jdk8](clojure-1.10.0-beta4.buildspec) | :x: | |
+| [1.10.0-beta3](https://central.sonatype.com/artifact/org.clojure/clojure/1.10.0-beta3/pom) | [mvn jdk8](clojure-1.10.0-beta3.buildspec) | :x: | |
+| [1.10.0-beta2](https://central.sonatype.com/artifact/org.clojure/clojure/1.10.0-beta2/pom) | [mvn jdk8](clojure-1.10.0-beta2.buildspec) | :x: | |
+| [1.10.0-beta1](https://central.sonatype.com/artifact/org.clojure/clojure/1.10.0-beta1/pom) | [mvn jdk8](clojure-1.10.0-beta1.buildspec) | [result](clojure-1.10.0-beta1.buildinfo): [1 :white_check_mark:  3 :warning:](clojure-1.10.0-beta1.buildcompare) [:mag:](clojure-1.10.0-beta1.diffoscope) | 1 :recycle: 2 :rotating_light: | 5.4M |
+| [1.10.0-alpha9](https://central.sonatype.com/artifact/org.clojure/clojure/1.10.0-alpha9/pom) | [mvn jdk8](clojure-1.10.0-alpha9.buildspec) | [result](clojure-1.10.0-alpha9.buildinfo): [1 :white_check_mark:  3 :warning:](clojure-1.10.0-alpha9.buildcompare) [:mag:](clojure-1.10.0-alpha9.diffoscope) | 1 :recycle: 2 :rotating_light: | 5.4M |
+| [1.10.0-alpha8](https://central.sonatype.com/artifact/org.clojure/clojure/1.10.0-alpha8/pom) | [mvn jdk8](clojure-1.10.0-alpha8.buildspec) | [result](clojure-1.10.0-alpha8.buildinfo): [1 :white_check_mark:  3 :warning:](clojure-1.10.0-alpha8.buildcompare) [:mag:](clojure-1.10.0-alpha8.diffoscope) | 1 :recycle: 2 :rotating_light: | 5.4M |
+| [1.10.0-alpha7](https://central.sonatype.com/artifact/org.clojure/clojure/1.10.0-alpha7/pom) | [mvn jdk8](clojure-1.10.0-alpha7.buildspec) | [result](clojure-1.10.0-alpha7.buildinfo): [1 :white_check_mark:  3 :warning:](clojure-1.10.0-alpha7.buildcompare) [:mag:](clojure-1.10.0-alpha7.diffoscope) | 1 :recycle: 2 :rotating_light: | 5.4M |
+| [1.10.0-alpha6](https://central.sonatype.com/artifact/org.clojure/clojure/1.10.0-alpha6/pom) | [mvn jdk8](clojure-1.10.0-alpha6.buildspec) | [result](clojure-1.10.0-alpha6.buildinfo): [1 :white_check_mark:  3 :warning:](clojure-1.10.0-alpha6.buildcompare) [:mag:](clojure-1.10.0-alpha6.diffoscope) | 1 :recycle: 2 :rotating_light: | 5.3M |
+| [1.10.0-alpha5](https://central.sonatype.com/artifact/org.clojure/clojure/1.10.0-alpha5/pom) | [mvn jdk8](clojure-1.10.0-alpha5.buildspec) | [result](clojure-1.10.0-alpha5.buildinfo): [1 :white_check_mark:  3 :warning:](clojure-1.10.0-alpha5.buildcompare) [:mag:](clojure-1.10.0-alpha5.diffoscope) | 1 :recycle: 2 :rotating_light: | 5.3M |
+| [1.10.0-alpha4](https://central.sonatype.com/artifact/org.clojure/clojure/1.10.0-alpha4/pom) | [mvn jdk8](clojure-1.10.0-alpha4.buildspec) | [result](clojure-1.10.0-alpha4.buildinfo): [1 :white_check_mark:  3 :warning:](clojure-1.10.0-alpha4.buildcompare) [:mag:](clojure-1.10.0-alpha4.diffoscope) | 1 :recycle: 2 :rotating_light: | 5.2M |
+| [1.10.0-alpha3](https://central.sonatype.com/artifact/org.clojure/clojure/1.10.0-alpha3/pom) | [mvn jdk8](clojure-1.10.0-alpha3.buildspec) | [result](clojure-1.10.0-alpha3.buildinfo): [1 :white_check_mark:  3 :warning:](clojure-1.10.0-alpha3.buildcompare) [:mag:](clojure-1.10.0-alpha3.diffoscope) | 1 :recycle: 2 :rotating_light: | 5.2M |
+| [1.10.0-alpha2](https://central.sonatype.com/artifact/org.clojure/clojure/1.10.0-alpha2/pom) | [mvn jdk8](clojure-1.10.0-alpha2.buildspec) | [result](clojure-1.10.0-alpha2.buildinfo): [1 :white_check_mark:  3 :warning:](clojure-1.10.0-alpha2.buildcompare) [:mag:](clojure-1.10.0-alpha2.diffoscope) | 1 :recycle: 2 :rotating_light: | 5.2M |
+| [1.10.0-alpha1](https://central.sonatype.com/artifact/org.clojure/clojure/1.10.0-alpha1/pom) | [mvn jdk8](clojure-1.10.0-alpha1.buildspec) | [result](clojure-1.10.0-alpha1.buildinfo): [1 :white_check_mark:  3 :warning:](clojure-1.10.0-alpha1.buildcompare) [:mag:](clojure-1.10.0-alpha1.diffoscope) | 1 :recycle: 2 :rotating_light: | 5.2M |
 | [1.9.0](https://central.sonatype.com/artifact/org.clojure/clojure/1.9.0/pom) | [mvn jdk8](clojure-1.9.0.buildspec) | [result](clojure-1.9.0.buildinfo): [1 :white_check_mark:  3 :warning:](clojure-1.9.0.buildcompare) [:mag:](clojure-1.9.0.diffoscope) | 1 :recycle: 2 :rotating_light: | 5.2M |
-| [1.9.0-RC2](https://central.sonatype.com/artifact/org.clojure/clojure/1.9.0-RC2/pom) | | | |
-| [1.9.0-RC1](https://central.sonatype.com/artifact/org.clojure/clojure/1.9.0-RC1/pom) | | | |
-| [1.9.0-beta4](https://central.sonatype.com/artifact/org.clojure/clojure/1.9.0-beta4/pom) | | | |
-| [1.9.0-beta3](https://central.sonatype.com/artifact/org.clojure/clojure/1.9.0-beta3/pom) | | | |
-| [1.9.0-beta2](https://central.sonatype.com/artifact/org.clojure/clojure/1.9.0-beta2/pom) | | | |
-| [1.9.0-beta1](https://central.sonatype.com/artifact/org.clojure/clojure/1.9.0-beta1/pom) | | | |
-| [1.9.0-alpha20](https://central.sonatype.com/artifact/org.clojure/clojure/1.9.0-alpha20/pom) | | | |
-| [1.9.0-alpha19](https://central.sonatype.com/artifact/org.clojure/clojure/1.9.0-alpha19/pom) | | | |
-| [1.9.0-alpha18](https://central.sonatype.com/artifact/org.clojure/clojure/1.9.0-alpha18/pom) | | | |
-| [1.9.0-alpha17](https://central.sonatype.com/artifact/org.clojure/clojure/1.9.0-alpha17/pom) | | | |
-| [1.9.0-alpha16](https://central.sonatype.com/artifact/org.clojure/clojure/1.9.0-alpha16/pom) | | | |
-| [1.9.0-alpha15](https://central.sonatype.com/artifact/org.clojure/clojure/1.9.0-alpha15/pom) | | | |
-| [1.9.0-alpha14](https://central.sonatype.com/artifact/org.clojure/clojure/1.9.0-alpha14/pom) | | | |
-| [1.9.0-alpha13](https://central.sonatype.com/artifact/org.clojure/clojure/1.9.0-alpha13/pom) | | | |
-| [1.9.0-alpha12](https://central.sonatype.com/artifact/org.clojure/clojure/1.9.0-alpha12/pom) | | | |
-| [1.9.0-alpha11](https://central.sonatype.com/artifact/org.clojure/clojure/1.9.0-alpha11/pom) | | | |
-| [1.9.0-alpha10](https://central.sonatype.com/artifact/org.clojure/clojure/1.9.0-alpha10/pom) | | | |
-| [1.9.0-alpha9](https://central.sonatype.com/artifact/org.clojure/clojure/1.9.0-alpha9/pom) | | | |
-| [1.9.0-alpha8](https://central.sonatype.com/artifact/org.clojure/clojure/1.9.0-alpha8/pom) | | | |
-| [1.9.0-alpha7](https://central.sonatype.com/artifact/org.clojure/clojure/1.9.0-alpha7/pom) | | | |
-| [1.9.0-alpha6](https://central.sonatype.com/artifact/org.clojure/clojure/1.9.0-alpha6/pom) | | | |
-| [1.9.0-alpha5](https://central.sonatype.com/artifact/org.clojure/clojure/1.9.0-alpha5/pom) | | | |
-| [1.9.0-alpha4](https://central.sonatype.com/artifact/org.clojure/clojure/1.9.0-alpha4/pom) | | | |
-| [1.9.0-alpha3](https://central.sonatype.com/artifact/org.clojure/clojure/1.9.0-alpha3/pom) | | | |
-| [1.9.0-alpha2](https://central.sonatype.com/artifact/org.clojure/clojure/1.9.0-alpha2/pom) | | | |
-| [1.9.0-alpha1](https://central.sonatype.com/artifact/org.clojure/clojure/1.9.0-alpha1/pom) | | | |
+| [1.9.0-RC2](https://central.sonatype.com/artifact/org.clojure/clojure/1.9.0-RC2/pom) | [mvn jdk8](clojure-1.9.0-RC2.buildspec) | :x: | |
+| [1.9.0-RC1](https://central.sonatype.com/artifact/org.clojure/clojure/1.9.0-RC1/pom) | [mvn jdk8](clojure-1.9.0-RC1.buildspec) | :x: | |
+| [1.9.0-beta4](https://central.sonatype.com/artifact/org.clojure/clojure/1.9.0-beta4/pom) | [mvn jdk8](clojure-1.9.0-beta4.buildspec) | :x: | |
+| [1.9.0-beta3](https://central.sonatype.com/artifact/org.clojure/clojure/1.9.0-beta3/pom) | [mvn jdk8](clojure-1.9.0-beta3.buildspec) | :x: | |
+| [1.9.0-beta2](https://central.sonatype.com/artifact/org.clojure/clojure/1.9.0-beta2/pom) | [mvn jdk8](clojure-1.9.0-beta2.buildspec) | :x: | |
+| [1.9.0-beta1](https://central.sonatype.com/artifact/org.clojure/clojure/1.9.0-beta1/pom) | [mvn jdk8](clojure-1.9.0-beta1.buildspec) | :x: | |
+| [1.9.0-alpha20](https://central.sonatype.com/artifact/org.clojure/clojure/1.9.0-alpha20/pom) | [mvn jdk8](clojure-1.9.0-alpha20.buildspec) | :x: | |
+| [1.9.0-alpha19](https://central.sonatype.com/artifact/org.clojure/clojure/1.9.0-alpha19/pom) | [mvn jdk8](clojure-1.9.0-alpha19.buildspec) | :x: | |
+| [1.9.0-alpha18](https://central.sonatype.com/artifact/org.clojure/clojure/1.9.0-alpha18/pom) | [mvn jdk8](clojure-1.9.0-alpha18.buildspec) | :x: | |
+| [1.9.0-alpha17](https://central.sonatype.com/artifact/org.clojure/clojure/1.9.0-alpha17/pom) | [mvn jdk8](clojure-1.9.0-alpha17.buildspec) | :x: | |
+| [1.9.0-alpha16](https://central.sonatype.com/artifact/org.clojure/clojure/1.9.0-alpha16/pom) | [mvn jdk8](clojure-1.9.0-alpha16.buildspec) | :x: | |
+| [1.9.0-alpha15](https://central.sonatype.com/artifact/org.clojure/clojure/1.9.0-alpha15/pom) | [mvn jdk8](clojure-1.9.0-alpha15.buildspec) | :x: | |
+| [1.9.0-alpha14](https://central.sonatype.com/artifact/org.clojure/clojure/1.9.0-alpha14/pom) | [mvn jdk8](clojure-1.9.0-alpha14.buildspec) | :x: | |
+| [1.9.0-alpha13](https://central.sonatype.com/artifact/org.clojure/clojure/1.9.0-alpha13/pom) | [mvn jdk8](clojure-1.9.0-alpha13.buildspec) | :x: | |
+| [1.9.0-alpha12](https://central.sonatype.com/artifact/org.clojure/clojure/1.9.0-alpha12/pom) | [mvn jdk8](clojure-1.9.0-alpha12.buildspec) | :x: | |
+| [1.9.0-alpha11](https://central.sonatype.com/artifact/org.clojure/clojure/1.9.0-alpha11/pom) | [mvn jdk8](clojure-1.9.0-alpha11.buildspec) | :x: | |
+| [1.9.0-alpha10](https://central.sonatype.com/artifact/org.clojure/clojure/1.9.0-alpha10/pom) | [mvn jdk8](clojure-1.9.0-alpha10.buildspec) | :x: | |
+| [1.9.0-alpha9](https://central.sonatype.com/artifact/org.clojure/clojure/1.9.0-alpha9/pom) | [mvn jdk8](clojure-1.9.0-alpha9.buildspec) | :x: | |
+| [1.9.0-alpha8](https://central.sonatype.com/artifact/org.clojure/clojure/1.9.0-alpha8/pom) | [mvn jdk8](clojure-1.9.0-alpha8.buildspec) | :x: | |
+| [1.9.0-alpha7](https://central.sonatype.com/artifact/org.clojure/clojure/1.9.0-alpha7/pom) | [mvn jdk8](clojure-1.9.0-alpha7.buildspec) | :x: | |
+| [1.9.0-alpha6](https://central.sonatype.com/artifact/org.clojure/clojure/1.9.0-alpha6/pom) | [mvn jdk8](clojure-1.9.0-alpha6.buildspec) | :x: | |
+| [1.9.0-alpha5](https://central.sonatype.com/artifact/org.clojure/clojure/1.9.0-alpha5/pom) | [mvn jdk8](clojure-1.9.0-alpha5.buildspec) | :x: | |
+| [1.9.0-alpha4](https://central.sonatype.com/artifact/org.clojure/clojure/1.9.0-alpha4/pom) | [mvn jdk8](clojure-1.9.0-alpha4.buildspec) | :x: | |
+| [1.9.0-alpha3](https://central.sonatype.com/artifact/org.clojure/clojure/1.9.0-alpha3/pom) | [mvn jdk8](clojure-1.9.0-alpha3.buildspec) | :x: | |
+| [1.9.0-alpha2](https://central.sonatype.com/artifact/org.clojure/clojure/1.9.0-alpha2/pom) | [mvn jdk8](clojure-1.9.0-alpha2.buildspec) | :x: | |
+| [1.9.0-alpha1](https://central.sonatype.com/artifact/org.clojure/clojure/1.9.0-alpha1/pom) | [mvn jdk8](clojure-1.9.0-alpha1.buildspec) | :x: | |
 | [1.8.0](https://central.sonatype.com/artifact/org.clojure/clojure/1.8.0/pom) | [mvn jdk8](clojure-1.8.0.buildspec) | [result](clojure-1.8.0.buildinfo): [1 :white_check_mark:  3 :warning:](clojure-1.8.0.buildcompare) [:mag:](clojure-1.8.0.diffoscope) | 1 :recycle: 2 :rotating_light: | 5.1M |
-| [1.8.0-RC5](https://central.sonatype.com/artifact/org.clojure/clojure/1.8.0-RC5/pom) | | | |
-| [1.8.0-RC4](https://central.sonatype.com/artifact/org.clojure/clojure/1.8.0-RC4/pom) | | | |
-| [1.8.0-RC3](https://central.sonatype.com/artifact/org.clojure/clojure/1.8.0-RC3/pom) | | | |
-| [1.8.0-RC2](https://central.sonatype.com/artifact/org.clojure/clojure/1.8.0-RC2/pom) | | | |
-| [1.8.0-RC1](https://central.sonatype.com/artifact/org.clojure/clojure/1.8.0-RC1/pom) | | | |
-| [1.8.0-beta2](https://central.sonatype.com/artifact/org.clojure/clojure/1.8.0-beta2/pom) | | | |
-| [1.8.0-beta1](https://central.sonatype.com/artifact/org.clojure/clojure/1.8.0-beta1/pom) | | | |
-| [1.8.0-alpha5](https://central.sonatype.com/artifact/org.clojure/clojure/1.8.0-alpha5/pom) | | | |
-| [1.8.0-alpha4](https://central.sonatype.com/artifact/org.clojure/clojure/1.8.0-alpha4/pom) | | | |
-| [1.8.0-alpha3](https://central.sonatype.com/artifact/org.clojure/clojure/1.8.0-alpha3/pom) | | | |
-| [1.8.0-alpha2](https://central.sonatype.com/artifact/org.clojure/clojure/1.8.0-alpha2/pom) | | | |
-| [1.8.0-alpha1](https://central.sonatype.com/artifact/org.clojure/clojure/1.8.0-alpha1/pom) | | | |
+| [1.8.0-RC5](https://central.sonatype.com/artifact/org.clojure/clojure/1.8.0-RC5/pom) | [mvn jdk8](clojure-1.8.0-RC5.buildspec) | :x: | |
+| [1.8.0-RC4](https://central.sonatype.com/artifact/org.clojure/clojure/1.8.0-RC4/pom) | [mvn jdk8](clojure-1.8.0-RC4.buildspec) | :x: | |
+| [1.8.0-RC3](https://central.sonatype.com/artifact/org.clojure/clojure/1.8.0-RC3/pom) | [mvn jdk8](clojure-1.8.0-RC3.buildspec) | :x: | |
+| [1.8.0-RC2](https://central.sonatype.com/artifact/org.clojure/clojure/1.8.0-RC2/pom) | [mvn jdk8](clojure-1.8.0-RC2.buildspec) | :x: | |
+| [1.8.0-RC1](https://central.sonatype.com/artifact/org.clojure/clojure/1.8.0-RC1/pom) | [mvn jdk8](clojure-1.8.0-RC1.buildspec) | :x: | |
+| [1.8.0-beta2](https://central.sonatype.com/artifact/org.clojure/clojure/1.8.0-beta2/pom) | [mvn jdk8](clojure-1.8.0-beta2.buildspec) | :x: | |
+| [1.8.0-beta1](https://central.sonatype.com/artifact/org.clojure/clojure/1.8.0-beta1/pom) | [mvn jdk8](clojure-1.8.0-beta1.buildspec) | :x: | |
+| [1.8.0-alpha5](https://central.sonatype.com/artifact/org.clojure/clojure/1.8.0-alpha5/pom) | [mvn jdk8](clojure-1.8.0-alpha5.buildspec) | :x: | |
+| [1.8.0-alpha4](https://central.sonatype.com/artifact/org.clojure/clojure/1.8.0-alpha4/pom) | [mvn jdk8](clojure-1.8.0-alpha4.buildspec) | :x: | |
+| [1.8.0-alpha3](https://central.sonatype.com/artifact/org.clojure/clojure/1.8.0-alpha3/pom) | [mvn jdk8](clojure-1.8.0-alpha3.buildspec) | :x: | |
+| [1.8.0-alpha2](https://central.sonatype.com/artifact/org.clojure/clojure/1.8.0-alpha2/pom) | [mvn jdk8](clojure-1.8.0-alpha2.buildspec) | :x: | |
+| [1.8.0-alpha1](https://central.sonatype.com/artifact/org.clojure/clojure/1.8.0-alpha1/pom) | [mvn jdk8](clojure-1.8.0-alpha1.buildspec) | :x: | |
 | [1.7.0](https://central.sonatype.com/artifact/org.clojure/clojure/1.7.0/pom) | [mvn jdk8](clojure-1.7.0.buildspec) | [result](clojure-1.7.0.buildinfo): [1 :white_check_mark:  3 :warning:](clojure-1.7.0.buildcompare) [:mag:](clojure-1.7.0.diffoscope) | 3 :rotating_light: | 5.3M |
-| [1.7.0-RC2](https://central.sonatype.com/artifact/org.clojure/clojure/1.7.0-RC2/pom) | | | |
-| [1.7.0-RC1](https://central.sonatype.com/artifact/org.clojure/clojure/1.7.0-RC1/pom) | | | |
-| [1.7.0-beta3](https://central.sonatype.com/artifact/org.clojure/clojure/1.7.0-beta3/pom) | | | |
-| [1.7.0-beta2](https://central.sonatype.com/artifact/org.clojure/clojure/1.7.0-beta2/pom) | | | |
-| [1.7.0-beta1](https://central.sonatype.com/artifact/org.clojure/clojure/1.7.0-beta1/pom) | | | |
-| [1.7.0-alpha6](https://central.sonatype.com/artifact/org.clojure/clojure/1.7.0-alpha6/pom) | | | |
-| [1.7.0-alpha5](https://central.sonatype.com/artifact/org.clojure/clojure/1.7.0-alpha5/pom) | | | |
-| [1.7.0-alpha4](https://central.sonatype.com/artifact/org.clojure/clojure/1.7.0-alpha4/pom) | | | |
-| [1.7.0-alpha3](https://central.sonatype.com/artifact/org.clojure/clojure/1.7.0-alpha3/pom) | | | |
-| [1.7.0-alpha2](https://central.sonatype.com/artifact/org.clojure/clojure/1.7.0-alpha2/pom) | | | |
-| [1.7.0-alpha1](https://central.sonatype.com/artifact/org.clojure/clojure/1.7.0-alpha1/pom) | | | |
+| [1.7.0-RC2](https://central.sonatype.com/artifact/org.clojure/clojure/1.7.0-RC2/pom) | [mvn jdk8](clojure-1.7.0-RC2.buildspec) | :x: | |
+| [1.7.0-RC1](https://central.sonatype.com/artifact/org.clojure/clojure/1.7.0-RC1/pom) | [mvn jdk8](clojure-1.7.0-RC1.buildspec) | :x: | |
+| [1.7.0-beta3](https://central.sonatype.com/artifact/org.clojure/clojure/1.7.0-beta3/pom) | [mvn jdk8](clojure-1.7.0-beta3.buildspec) | :x: | |
+| [1.7.0-beta2](https://central.sonatype.com/artifact/org.clojure/clojure/1.7.0-beta2/pom) | [mvn jdk8](clojure-1.7.0-beta2.buildspec) | :x: | |
+| [1.7.0-beta1](https://central.sonatype.com/artifact/org.clojure/clojure/1.7.0-beta1/pom) | [mvn jdk8](clojure-1.7.0-beta1.buildspec) | :x: | |
+| [1.7.0-alpha6](https://central.sonatype.com/artifact/org.clojure/clojure/1.7.0-alpha6/pom) | [mvn jdk8](clojure-1.7.0-alpha6.buildspec) | :x: | |
+| [1.7.0-alpha5](https://central.sonatype.com/artifact/org.clojure/clojure/1.7.0-alpha5/pom) | [mvn jdk8](clojure-1.7.0-alpha5.buildspec) | :x: | |
+| [1.7.0-alpha4](https://central.sonatype.com/artifact/org.clojure/clojure/1.7.0-alpha4/pom) | [mvn jdk8](clojure-1.7.0-alpha4.buildspec) | :x: | |
+| [1.7.0-alpha3](https://central.sonatype.com/artifact/org.clojure/clojure/1.7.0-alpha3/pom) | [mvn jdk8](clojure-1.7.0-alpha3.buildspec) | :x: | |
+| [1.7.0-alpha2](https://central.sonatype.com/artifact/org.clojure/clojure/1.7.0-alpha2/pom) | [mvn jdk8](clojure-1.7.0-alpha2.buildspec) | :x: | |
+| [1.7.0-alpha1](https://central.sonatype.com/artifact/org.clojure/clojure/1.7.0-alpha1/pom) | [mvn jdk8](clojure-1.7.0-alpha1.buildspec) | :x: | |
 | [1.6.0](https://central.sonatype.com/artifact/org.clojure/clojure/1.6.0/pom) | [mvn jdk8](clojure-1.6.0.buildspec) | [result](clojure-1.6.0.buildinfo): [1 :white_check_mark:  3 :warning:](clojure-1.6.0.buildcompare) [:mag:](clojure-1.6.0.diffoscope) | 3 :rotating_light: | 5.0M |
-| [1.6.0-RC4](https://central.sonatype.com/artifact/org.clojure/clojure/1.6.0-RC4/pom) | | | |
-| [1.6.0-RC3](https://central.sonatype.com/artifact/org.clojure/clojure/1.6.0-RC3/pom) | | | |
-| [1.6.0-RC2](https://central.sonatype.com/artifact/org.clojure/clojure/1.6.0-RC2/pom) | | | |
-| [1.6.0-RC1](https://central.sonatype.com/artifact/org.clojure/clojure/1.6.0-RC1/pom) | | | |
-| [1.6.0-beta2](https://central.sonatype.com/artifact/org.clojure/clojure/1.6.0-beta2/pom) | | | |
-| [1.6.0-beta1](https://central.sonatype.com/artifact/org.clojure/clojure/1.6.0-beta1/pom) | | | |
-| [1.6.0-alpha3](https://central.sonatype.com/artifact/org.clojure/clojure/1.6.0-alpha3/pom) | | | |
-| [1.6.0-alpha2](https://central.sonatype.com/artifact/org.clojure/clojure/1.6.0-alpha2/pom) | | | |
-| [1.6.0-alpha1](https://central.sonatype.com/artifact/org.clojure/clojure/1.6.0-alpha1/pom) | | | |
-| [1.5.1](https://central.sonatype.com/artifact/org.clojure/clojure/1.5.1/pom) | | | |
+| [1.6.0-RC4](https://central.sonatype.com/artifact/org.clojure/clojure/1.6.0-RC4/pom) | [mvn jdk8](clojure-1.6.0-RC4.buildspec) | :x: | |
+| [1.6.0-RC3](https://central.sonatype.com/artifact/org.clojure/clojure/1.6.0-RC3/pom) | [mvn jdk8](clojure-1.6.0-RC3.buildspec) | :x: | |
+| [1.6.0-RC2](https://central.sonatype.com/artifact/org.clojure/clojure/1.6.0-RC2/pom) | [mvn jdk8](clojure-1.6.0-RC2.buildspec) | :x: | |
+| [1.6.0-RC1](https://central.sonatype.com/artifact/org.clojure/clojure/1.6.0-RC1/pom) | [mvn jdk8](clojure-1.6.0-RC1.buildspec) | :x: | |
+| [1.6.0-beta2](https://central.sonatype.com/artifact/org.clojure/clojure/1.6.0-beta2/pom) | [mvn jdk8](clojure-1.6.0-beta2.buildspec) | :x: | |
+| [1.6.0-beta1](https://central.sonatype.com/artifact/org.clojure/clojure/1.6.0-beta1/pom) | [mvn jdk8](clojure-1.6.0-beta1.buildspec) | :x: | |
+| [1.6.0-alpha3](https://central.sonatype.com/artifact/org.clojure/clojure/1.6.0-alpha3/pom) | [mvn jdk8](clojure-1.6.0-alpha3.buildspec) | :x: | |
+| [1.6.0-alpha2](https://central.sonatype.com/artifact/org.clojure/clojure/1.6.0-alpha2/pom) | [mvn jdk8](clojure-1.6.0-alpha2.buildspec) | :x: | |
+| [1.6.0-alpha1](https://central.sonatype.com/artifact/org.clojure/clojure/1.6.0-alpha1/pom) | [mvn jdk8](clojure-1.6.0-alpha1.buildspec) | :x: | |
+| [1.5.1](https://central.sonatype.com/artifact/org.clojure/clojure/1.5.1/pom) | [mvn jdk8](clojure-1.5.1.buildspec) | :x: | |
 | [1.5.0](https://central.sonatype.com/artifact/org.clojure/clojure/1.5.0/pom) | [mvn jdk8](clojure-1.5.0.buildspec) | [result](clojure-1.5.0.buildinfo): [1 :white_check_mark:  3 :warning:](clojure-1.5.0.buildcompare) [:mag:](clojure-1.5.0.diffoscope) | 1 :recycle: 2 :rotating_light: | 4.9M |
-| [1.5.0-RC17](https://central.sonatype.com/artifact/org.clojure/clojure/1.5.0-RC17/pom) | | | |
-| [1.5.0-RC16](https://central.sonatype.com/artifact/org.clojure/clojure/1.5.0-RC16/pom) | | | |
-| [1.5.0-RC15](https://central.sonatype.com/artifact/org.clojure/clojure/1.5.0-RC15/pom) | | | |
-| [1.5.0-RC14](https://central.sonatype.com/artifact/org.clojure/clojure/1.5.0-RC14/pom) | | | |
-| [1.5.0-RC6](https://central.sonatype.com/artifact/org.clojure/clojure/1.5.0-RC6/pom) | | | |
-| [1.5.0-RC5](https://central.sonatype.com/artifact/org.clojure/clojure/1.5.0-RC5/pom) | | | |
-| [1.5.0-RC4](https://central.sonatype.com/artifact/org.clojure/clojure/1.5.0-RC4/pom) | | | |
-| [1.5.0-RC3](https://central.sonatype.com/artifact/org.clojure/clojure/1.5.0-RC3/pom) | | | |
-| [1.5.0-RC2](https://central.sonatype.com/artifact/org.clojure/clojure/1.5.0-RC2/pom) | | | |
-| [1.5.0-RC1](https://central.sonatype.com/artifact/org.clojure/clojure/1.5.0-RC1/pom) | | | |
-| [1.5.0-beta13](https://central.sonatype.com/artifact/org.clojure/clojure/1.5.0-beta13/pom) | | | |
-| [1.5.0-beta12](https://central.sonatype.com/artifact/org.clojure/clojure/1.5.0-beta12/pom) | | | |
-| [1.5.0-beta11](https://central.sonatype.com/artifact/org.clojure/clojure/1.5.0-beta11/pom) | | | |
-| [1.5.0-beta10](https://central.sonatype.com/artifact/org.clojure/clojure/1.5.0-beta10/pom) | | | |
-| [1.5.0-beta9](https://central.sonatype.com/artifact/org.clojure/clojure/1.5.0-beta9/pom) | | | |
-| [1.5.0-beta8](https://central.sonatype.com/artifact/org.clojure/clojure/1.5.0-beta8/pom) | | | |
-| [1.5.0-beta7](https://central.sonatype.com/artifact/org.clojure/clojure/1.5.0-beta7/pom) | | | |
-| [1.5.0-beta2](https://central.sonatype.com/artifact/org.clojure/clojure/1.5.0-beta2/pom) | | | |
-| [1.5.0-beta1](https://central.sonatype.com/artifact/org.clojure/clojure/1.5.0-beta1/pom) | | | |
-| [1.5.0-alpha7](https://central.sonatype.com/artifact/org.clojure/clojure/1.5.0-alpha7/pom) | | | |
-| [1.5.0-alpha6](https://central.sonatype.com/artifact/org.clojure/clojure/1.5.0-alpha6/pom) | | | |
-| [1.5.0-alpha5](https://central.sonatype.com/artifact/org.clojure/clojure/1.5.0-alpha5/pom) | | | |
-| [1.5.0-alpha4](https://central.sonatype.com/artifact/org.clojure/clojure/1.5.0-alpha4/pom) | | | |
-| [1.5.0-alpha3](https://central.sonatype.com/artifact/org.clojure/clojure/1.5.0-alpha3/pom) | | | |
-| [1.5.0-alpha2](https://central.sonatype.com/artifact/org.clojure/clojure/1.5.0-alpha2/pom) | | | |
-| [1.5.0-alpha1](https://central.sonatype.com/artifact/org.clojure/clojure/1.5.0-alpha1/pom) | | | |
+| [1.5.0-RC17](https://central.sonatype.com/artifact/org.clojure/clojure/1.5.0-RC17/pom) | [mvn jdk8](clojure-1.5.0-RC17.buildspec) | :x: | |
+| [1.5.0-RC16](https://central.sonatype.com/artifact/org.clojure/clojure/1.5.0-RC16/pom) | [mvn jdk8](clojure-1.5.0-RC16.buildspec) | :x: | |
+| [1.5.0-RC15](https://central.sonatype.com/artifact/org.clojure/clojure/1.5.0-RC15/pom) | [mvn jdk8](clojure-1.5.0-RC15.buildspec) | :x: | |
+| [1.5.0-RC14](https://central.sonatype.com/artifact/org.clojure/clojure/1.5.0-RC14/pom) | [mvn jdk8](clojure-1.5.0-RC14.buildspec) | :x: | |
+| [1.5.0-RC6](https://central.sonatype.com/artifact/org.clojure/clojure/1.5.0-RC6/pom) | [mvn jdk8](clojure-1.5.0-RC6.buildspec) | :x: | |
+| [1.5.0-RC5](https://central.sonatype.com/artifact/org.clojure/clojure/1.5.0-RC5/pom) | [mvn jdk8](clojure-1.5.0-RC5.buildspec) | :x: | |
+| [1.5.0-RC4](https://central.sonatype.com/artifact/org.clojure/clojure/1.5.0-RC4/pom) | [mvn jdk8](clojure-1.5.0-RC4.buildspec) | :x: | |
+| [1.5.0-RC3](https://central.sonatype.com/artifact/org.clojure/clojure/1.5.0-RC3/pom) | [mvn jdk8](clojure-1.5.0-RC3.buildspec) | :x: | |
+| [1.5.0-RC2](https://central.sonatype.com/artifact/org.clojure/clojure/1.5.0-RC2/pom) | [mvn jdk8](clojure-1.5.0-RC2.buildspec) | :x: | |
+| [1.5.0-RC1](https://central.sonatype.com/artifact/org.clojure/clojure/1.5.0-RC1/pom) | [mvn jdk8](clojure-1.5.0-RC1.buildspec) | :x: | |
+| [1.5.0-beta13](https://central.sonatype.com/artifact/org.clojure/clojure/1.5.0-beta13/pom) | [mvn jdk8](clojure-1.5.0-beta13.buildspec) | :x: | |
+| [1.5.0-beta12](https://central.sonatype.com/artifact/org.clojure/clojure/1.5.0-beta12/pom) | [mvn jdk8](clojure-1.5.0-beta12.buildspec) | :x: | |
+| [1.5.0-beta11](https://central.sonatype.com/artifact/org.clojure/clojure/1.5.0-beta11/pom) | [mvn jdk8](clojure-1.5.0-beta11.buildspec) | :x: | |
+| [1.5.0-beta10](https://central.sonatype.com/artifact/org.clojure/clojure/1.5.0-beta10/pom) | [mvn jdk8](clojure-1.5.0-beta10.buildspec) | :x: | |
+| [1.5.0-beta9](https://central.sonatype.com/artifact/org.clojure/clojure/1.5.0-beta9/pom) | [mvn jdk8](clojure-1.5.0-beta9.buildspec) | :x: | |
+| [1.5.0-beta8](https://central.sonatype.com/artifact/org.clojure/clojure/1.5.0-beta8/pom) | [mvn jdk8](clojure-1.5.0-beta8.buildspec) | :x: | |
+| [1.5.0-beta7](https://central.sonatype.com/artifact/org.clojure/clojure/1.5.0-beta7/pom) | [mvn jdk8](clojure-1.5.0-beta7.buildspec) | :x: | |
+| [1.5.0-beta2](https://central.sonatype.com/artifact/org.clojure/clojure/1.5.0-beta2/pom) | [mvn jdk8](clojure-1.5.0-beta2.buildspec) | :x: | |
+| [1.5.0-beta1](https://central.sonatype.com/artifact/org.clojure/clojure/1.5.0-beta1/pom) | [mvn jdk8](clojure-1.5.0-beta1.buildspec) | :x: | |
+| [1.5.0-alpha7](https://central.sonatype.com/artifact/org.clojure/clojure/1.5.0-alpha7/pom) | [mvn jdk8](clojure-1.5.0-alpha7.buildspec) | :x: | |
+| [1.5.0-alpha6](https://central.sonatype.com/artifact/org.clojure/clojure/1.5.0-alpha6/pom) | [mvn jdk8](clojure-1.5.0-alpha6.buildspec) | :x: | |
+| [1.5.0-alpha5](https://central.sonatype.com/artifact/org.clojure/clojure/1.5.0-alpha5/pom) | [mvn jdk8](clojure-1.5.0-alpha5.buildspec) | :x: | |
+| [1.5.0-alpha4](https://central.sonatype.com/artifact/org.clojure/clojure/1.5.0-alpha4/pom) | [mvn jdk8](clojure-1.5.0-alpha4.buildspec) | :x: | |
+| [1.5.0-alpha3](https://central.sonatype.com/artifact/org.clojure/clojure/1.5.0-alpha3/pom) | [mvn jdk8](clojure-1.5.0-alpha3.buildspec) | :x: | |
+| [1.5.0-alpha2](https://central.sonatype.com/artifact/org.clojure/clojure/1.5.0-alpha2/pom) | [mvn jdk8](clojure-1.5.0-alpha2.buildspec) | :x: | |
+| [1.5.0-alpha1](https://central.sonatype.com/artifact/org.clojure/clojure/1.5.0-alpha1/pom) | [mvn jdk8](clojure-1.5.0-alpha1.buildspec) | :x: | |
 | [1.4.0](https://central.sonatype.com/artifact/org.clojure/clojure/1.4.0/pom) | [mvn jdk8](clojure-1.4.0.buildspec) | [result](clojure-1.4.0.buildinfo): [1 :white_check_mark:  3 :warning:](clojure-1.4.0.buildcompare) [:mag:](clojure-1.4.0.diffoscope) | 1 :recycle: 2 :rotating_light: | 4.7M |
-| [1.4.0-beta7](https://central.sonatype.com/artifact/org.clojure/clojure/1.4.0-beta7/pom) | | | |
-| [1.4.0-beta6](https://central.sonatype.com/artifact/org.clojure/clojure/1.4.0-beta6/pom) | | | |
-| [1.4.0-beta5](https://central.sonatype.com/artifact/org.clojure/clojure/1.4.0-beta5/pom) | | | |
-| [1.4.0-beta4](https://central.sonatype.com/artifact/org.clojure/clojure/1.4.0-beta4/pom) | | | |
-| [1.4.0-beta3](https://central.sonatype.com/artifact/org.clojure/clojure/1.4.0-beta3/pom) | | | |
-| [1.4.0-beta2](https://central.sonatype.com/artifact/org.clojure/clojure/1.4.0-beta2/pom) | | | |
-| [1.4.0-beta1](https://central.sonatype.com/artifact/org.clojure/clojure/1.4.0-beta1/pom) | | | |
-| [1.4.0-alpha5](https://central.sonatype.com/artifact/org.clojure/clojure/1.4.0-alpha5/pom) | | | |
-| [1.4.0-alpha4](https://central.sonatype.com/artifact/org.clojure/clojure/1.4.0-alpha4/pom) | | | |
-| [1.4.0-alpha3](https://central.sonatype.com/artifact/org.clojure/clojure/1.4.0-alpha3/pom) | | | |
-| [1.4.0-alpha2](https://central.sonatype.com/artifact/org.clojure/clojure/1.4.0-alpha2/pom) | | | |
-| [1.4.0-alpha1](https://central.sonatype.com/artifact/org.clojure/clojure/1.4.0-alpha1/pom) | | | |
+| [1.4.0-beta7](https://central.sonatype.com/artifact/org.clojure/clojure/1.4.0-beta7/pom) | [mvn jdk8](clojure-1.4.0-beta7.buildspec) | :x: | |
+| [1.4.0-beta6](https://central.sonatype.com/artifact/org.clojure/clojure/1.4.0-beta6/pom) | [mvn jdk8](clojure-1.4.0-beta6.buildspec) | :x: | |
+| [1.4.0-beta5](https://central.sonatype.com/artifact/org.clojure/clojure/1.4.0-beta5/pom) | [mvn jdk8](clojure-1.4.0-beta5.buildspec) | :x: | |
+| [1.4.0-beta4](https://central.sonatype.com/artifact/org.clojure/clojure/1.4.0-beta4/pom) | [mvn jdk8](clojure-1.4.0-beta4.buildspec) | :x: | |
+| [1.4.0-beta3](https://central.sonatype.com/artifact/org.clojure/clojure/1.4.0-beta3/pom) | [mvn jdk8](clojure-1.4.0-beta3.buildspec) | :x: | |
+| [1.4.0-beta2](https://central.sonatype.com/artifact/org.clojure/clojure/1.4.0-beta2/pom) | [mvn jdk8](clojure-1.4.0-beta2.buildspec) | :x: | |
+| [1.4.0-beta1](https://central.sonatype.com/artifact/org.clojure/clojure/1.4.0-beta1/pom) | [mvn jdk8](clojure-1.4.0-beta1.buildspec) | :x: | |
+| [1.4.0-alpha5](https://central.sonatype.com/artifact/org.clojure/clojure/1.4.0-alpha5/pom) | [mvn jdk8](clojure-1.4.0-alpha5.buildspec) | :x: | |
+| [1.4.0-alpha4](https://central.sonatype.com/artifact/org.clojure/clojure/1.4.0-alpha4/pom) | [mvn jdk8](clojure-1.4.0-alpha4.buildspec) | :x: | |
+| [1.4.0-alpha3](https://central.sonatype.com/artifact/org.clojure/clojure/1.4.0-alpha3/pom) | [mvn jdk8](clojure-1.4.0-alpha3.buildspec) | :x: | |
+| [1.4.0-alpha2](https://central.sonatype.com/artifact/org.clojure/clojure/1.4.0-alpha2/pom) | [mvn jdk8](clojure-1.4.0-alpha2.buildspec) | :x: | |
+| [1.4.0-alpha1](https://central.sonatype.com/artifact/org.clojure/clojure/1.4.0-alpha1/pom) | [mvn jdk8](clojure-1.4.0-alpha1.buildspec) | :x: | |
 | [1.3.0](https://central.sonatype.com/artifact/org.clojure/clojure/1.3.0/pom) | [mvn jdk8](clojure-1.3.0.buildspec) | [result](clojure-1.3.0.buildinfo): [1 :white_check_mark:  3 :warning:](clojure-1.3.0.buildcompare) [:mag:](clojure-1.3.0.diffoscope) | 1 :recycle: 2 :rotating_light: | 4.6M |
-| [1.3.0-RC0](https://central.sonatype.com/artifact/org.clojure/clojure/1.3.0-RC0/pom) | | | |
-| [1.3.0-beta3](https://central.sonatype.com/artifact/org.clojure/clojure/1.3.0-beta3/pom) | | | |
-| [1.3.0-beta2](https://central.sonatype.com/artifact/org.clojure/clojure/1.3.0-beta2/pom) | | | |
-| [1.3.0-beta1](https://central.sonatype.com/artifact/org.clojure/clojure/1.3.0-beta1/pom) | | | |
-| [1.3.0-alpha8](https://central.sonatype.com/artifact/org.clojure/clojure/1.3.0-alpha8/pom) | | | |
-| [1.3.0-alpha7](https://central.sonatype.com/artifact/org.clojure/clojure/1.3.0-alpha7/pom) | | | |
-| [1.3.0-alpha6](https://central.sonatype.com/artifact/org.clojure/clojure/1.3.0-alpha6/pom) | | | |
-| [1.3.0-alpha5](https://central.sonatype.com/artifact/org.clojure/clojure/1.3.0-alpha5/pom) | | | |
-| [1.2.1](https://central.sonatype.com/artifact/org.clojure/clojure/1.2.1/pom) | | | |
+| [1.3.0-RC0](https://central.sonatype.com/artifact/org.clojure/clojure/1.3.0-RC0/pom) | [mvn jdk8](clojure-1.3.0-RC0.buildspec) | :x: | |
+| [1.3.0-beta3](https://central.sonatype.com/artifact/org.clojure/clojure/1.3.0-beta3/pom) | [mvn jdk8](clojure-1.3.0-beta3.buildspec) | :x: | |
+| [1.3.0-beta2](https://central.sonatype.com/artifact/org.clojure/clojure/1.3.0-beta2/pom) | [mvn jdk8](clojure-1.3.0-beta2.buildspec) | :x: | |
+| [1.3.0-beta1](https://central.sonatype.com/artifact/org.clojure/clojure/1.3.0-beta1/pom) | [mvn jdk8](clojure-1.3.0-beta1.buildspec) | :x: | |
+| [1.3.0-alpha8](https://central.sonatype.com/artifact/org.clojure/clojure/1.3.0-alpha8/pom) | [mvn jdk8](clojure-1.3.0-alpha8.buildspec) | :x: | |
+| [1.3.0-alpha7](https://central.sonatype.com/artifact/org.clojure/clojure/1.3.0-alpha7/pom) | [mvn jdk8](clojure-1.3.0-alpha7.buildspec) | :x: | |
+| [1.3.0-alpha6](https://central.sonatype.com/artifact/org.clojure/clojure/1.3.0-alpha6/pom) | [mvn jdk8](clojure-1.3.0-alpha6.buildspec) | :x: | |
+| [1.3.0-alpha5](https://central.sonatype.com/artifact/org.clojure/clojure/1.3.0-alpha5/pom) | [mvn jdk8](clojure-1.3.0-alpha5.buildspec) | :x: | |
+| [1.2.1](https://central.sonatype.com/artifact/org.clojure/clojure/1.2.1/pom) | [mvn jdk8](clojure-1.2.1.buildspec) | :x: | |
 | [1.2.0](https://central.sonatype.com/artifact/org.clojure/clojure/1.2.0/pom) | [mvn jdk8](clojure-1.2.0.buildspec) | [result](clojure-1.2.0.buildinfo): [ 2 :warning:](clojure-1.2.0.buildcompare) [:mag:](clojure-1.2.0.diffoscope) | 1 :rotating_light: 1 :no_entry_sign: | 2.3K |
 | [1.1.0](https://central.sonatype.com/artifact/org.clojure/clojure/1.1.0/pom) | [mvn jdk8](clojure-1.1.0.buildspec) | [result](clojure-1.1.0.buildinfo): [1 :white_check_mark:  1 :warning:](clojure-1.1.0.buildcompare) [:mag:](clojure-1.1.0.diffoscope) | 1 :rotating_light: | 2.3K |
 | [1.0.0](https://central.sonatype.com/artifact/org.clojure/clojure/1.0.0/pom) | [mvn jdk8](clojure-1.0.0.buildspec) | [result](clojure-1.0.0.buildinfo): [ 2 :warning:](clojure-1.0.0.buildcompare) [:mag:](clojure-1.0.0.diffoscope) | 1 :rotating_light: 1 :no_entry_sign: | 2.2K |
