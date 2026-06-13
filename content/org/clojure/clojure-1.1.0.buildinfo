@@ -1,0 +1,36 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=clojure
+group-id=org.clojure
+artifact-id=clojure
+version=1.1.0
+
+# source information
+# no scm configured in pom.xml
+
+# build instructions
+build-tool=mvn
+
+# effective build environment information
+java.version=21.0.11
+java.vendor=Eclipse Adoptium
+os.name=Linux
+os.version=7.0.0-22-generic
+os.arch=amd64
+line.separator=\n
+
+# Maven rebuild instructions and effective environment
+mvn.version=3.9.16
+
+# output
+
+outputs.0.groupId=org.clojure
+outputs.0.filename=clojure-1.1.0.pom
+outputs.0.length=816
+outputs.0.checksums.sha512=b169301f0dfbdee238df2e15bd711e815387a2b9aa34a5c9572273702949d504959d8775e515f0f460f04493cd393edcf7b1a2b1d5fb4e3c533b37c872565000
+
+outputs.1.groupId=org.clojure
+outputs.1.filename=clojure-1.1.0.jar
+outputs.1.length=1454
+outputs.1.checksums.sha512=e661ab0950373222e2fa6e4b28f82f39c04c5ec96f30333aef658400d810c505ab70f96ef6079d99bff8d31b8790afeb1a8b377db97d75d99685186911b14bd5
