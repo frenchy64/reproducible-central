@@ -1,0 +1,18 @@
+version=1.9.0
+ok=1
+ko=3
+ignored=0
+okFiles="clojure-1.9.0.pom"
+koFiles="clojure-1.9.0.jar clojure-1.9.0-slim.jar clojure-1.9.0-sources.jar"
+ignoredFiles=""
+reference_java_version="1.7.0 (from MANIFEST.MF Build-Jdk)"
+reference_os_name="Unix (from pom.properties newline)"
+# diffoscope target/reference/org.clojure/clojure-1.9.0.jar target/clojure-1.9.0.jar
+# diffoscope target/reference/org.clojure/clojure-1.9.0-slim.jar target/clojure-1.9.0-slim.jar
+# diffoscope target/reference/org.clojure/clojure-1.9.0-sources.jar target/clojure-1.9.0-sources.jar
+stabilize_ok=1
+stabilize_ko=2
+stabilize_ignored=0
+stabilize_okFiles="clojure-1.9.0-sources.jar.stabilized"
+stabilize_koFiles="clojure-1.9.0.jar.stabilized clojure-1.9.0-slim.jar.stabilized"
+stabilize_ignoredFiles=""
