@@ -4,7 +4,7 @@ display=${groupId}:${artifactId}
 version=1.1.0
 
 gitRepo=https://github.com/clojure/clojure.git
-gitTag=${artifactId}-${version}
+gitTag=${version}
 
 tool=mvn-3.9.11
 jdk=8

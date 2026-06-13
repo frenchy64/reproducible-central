@@ -10,7 +10,7 @@ Source code: [https://github.com/clojure/clojure.git](https://github.com/clojure
 rebuilding **36 releases** of org.clojure:clojure:
 - **0** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
 - 36 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
-  - running [stabilize](doc/stabilize.md) on 33, 0 had all their differences removed :recycle:, 33 still had differences :rotating_light: or files not supported by stabilize :no_entry_sign:
+  - running [stabilize](doc/stabilize.md) on 34, 0 had all their differences removed :recycle:, 34 still had differences :rotating_light: or files not supported by stabilize :no_entry_sign:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
@@ -201,7 +201,7 @@ rebuilding **36 releases** of org.clojure:clojure:
 | [1.3.0-alpha6](https://central.sonatype.com/artifact/org.clojure/clojure/1.3.0-alpha6/pom) | | | |
 | [1.3.0-alpha5](https://central.sonatype.com/artifact/org.clojure/clojure/1.3.0-alpha5/pom) | | | |
 | [1.2.1](https://central.sonatype.com/artifact/org.clojure/clojure/1.2.1/pom) | | | |
-| [1.2.0](https://central.sonatype.com/artifact/org.clojure/clojure/1.2.0/pom) | [mvn jdk8](clojure-1.2.0.buildspec) | :x: | |
+| [1.2.0](https://central.sonatype.com/artifact/org.clojure/clojure/1.2.0/pom) | [mvn jdk8](clojure-1.2.0.buildspec) | [result](clojure-1.2.0.buildinfo): [ 2 :warning:](clojure-1.2.0.buildcompare) [:mag:](clojure-1.2.0.diffoscope) | 1 :rotating_light: 1 :no_entry_sign: | 2.3K |
 | [1.1.0](https://central.sonatype.com/artifact/org.clojure/clojure/1.1.0/pom) | [mvn jdk8](clojure-1.1.0.buildspec) | :x: | |
 | [1.0.0](https://central.sonatype.com/artifact/org.clojure/clojure/1.0.0/pom) | [mvn jdk8](clojure-1.0.0.buildspec) | :x: | |
 
