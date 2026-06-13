@@ -1,0 +1,18 @@
+version=1.7.0-RC1
+ok=1
+ko=3
+ignored=0
+okFiles="clojure-1.7.0-RC1.pom"
+koFiles="clojure-1.7.0-RC1.jar clojure-1.7.0-RC1-slim.jar clojure-1.7.0-RC1-sources.jar"
+ignoredFiles=""
+reference_java_version="1.6.0_20 (from MANIFEST.MF Build-Jdk)"
+reference_os_name="Unix (from pom.properties newline)"
+# diffoscope target/reference/org.clojure/clojure-1.7.0-RC1.jar target/clojure-1.7.0-RC1.jar
+# diffoscope target/reference/org.clojure/clojure-1.7.0-RC1-slim.jar target/clojure-1.7.0-RC1-slim.jar
+# diffoscope target/reference/org.clojure/clojure-1.7.0-RC1-sources.jar target/clojure-1.7.0-RC1-sources.jar
+stabilize_ok=0
+stabilize_ko=3
+stabilize_ignored=0
+stabilize_okFiles=""
+stabilize_koFiles="clojure-1.7.0-RC1.jar.stabilized clojure-1.7.0-RC1-slim.jar.stabilized clojure-1.7.0-RC1-sources.jar.stabilized"
+stabilize_ignoredFiles=""
